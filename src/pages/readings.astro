@@ -1,0 +1,170 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'Daily Readings & Commemorations — Orthodox Christian Bible';
+const description =
+  'Today\u2019s Orthodox daily scripture readings, fasting guidance, and commemorations, following the OCA calendar. Updated every day.';
+---
+<Base title={title} description={description}>
+  <section class="wrap readings">
+    <p class="eyebrow">Orthodox Daily</p>
+    <h1 id="day-title">Today's Readings</h1>
+    <p class="day-meta" id="day-meta"></p>
+
+    <div id="fast" class="fast" hidden></div>
+
+    <div id="status" class="status">Loading today's readings…</div>
+
+    <div id="commem" class="commem" hidden>
+      <h2>Commemorations</h2>
+      <ul id="commem-list"></ul>
+    </div>
+
+    <div id="readings-list"></div>
+
+    <p class="attribution">
+      Readings, fasting rules, and commemorations follow the OCA calendar,
+      provided by <a href="https://orthocal.info" rel="noopener" target="_blank">orthocal.info</a>.
+      Scripture is the King James Version.
+    </p>
+  </section>
+
+  <script is:inline>
+    (function () {
+      // orthocal's server runs in Pacific time, so we use the visitor's local
+      // date to ask for "today" rather than trusting the server's clock.
+      const now = new Date();
+      const y = now.getFullYear();
+      const m = now.getMonth() + 1; // JS months are 0-based
+      const d = now.getDate();
+
+      const statusEl = document.getElementById('status');
+      const titleEl = document.getElementById('day-title');
+      const metaEl = document.getElementById('day-meta');
+      const fastEl = document.getElementById('fast');
+      const commemEl = document.getElementById('commem');
+      const commemList = document.getElementById('commem-list');
+      const listEl = document.getElementById('readings-list');
+
+      const dateLabel = now.toLocaleDateString(undefined, {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+      });
+      metaEl.textContent = dateLabel;
+
+      const url = `https://orthocal.info/api/oca/${y}/${m}/${d}/`;
+
+      fetch(url)
+        .then((r) => {
+          if (!r.ok) throw new Error('Network response was not ok');
+          return r.json();
+        })
+        .then((day) => {
+          statusEl.hidden = true;
+
+          // Day title
+          if (day.titles && day.titles.length) {
+            titleEl.textContent = day.titles[0];
+          }
+
+          // Fasting
+          if (day.fast_level_desc) {
+            let txt = day.fast_level_desc;
+            if (day.fast_exception_desc) txt += ' — ' + day.fast_exception_desc;
+            fastEl.textContent = txt;
+            fastEl.hidden = false;
+          }
+
+          // Commemorations (saints / feasts)
+          if (day.saints && day.saints.length) {
+            day.saints.forEach((s) => {
+              const li = document.createElement('li');
+              li.textContent = s;
+              commemList.appendChild(li);
+            });
+            commemEl.hidden = false;
+          }
+
+          // Readings
+          if (!day.readings || !day.readings.length) {
+            listEl.innerHTML = '<p class="status">No readings listed for today.</p>';
+            return;
+          }
+
+          day.readings.forEach((reading) => {
+            const block = document.createElement('article');
+            block.className = 'reading';
+
+            const h = document.createElement('h2');
+            h.textContent = reading.display || 'Reading';
+            block.appendChild(h);
+
+            const passage = document.createElement('div');
+            passage.className = 'passage';
+            (reading.passage || []).forEach((v) => {
+              const p = document.createElement('p');
+              p.className = 'verse';
+              const num = document.createElement('span');
+              num.className = 'vn';
+              num.textContent = v.verse;
+              const span = document.createElement('span');
+              span.className = 'vt';
+              span.textContent = ' ' + (v.content || '');
+              p.appendChild(num);
+              p.appendChild(span);
+              passage.appendChild(p);
+            });
+            block.appendChild(passage);
+            listEl.appendChild(block);
+          });
+        })
+        .catch(() => {
+          statusEl.innerHTML =
+            'Today\u2019s readings couldn\u2019t be loaded right now. ' +
+            'Please try again shortly, or visit ' +
+            '<a href="https://orthocal.info" rel="noopener" target="_blank">orthocal.info</a> directly.';
+        });
+    })();
+  </script>
+
+  <style>
+    .readings { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.6rem;
+    }
+    .readings h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.4rem; line-height: 1.08;
+    }
+    .day-meta { font-family: 'Inter', sans-serif; color: var(--muted); font-size: 0.95rem; margin: 0 0 1.6rem; }
+
+    .fast {
+      display: inline-block; font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 600;
+      color: var(--indigo); background: var(--parchment-deep); border: 1px solid var(--rule);
+      border-radius: 999px; padding: 0.4rem 1rem; margin-bottom: 2rem;
+    }
+
+    .status { color: var(--muted); font-style: italic; padding: 1rem 0; }
+    .status a, .attribution a { color: var(--oxblood); }
+
+    .commem { border-top: 1px solid var(--rule); padding-top: 1.4rem; margin-bottom: 1rem; }
+    .commem h2 { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; margin: 0 0 0.6rem; }
+    .commem ul { margin: 0; padding-left: 1.2rem; }
+    .commem li { margin-bottom: 0.3rem; }
+
+    .reading { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 1.6rem; }
+    .reading h2 {
+      font-family: 'Spectral', serif; color: var(--oxblood); font-size: 1.35rem; margin: 0 0 1rem;
+    }
+    .passage .verse { margin: 0 0 0.5rem; }
+    .vn {
+      font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600; color: var(--gold);
+      vertical-align: super; margin-right: 0.15rem;
+    }
+
+    .attribution {
+      margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--rule);
+      font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--muted); line-height: 1.6;
+    }
+  </style>
+</Base>
