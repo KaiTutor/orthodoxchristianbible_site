@@ -1,0 +1,41 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 130,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Out of the depths have I cried to you, O LORD."
+    },
+    {
+      "n": 2,
+      "t": "Lord, hear my voice: let your ears be attentive to the voice of my supplications."
+    },
+    {
+      "n": 3,
+      "t": "If you, LORD, should mark iniquities, O Lord, who shall stand?"
+    },
+    {
+      "n": 4,
+      "t": "But there is forgiveness with you, that you may be feared."
+    },
+    {
+      "n": 5,
+      "t": "I wait for the LORD, my soul does wait, and in his word do I hope."
+    },
+    {
+      "n": 6,
+      "t": "My soul waits for the Lord more than they that watch for the morning: I say, more than they that watch for the morning."
+    },
+    {
+      "n": 7,
+      "t": "Let Israel hope in the LORD: for with the LORD there is mercy, and with him is plenteous redemption."
+    },
+    {
+      "n": 8,
+      "t": "And he shall redeem Israel from all his iniquities."
+    }
+  ]
+}

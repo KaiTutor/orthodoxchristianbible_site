@@ -1,0 +1,57 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 5,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Give ear to my words, O LORD, consider my meditation."
+    },
+    {
+      "n": 2,
+      "t": "Listen to the voice of my cry, my King, and my God: for to you will I pray."
+    },
+    {
+      "n": 3,
+      "t": "My voice shall you hear in the morning, O LORD; in the morning will I direct my prayer to you, and will look up."
+    },
+    {
+      "n": 4,
+      "t": "For you are not a God that has pleasure in wickedness: neither shall evil dwell with you."
+    },
+    {
+      "n": 5,
+      "t": "The foolish shall not stand in your sight: you hate all workers of iniquity."
+    },
+    {
+      "n": 6,
+      "t": "You shall destroy them that speak leasing: the LORD will abhor the bloody and deceitful man."
+    },
+    {
+      "n": 7,
+      "t": "But as for me, I will come into your house in the multitude of your mercy: and in your fear will I worship toward your holy temple."
+    },
+    {
+      "n": 8,
+      "t": "Lead me, O LORD, in your righteousness because of my enemies; make your way straight before my face."
+    },
+    {
+      "n": 9,
+      "t": "For there is no faithfulness in their mouth; their inward part is very wickedness; their throat is an open sepulcher; they flatter with their tongue."
+    },
+    {
+      "n": 10,
+      "t": "Destroy you them, O God; let them fall by their own counsels; cast them out in the multitude of their transgressions; for they have rebelled against you."
+    },
+    {
+      "n": 11,
+      "t": "But let all those that put their trust in you rejoice: let them ever shout for joy, because you defend them: let them also that love your name be joyful in you."
+    },
+    {
+      "n": 12,
+      "t": "For you, LORD, will bless the righteous; with favor will you compass him as with a shield."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 134,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Behold, bless you the LORD, all you servants of the LORD, which by night stand in the house of the LORD."
+    },
+    {
+      "n": 2,
+      "t": "Lift up your hands in the sanctuary, and bless the LORD."
+    },
+    {
+      "n": 3,
+      "t": "The LORD that made heaven and earth bless you out of Zion."
+    }
+  ]
+}

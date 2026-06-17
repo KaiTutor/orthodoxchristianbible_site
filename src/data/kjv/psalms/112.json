@@ -1,0 +1,49 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 112,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Praise you the LORD. Blessed is the man that fears the LORD, that delights greatly in his commandments."
+    },
+    {
+      "n": 2,
+      "t": "His seed shall be mighty on earth: the generation of the upright shall be blessed."
+    },
+    {
+      "n": 3,
+      "t": "Wealth and riches shall be in his house: and his righteousness endures for ever."
+    },
+    {
+      "n": 4,
+      "t": "To the upright there rises light in the darkness: he is gracious, and full of compassion, and righteous."
+    },
+    {
+      "n": 5,
+      "t": "A good man shows favor, and lends: he will guide his affairs with discretion."
+    },
+    {
+      "n": 6,
+      "t": "Surely he shall not be moved for ever: the righteous shall be in everlasting remembrance."
+    },
+    {
+      "n": 7,
+      "t": "He shall not be afraid of evil tidings: his heart is fixed, trusting in the LORD."
+    },
+    {
+      "n": 8,
+      "t": "His heart is established, he shall not be afraid, until he see his desire on his enemies."
+    },
+    {
+      "n": 9,
+      "t": "He has dispersed, he has given to the poor; his righteousness endures for ever; his horn shall be exalted with honor."
+    },
+    {
+      "n": 10,
+      "t": "The wicked shall see it, and be grieved; he shall gnash with his teeth, and melt away: the desire of the wicked shall perish."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 97,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "The LORD reigns; let the earth rejoice; let the multitude of isles be glad thereof."
+    },
+    {
+      "n": 2,
+      "t": "Clouds and darkness are round about him: righteousness and judgment are the habitation of his throne."
+    },
+    {
+      "n": 3,
+      "t": "A fire goes before him, and burns up his enemies round about."
+    },
+    {
+      "n": 4,
+      "t": "His lightning enlightened the world: the earth saw, and trembled."
+    },
+    {
+      "n": 5,
+      "t": "The hills melted like wax at the presence of the LORD, at the presence of the Lord of the whole earth."
+    },
+    {
+      "n": 6,
+      "t": "The heavens declare his righteousness, and all the people see his glory."
+    },
+    {
+      "n": 7,
+      "t": "Confounded be all they that serve graven images, that boast themselves of idols: worship him, all you gods."
+    },
+    {
+      "n": 8,
+      "t": "Zion heard, and was glad; and the daughters of Judah rejoiced because of your judgments, O LORD."
+    },
+    {
+      "n": 9,
+      "t": "For you, LORD, are high above all the earth: you are exalted far above all gods."
+    },
+    {
+      "n": 10,
+      "t": "You that love the LORD, hate evil: he preserves the souls of his saints; he delivers them out of the hand of the wicked."
+    },
+    {
+      "n": 11,
+      "t": "Light is sown for the righteous, and gladness for the upright in heart."
+    },
+    {
+      "n": 12,
+      "t": "Rejoice in the LORD, you righteous; and give thanks at the remembrance of his holiness."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 101,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "I will sing of mercy and judgment: to you, O LORD, will I sing."
+    },
+    {
+      "n": 2,
+      "t": "I will behave myself wisely in a perfect way. O when will you come to me? I will walk within my house with a perfect heart."
+    },
+    {
+      "n": 3,
+      "t": "I will set no wicked thing before my eyes: I hate the work of them that turn aside; it shall not stick to me."
+    },
+    {
+      "n": 4,
+      "t": "A fraudulent heart shall depart from me: I will not know a wicked person."
+    },
+    {
+      "n": 5,
+      "t": "Whoever privately slanders his neighbor, him will I cut off: him that has an high look and a proud heart will not I suffer."
+    },
+    {
+      "n": 6,
+      "t": "My eyes shall be on the faithful of the land, that they may dwell with me: he that walks in a perfect way, he shall serve me."
+    },
+    {
+      "n": 7,
+      "t": "He that works deceit shall not dwell within my house: he that tells lies shall not tarry in my sight."
+    },
+    {
+      "n": 8,
+      "t": "I will early destroy all the wicked of the land; that I may cut off all wicked doers from the city of the LORD."
+    }
+  ]
+}

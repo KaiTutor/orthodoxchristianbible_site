@@ -1,0 +1,33 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 53,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "The fool has said in his heart, There is no God. Corrupt are they, and have done abominable iniquity: there is none that does good."
+    },
+    {
+      "n": 2,
+      "t": "God looked down from heaven on the children of men, to see if there were any that did understand, that did seek God."
+    },
+    {
+      "n": 3,
+      "t": "Every one of them is gone back: they are altogether become filthy; there is none that does good, no, not one."
+    },
+    {
+      "n": 4,
+      "t": "Have the workers of iniquity no knowledge? who eat up my people as they eat bread: they have not called on God."
+    },
+    {
+      "n": 5,
+      "t": "There were they in great fear, where no fear was: for God has scattered the bones of him that encamps against you: you have put them to shame, because God has despised them."
+    },
+    {
+      "n": 6,
+      "t": "Oh that the salvation of Israel were come out of Zion! When God brings back the captivity of his people, Jacob shall rejoice, and Israel shall be glad."
+    }
+  ]
+}

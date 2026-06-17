@@ -1,0 +1,33 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 150,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Praise you the LORD. Praise God in his sanctuary: praise him in the firmament of his power."
+    },
+    {
+      "n": 2,
+      "t": "Praise him for his mighty acts: praise him according to his excellent greatness."
+    },
+    {
+      "n": 3,
+      "t": "Praise him with the sound of the trumpet: praise him with the psaltery and harp."
+    },
+    {
+      "n": 4,
+      "t": "Praise him with the tambourine and dance: praise him with stringed instruments and organs."
+    },
+    {
+      "n": 5,
+      "t": "Praise him on the loud cymbals: praise him on the high sounding cymbals."
+    },
+    {
+      "n": 6,
+      "t": "Let every thing that has breath praise the LORD. Praise you the LORD."
+    }
+  ]
+}

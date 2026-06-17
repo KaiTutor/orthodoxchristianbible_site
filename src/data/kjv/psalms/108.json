@@ -1,0 +1,61 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 108,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "O god, my heart is fixed; I will sing and give praise, even with my glory."
+    },
+    {
+      "n": 2,
+      "t": "Awake, psaltery and harp: I myself will awake early."
+    },
+    {
+      "n": 3,
+      "t": "I will praise you, O LORD, among the people: and I will sing praises to you among the nations."
+    },
+    {
+      "n": 4,
+      "t": "For your mercy is great above the heavens: and your truth reaches to the clouds."
+    },
+    {
+      "n": 5,
+      "t": "Be you exalted, O God, above the heavens: and your glory above all the earth;"
+    },
+    {
+      "n": 6,
+      "t": "That your beloved may be delivered: save with your right hand, and answer me."
+    },
+    {
+      "n": 7,
+      "t": "God has spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth."
+    },
+    {
+      "n": 8,
+      "t": "Gilead is mine; Manasseh is mine; Ephraim also is the strength of my head; Judah is my lawgiver;"
+    },
+    {
+      "n": 9,
+      "t": "Moab is my wash pot; over Edom will I cast out my shoe; over Philistia will I triumph."
+    },
+    {
+      "n": 10,
+      "t": "Who will bring me into the strong city? who will lead me into Edom?"
+    },
+    {
+      "n": 11,
+      "t": "Will not you, O God, who have cast us off? and will not you, O God, go forth with our hosts?"
+    },
+    {
+      "n": 12,
+      "t": "Give us help from trouble: for vain is the help of man."
+    },
+    {
+      "n": 13,
+      "t": "Through God we shall do valiantly: for he it is that shall tread down our enemies."
+    }
+  ]
+}

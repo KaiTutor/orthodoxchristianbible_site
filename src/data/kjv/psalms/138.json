@@ -1,0 +1,41 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 138,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "I will praise you with my whole heart: before the gods will I sing praise to you."
+    },
+    {
+      "n": 2,
+      "t": "I will worship toward your holy temple, and praise your name for your loving kindness and for your truth: for you have magnified your word above all your name."
+    },
+    {
+      "n": 3,
+      "t": "In the day when I cried you answered me, and strengthened me with strength in my soul."
+    },
+    {
+      "n": 4,
+      "t": "All the kings of the earth shall praise you, O LORD, when they hear the words of your mouth."
+    },
+    {
+      "n": 5,
+      "t": "Yes, they shall sing in the ways of the LORD: for great is the glory of the LORD."
+    },
+    {
+      "n": 6,
+      "t": "Though the LORD be high, yet has he respect to the lowly: but the proud he knows afar off."
+    },
+    {
+      "n": 7,
+      "t": "Though I walk in the middle of trouble, you will revive me: you shall stretch forth your hand against the wrath of my enemies, and your right hand shall save me."
+    },
+    {
+      "n": 8,
+      "t": "The LORD will perfect that which concerns me: your mercy, O LORD, endures for ever: forsake not the works of your own hands."
+    }
+  ]
+}

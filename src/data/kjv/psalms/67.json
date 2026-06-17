@@ -1,0 +1,37 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 67,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "God be merciful to us, and bless us; and cause his face to shine on us; Selah."
+    },
+    {
+      "n": 2,
+      "t": "That your way may be known on earth, your saving health among all nations."
+    },
+    {
+      "n": 3,
+      "t": "Let the people praise you, O God; let all the people praise you."
+    },
+    {
+      "n": 4,
+      "t": "O let the nations be glad and sing for joy: for you shall judge the people righteously, and govern the nations on earth. Selah."
+    },
+    {
+      "n": 5,
+      "t": "Let the people praise you, O God; let all the people praise you."
+    },
+    {
+      "n": 6,
+      "t": "Then shall the earth yield her increase; and God, even our own God, shall bless us."
+    },
+    {
+      "n": 7,
+      "t": "God shall bless us; and all the ends of the earth shall fear him."
+    }
+  ]
+}

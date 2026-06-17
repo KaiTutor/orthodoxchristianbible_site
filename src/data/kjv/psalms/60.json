@@ -1,0 +1,57 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 60,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "O God, you have cast us off, you have scattered us, you have been displeased; O turn yourself to us again."
+    },
+    {
+      "n": 2,
+      "t": "You have made the earth to tremble; you have broken it: heal the breaches thereof; for it shakes."
+    },
+    {
+      "n": 3,
+      "t": "You have showed your people hard things: you have made us to drink the wine of astonishment."
+    },
+    {
+      "n": 4,
+      "t": "You have given a banner to them that fear you, that it may be displayed because of the truth. Selah."
+    },
+    {
+      "n": 5,
+      "t": "That your beloved may be delivered; save with your right hand, and hear me."
+    },
+    {
+      "n": 6,
+      "t": "God has spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth."
+    },
+    {
+      "n": 7,
+      "t": "Gilead is mine, and Manasseh is mine; Ephraim also is the strength of my head; Judah is my lawgiver;"
+    },
+    {
+      "n": 8,
+      "t": "Moab is my wash pot; over Edom will I cast out my shoe: Philistia, triumph you because of me."
+    },
+    {
+      "n": 9,
+      "t": "Who will bring me into the strong city? who will lead me into Edom?"
+    },
+    {
+      "n": 10,
+      "t": "Will not you, O God, which had cast us off? and you, O God, which did not go out with our armies?"
+    },
+    {
+      "n": 11,
+      "t": "Give us help from trouble: for vain is the help of man."
+    },
+    {
+      "n": 12,
+      "t": "Through God we shall do valiantly: for he it is that shall tread down our enemies."
+    }
+  ]
+}

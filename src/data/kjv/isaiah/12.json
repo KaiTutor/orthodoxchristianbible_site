@@ -1,0 +1,33 @@
+{
+  "book": "isaiah",
+  "bookName": "Isaiah",
+  "testament": "OT",
+  "chapter": 12,
+  "totalChapters": 66,
+  "verses": [
+    {
+      "n": 1,
+      "t": "And in that day you shall say, O LORD, I will praise you: though you were angry with me, your anger is turned away, and you comforted me."
+    },
+    {
+      "n": 2,
+      "t": "Behold, God is my salvation; I will trust, and not be afraid: for the LORD JEHOVAH is my strength and my song; he also is become my salvation."
+    },
+    {
+      "n": 3,
+      "t": "Therefore with joy shall you draw water out of the wells of salvation."
+    },
+    {
+      "n": 4,
+      "t": "And in that day shall you say, Praise the LORD, call on his name, declare his doings among the people, make mention that his name is exalted."
+    },
+    {
+      "n": 5,
+      "t": "Sing to the LORD; for he has done excellent things: this is known in all the earth."
+    },
+    {
+      "n": 6,
+      "t": "Cry out and shout, you inhabitant of Zion: for great is the Holy One of Israel in the middle of you."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 16,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Preserve me, O God: for in you do I put my trust."
+    },
+    {
+      "n": 2,
+      "t": "O my soul, you have said to the LORD, You are my Lord: my goodness extends not to you;"
+    },
+    {
+      "n": 3,
+      "t": "But to the saints that are in the earth, and to the excellent, in whom is all my delight."
+    },
+    {
+      "n": 4,
+      "t": "Their sorrows shall be multiplied that hasten after another god: their drink offerings of blood will I not offer, nor take up their names into my lips."
+    },
+    {
+      "n": 5,
+      "t": "The LORD is the portion of my inheritance and of my cup: you maintain my lot."
+    },
+    {
+      "n": 6,
+      "t": "The lines are fallen to me in pleasant places; yes, I have a goodly heritage."
+    },
+    {
+      "n": 7,
+      "t": "I will bless the LORD, who has given me counsel: my reins also instruct me in the night seasons."
+    },
+    {
+      "n": 8,
+      "t": "I have set the LORD always before me: because he is at my right hand, I shall not be moved."
+    },
+    {
+      "n": 9,
+      "t": "Therefore my heart is glad, and my glory rejoices: my flesh also shall rest in hope."
+    },
+    {
+      "n": 10,
+      "t": "For you will not leave my soul in hell; neither will you suffer your Holy One to see corruption."
+    },
+    {
+      "n": 11,
+      "t": "You will show me the path of life: in your presence is fullness of joy; at your right hand there are pleasures for ever more."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 128,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Blessed is every one that fears the LORD; that walks in his ways."
+    },
+    {
+      "n": 2,
+      "t": "For you shall eat the labor of your hands: happy shall you be, and it shall be well with you."
+    },
+    {
+      "n": 3,
+      "t": "Your wife shall be as a fruitful vine by the sides of your house: your children like olive plants round about your table."
+    },
+    {
+      "n": 4,
+      "t": "Behold, that thus shall the man be blessed that fears the LORD."
+    },
+    {
+      "n": 5,
+      "t": "The LORD shall bless you out of Zion: and you shall see the good of Jerusalem all the days of your life."
+    },
+    {
+      "n": 6,
+      "t": "Yes, you shall see your children’s children, and peace on Israel."
+    }
+  ]
+}

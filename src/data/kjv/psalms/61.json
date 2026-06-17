@@ -1,0 +1,41 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 61,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Hear my cry, O God; attend to my prayer."
+    },
+    {
+      "n": 2,
+      "t": "From the end of the earth will I cry to you, when my heart is overwhelmed: lead me to the rock that is higher than I."
+    },
+    {
+      "n": 3,
+      "t": "For you have been a shelter for me, and a strong tower from the enemy."
+    },
+    {
+      "n": 4,
+      "t": "I will abide in your tabernacle for ever: I will trust in the covert of your wings. Selah."
+    },
+    {
+      "n": 5,
+      "t": "For you, O God, have heard my vows: you have given me the heritage of those that fear your name."
+    },
+    {
+      "n": 6,
+      "t": "You will prolong the king’s life: and his years as many generations."
+    },
+    {
+      "n": 7,
+      "t": "He shall abide before God for ever: O prepare mercy and truth, which may preserve him."
+    },
+    {
+      "n": 8,
+      "t": "So will I sing praise to your name for ever, that I may daily perform my vows."
+    }
+  ]
+}

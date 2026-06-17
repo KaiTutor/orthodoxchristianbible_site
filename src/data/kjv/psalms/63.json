@@ -1,0 +1,53 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 63,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "O God, you are my God; early will I seek you: my soul thirsts for you, my flesh longs for you in a dry and thirsty land, where no water is;"
+    },
+    {
+      "n": 2,
+      "t": "To see your power and your glory, so as I have seen you in the sanctuary."
+    },
+    {
+      "n": 3,
+      "t": "Because your loving kindness is better than life, my lips shall praise you."
+    },
+    {
+      "n": 4,
+      "t": "Thus will I bless you while I live: I will lift up my hands in your name."
+    },
+    {
+      "n": 5,
+      "t": "My soul shall be satisfied as with marrow and fatness; and my mouth shall praise you with joyful lips:"
+    },
+    {
+      "n": 6,
+      "t": "When I remember you on my bed, and meditate on you in the night watches."
+    },
+    {
+      "n": 7,
+      "t": "Because you have been my help, therefore in the shadow of your wings will I rejoice."
+    },
+    {
+      "n": 8,
+      "t": "My soul follows hard after you: your right hand upholds me."
+    },
+    {
+      "n": 9,
+      "t": "But those that seek my soul, to destroy it, shall go into the lower parts of the earth."
+    },
+    {
+      "n": 10,
+      "t": "They shall fall by the sword: they shall be a portion for foxes."
+    },
+    {
+      "n": 11,
+      "t": "But the king shall rejoice in God; every one that swears by him shall glory: but the mouth of them that speak lies shall be stopped."
+    }
+  ]
+}

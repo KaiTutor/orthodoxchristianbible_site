@@ -1,0 +1,53 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 32,
+  "totalChapters": 150,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Blessed is he whose transgression is forgiven, whose sin is covered."
+    },
+    {
+      "n": 2,
+      "t": "Blessed is the man to whom the LORD imputes not iniquity, and in whose spirit there is no guile."
+    },
+    {
+      "n": 3,
+      "t": "When I kept silence, my bones waxed old through my roaring all the day long."
+    },
+    {
+      "n": 4,
+      "t": "For day and night your hand was heavy on me: my moisture is turned into the drought of summer. Selah."
+    },
+    {
+      "n": 5,
+      "t": "I acknowledge my sin to you, and my iniquity have I not hid. I said, I will confess my transgressions to the LORD; and you forgave the iniquity of my sin. Selah."
+    },
+    {
+      "n": 6,
+      "t": "For this shall every one that is godly pray to you in a time when you may be found: surely in the floods of great waters they shall not come near to him."
+    },
+    {
+      "n": 7,
+      "t": "You are my hiding place; you shall preserve me from trouble; you shall compass me about with songs of deliverance. Selah."
+    },
+    {
+      "n": 8,
+      "t": "I will instruct you and teach you in the way which you shall go: I will guide you with my eye."
+    },
+    {
+      "n": 9,
+      "t": "Be you not as the horse, or as the mule, which have no understanding: whose mouth must be held in with bit and bridle, lest they come near to you."
+    },
+    {
+      "n": 10,
+      "t": "Many sorrows shall be to the wicked: but he that trusts in the LORD, mercy shall compass him about."
+    },
+    {
+      "n": 11,
+      "t": "Be glad in the LORD, and rejoice, you righteous: and shout for joy, all you that are upright in heart."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "book": "job",
+  "bookName": "Job",
+  "testament": "OT",
+  "chapter": 25,
+  "totalChapters": 42,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Then answered Bildad the Shuhite, and said,"
+    },
+    {
+      "n": 2,
+      "t": "Dominion and fear are with him, he makes peace in his high places."
+    },
+    {
+      "n": 3,
+      "t": "Is there any number of his armies? and on whom does not his light arise?"
+    },
+    {
+      "n": 4,
+      "t": "How then can man be justified with God? or how can he be clean that is born of a woman?"
+    },
+    {
+      "n": 5,
+      "t": "Behold even to the moon, and it shines not; yes, the stars are not pure in his sight."
+    },
+    {
+      "n": 6,
+      "t": "How much less man, that is a worm? and the son of man, which is a worm?"
+    }
+  ]
+}
