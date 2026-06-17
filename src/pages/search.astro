@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+const title = 'Search the Bible — KJV & Septuagint | Orthodox Christian Bible';
+const description = 'Search the King James Version and Brenton\u2019s Septuagint for any verse, word, or phrase.';
+---
+<Base title={title} description={description}>
+  <section class="wrap search">
+    <h1>Search</h1>
+    <p class="lede">Find any word, phrase, or reference across both translations.</p>
+    <div id="search"></div>
+  </section>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      // Pagefind only exists after a production build + index step.
+      if (typeof PagefindUI === 'undefined') return;
+      const ui = new PagefindUI({ element: '#search', showSubResults: true, pageSize: 8 });
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    });
+  </script>
+
+  <style>
+    .search { padding-top: 3rem; }
+    .search h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 0.5rem;
+    }
+    .lede { color: #4a4a44; margin: 0 0 2rem; }
+    :root {
+      --pagefind-ui-primary: var(--oxblood);
+      --pagefind-ui-text: var(--ink);
+      --pagefind-ui-background: #fff;
+      --pagefind-ui-border: var(--rule);
+      --pagefind-ui-font: 'Inter', sans-serif;
+    }
+  </style>
+</Base>

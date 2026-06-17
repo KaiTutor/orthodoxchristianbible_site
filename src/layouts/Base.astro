@@ -1,0 +1,99 @@
+---
+import Seo from '../components/Seo.astro';
+const { title, description, jsonLd, canonicalPath } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <Seo title={title} description={description} jsonLd={jsonLd} canonicalPath={canonicalPath} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Spectral:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      :root {
+        /* Manuscript / liturgical palette */
+        --ink: #1a1f2e;          /* deep ink for body text */
+        --oxblood: #6b2034;      /* liturgical oxblood, used for headings */
+        --indigo: #1f2a4a;       /* deep liturgical blue */
+        --gold: #b08436;         /* muted manuscript gold — the one accent */
+        --gold-bright: #caa353;
+        --parchment: #f7f3ea;    /* warm page ground */
+        --parchment-deep: #efe8d8;
+        --rule: #ddd2bb;         /* hairline rules */
+        --muted: #6e6a5b;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        * { animation: none !important; transition: none !important; }
+      }
+      body {
+        margin: 0;
+        background: var(--parchment);
+        color: var(--ink);
+        font-family: 'EB Garamond', Georgia, serif;
+        font-size: 1.18rem;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+      a { color: var(--oxblood); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+      a:hover { color: var(--gold); }
+      :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+      .wrap { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+      header.site {
+        border-bottom: 1px solid var(--rule);
+        background: var(--parchment-deep);
+      }
+      header.site .bar {
+        max-width: 960px; margin: 0 auto; padding: 0.9rem 1.5rem;
+        display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .brand {
+        font-family: 'Spectral', serif; font-weight: 700; font-size: 1.15rem;
+        color: var(--indigo); text-decoration: none; letter-spacing: 0.01em;
+      }
+      .brand:hover { color: var(--oxblood); }
+      nav.versions { display: flex; gap: 1.1rem; font-family: 'Inter', sans-serif; font-size: 0.82rem; }
+      nav.versions a {
+        text-transform: uppercase; letter-spacing: 0.08em; color: var(--indigo);
+        text-decoration: none; font-weight: 600;
+      }
+      nav.versions a:hover { color: var(--gold); }
+
+      footer.site {
+        margin-top: 4rem; border-top: 1px solid var(--rule);
+        background: var(--parchment-deep);
+        font-family: 'Inter', sans-serif; font-size: 0.82rem; color: #5b5a52;
+      }
+      footer.site .wrap { padding-top: 1.5rem; padding-bottom: 2rem; }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <div class="bar">
+        <a class="brand" href="/">Orthodox Christian Bible</a>
+        <nav class="versions" aria-label="Bible versions">
+          <a href="/bible/kjv/">KJV</a>
+          <a href="/bible/brenton/">Septuagint</a>
+          <a href="/search/">Search</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        Public-domain texts (KJV 1611, Brenton's Septuagint 1851).
+        Also available as an iOS app.
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { VERSIONS, getVersion } from '../../../../data/versions.js';
+
+// Build one static HTML page for every chapter file that exists under src/data.
+// Adding a new version = dropping JSON files in; this picks them up automatically.
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../../data/*/*/*.json', { eager: true });
+  const paths = [];
+
+  for (const path in files) {
+    // path looks like: ../../../../data/kjv/john/3.json
+    const parts = path.split('/');
+    const version = parts[parts.length - 3];
+    const book = parts[parts.length - 2];
+    const chapter = parts[parts.length - 1].replace('.json', '');
+    const data = files[path].default;
+
+    paths.push({
+      params: { version, book, chapter },
+      props: { data, version, book, chapter: Number(chapter) },
+    });
+  }
+  return paths;
+}
+
+const { data, version, book, chapter } = Astro.props;
+const v = getVersion(version);
+const ref = `${data.bookName} ${chapter}`;
+
+// SEO: title and description match how people search ("John 3 KJV").
+const title = `${ref} — ${v.abbr} | Orthodox Christian Bible`;
+const firstVerse = data.verses[0]?.t ?? '';
+const description = `Read ${ref} in the ${v.name} (${v.abbr}). ${firstVerse}`.slice(0, 155);
+
+// Prev/next for internal linking + crawlability.
+const prev = chapter > 1 ? chapter - 1 : null;
+const next = chapter < data.totalChapters ? chapter + 1 : null;
+
+// JSON-LD structured data — helps rich results and AI overviews.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${ref} (${v.abbr})`,
+  about: `${ref}, ${v.name}`,
+  isPartOf: { '@type': 'Book', name: v.name, bookEdition: v.year },
+  inLanguage: 'en',
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: v.abbr, item: new URL(`/bible/${version}/`, Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: data.bookName, item: new URL(`/bible/${version}/${book}/`, Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: ref },
+    ],
+  },
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <article class="wrap chapter">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href={`/bible/${version}/`}>{v.abbr}</a>
+      <span aria-hidden="true">·</span>
+      <a href={`/bible/${version}/${book}/`}>{data.bookName}</a>
+    </nav>
+
+    <h1>{data.bookName} <span class="num">{chapter}</span></h1>
+    <p class="version-note">{v.name} · {v.license}</p>
+
+    <div class="text" data-pagefind-body data-pagefind-meta={`reference:${ref} (${v.abbr})`}>
+      {data.verses.map((verse) => (
+        <p class="verse" id={`v${verse.n}`}>
+          <a class="vn" href={`#v${verse.n}`} aria-label={`Verse ${verse.n}`}>{verse.n}</a>
+          <span class="vt">{verse.t}</span>
+        </p>
+      ))}
+    </div>
+
+    <nav class="pager" aria-label="Chapter navigation">
+      {prev ? <a rel="prev" href={`/bible/${version}/${book}/${prev}`}>← {data.bookName} {prev}</a> : <span></span>}
+      {next ? <a rel="next" href={`/bible/${version}/${book}/${next}`}>{data.bookName} {next} →</a> : <span></span>}
+    </nav>
+  </article>
+
+  <style>
+    .crumbs {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; margin-top: 2rem; color: var(--muted);
+    }
+    .crumbs a { color: var(--indigo); text-decoration: none; }
+    .crumbs span { margin: 0 0.5rem; color: var(--rule); }
+
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 0.6rem 0 0; line-height: 1.05;
+    }
+    h1 .num { color: var(--gold); }
+    .version-note {
+      font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--muted);
+      margin: 0.3rem 0 2.2rem; letter-spacing: 0.02em;
+    }
+
+    .text { border-top: 1px solid var(--rule); padding-top: 1.8rem; }
+    .verse { margin: 0 0 0.5rem; text-indent: 0; }
+    .vn {
+      font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600;
+      color: var(--gold); vertical-align: super; text-decoration: none;
+      margin-right: 0.45rem; min-width: 1.1em; display: inline-block;
+    }
+    .vn:hover { color: var(--oxblood); }
+    .vt { }
+
+    /* Signature: illuminated drop-initial on the first verse of the chapter */
+    .text .verse:first-of-type .vt::first-letter {
+      font-family: 'Spectral', serif; font-weight: 700;
+      font-size: 3.1rem; line-height: 0.8; float: left;
+      padding: 0.35rem 0.6rem 0 0; color: var(--gold);
+    }
+    .verse:target { background: var(--parchment-deep); border-radius: 4px; }
+
+    .pager {
+      display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem;
+      padding-top: 1.4rem; border-top: 1px solid var(--rule);
+      font-family: 'Inter', sans-serif; font-size: 0.9rem;
+    }
+    .pager a { text-decoration: none; font-weight: 500; }
+  </style>
+</Base>

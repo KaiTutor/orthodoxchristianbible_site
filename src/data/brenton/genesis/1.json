@@ -1,0 +1,14 @@
+{
+  "book": "genesis",
+  "bookName": "Genesis",
+  "testament": "OT",
+  "chapter": 1,
+  "totalChapters": 50,
+  "verses": [
+    { "n": 1, "t": "In the beginning God made the heaven and the earth." },
+    { "n": 2, "t": "But the earth was unsightly and unfurnished, and darkness was over the deep, and the Spirit of God moved over the water." },
+    { "n": 3, "t": "And God said, Let there be light, and there was light." },
+    { "n": 4, "t": "And God saw the light that it was good, and God divided between the light and the darkness." },
+    { "n": 5, "t": "And God called the light Day, and the darkness he called Night, and there was evening and there was morning, the first day." }
+  ]
+}

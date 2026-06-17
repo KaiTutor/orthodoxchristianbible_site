@@ -1,0 +1,42 @@
+---
+// Centralized SEO/head component. Every page passes its own metadata.
+const {
+  title,
+  description,
+  // Optional pre-built JSON-LD object; stringified into a script tag.
+  jsonLd = null,
+  // Per-page override of the canonical path (defaults to current URL).
+  canonicalPath = Astro.url.pathname,
+} = Astro.props;
+
+const canonical = new URL(canonicalPath, Astro.site).href;
+const ogImage = new URL('/og-default.png', Astro.site).href;
+---
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="Orthodox Christian Bible" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Apple Smart App Banner: replace 000000000 with your real App Store ID -->
+<meta name="apple-itunes-app" content="app-id=000000000" />
+
+{jsonLd && (
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+)}
+
+<link rel="sitemap" href="/sitemap-index.xml" />

@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { VERSIONS, getVersion } from '../../../data/versions.js';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../data/*/*/*.json', { eager: true });
+
+  // Group available books (and their chapters) per version.
+  const byVersion = {};
+  for (const path in files) {
+    const parts = path.split('/');
+    const version = parts[parts.length - 3];
+    const book = parts[parts.length - 2];
+    const data = files[path].default;
+    byVersion[version] ??= {};
+    byVersion[version][book] ??= { name: data.bookName, testament: data.testament, chapters: [] };
+    byVersion[version][book].chapters.push(data.chapter);
+  }
+
+  return VERSIONS.filter((v) => byVersion[v.slug]).map((v) => ({
+    params: { version: v.slug },
+    props: { version: v.slug, books: byVersion[v.slug] },
+  }));
+}
+
+const { version, books } = Astro.props;
+const v = getVersion(version);
+
+const title = `${v.name} (${v.abbr}) — Read Online | Orthodox Christian Bible`;
+const description = `Read the complete ${v.name} (${v.abbr}) online. ${v.description}`.slice(0, 155);
+
+const entries = Object.entries(books).sort();
+---
+<Base title={title} description={description}>
+  <section class="wrap vhead">
+    <p class="eyebrow">{v.year} · {v.license}</p>
+    <h1>{v.name}</h1>
+    <p class="lede">{v.description}</p>
+  </section>
+
+  <section class="wrap booklist">
+    {entries.map(([slug, b]) => (
+      <div class="book">
+        <h2>{b.name}</h2>
+        <ul class="chapters">
+          {b.chapters.sort((a, c) => a - c).map((ch) => (
+            <li><a href={`/bible/${version}/${slug}/${ch}`}>{ch}</a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+  <style>
+    .vhead { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.12em;
+      font-size: 0.74rem; color: var(--muted); margin: 0 0 0.6rem;
+    }
+    .vhead h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 0 0 0.8rem; line-height: 1.05;
+    }
+    .lede { max-width: 50ch; color: #4a4a44; }
+    .booklist { margin-top: 2rem; }
+    .book { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
+    .book h2 { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.4rem; margin: 0 0 0.7rem; }
+    .chapters { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .chapters a {
+      display: inline-flex; align-items: center; justify-content: center; min-width: 2.4rem;
+      height: 2.4rem; padding: 0 0.5rem; border: 1px solid var(--rule); border-radius: 4px;
+      text-decoration: none; font-family: 'Inter', sans-serif; font-size: 0.9rem; color: var(--indigo);
+    }
+    .chapters a:hover { border-color: var(--gold); color: var(--oxblood); }
+  </style>
+</Base>
