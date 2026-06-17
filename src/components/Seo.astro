@@ -1,5 +1,7 @@
 ---
 // Centralized SEO/head component. Every page passes its own metadata.
+import { APP } from '../data/app.js';
+
 const {
   title,
   description,
@@ -32,8 +34,8 @@ const ogImage = new URL('/og-default.png', Astro.site).href;
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImage} />
 
-<!-- Apple Smart App Banner: replace 000000000 with your real App Store ID -->
-<meta name="apple-itunes-app" content="app-id=000000000" />
+<!-- Apple Smart App Banner -->
+<meta name="apple-itunes-app" content={`app-id=${APP.appStoreId}`} />
 
 {jsonLd && (
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
