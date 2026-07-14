@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PRAYER_CATEGORIES } from '../../data/prayers.js';
+
+const categories = [...PRAYER_CATEGORIES].sort((a, b) => a.order - b.order);
+
+const title = 'Orthodox Christian Prayers — Morning, Evening & Daily';
+const description =
+  'The Orthodox prayer book: morning and evening prayers, the Trisagion, prayers before and after Holy Communion, at meals, at work, and the Jesus Prayer.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Orthodox Christian Prayers',
+  description,
+  inLanguage: 'en',
+  url: new URL('/prayers/', Astro.site).href,
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/prayers/">
+  <section class="wrap index">
+    <p class="eyebrow">The Prayer Book</p>
+    <h1>Orthodox Christian Prayers</h1>
+    <p class="lede">
+      The prayers of the Orthodox Church for every hour of the day — on rising
+      and before sleep, at table and at work, in repentance and before the
+      Holy Mysteries.
+    </p>
+
+    <a class="feature-card" href="/prayers/jesus-prayer/">
+      <span class="fc-label">Begin Here</span>
+      <strong>The Jesus Prayer</strong>
+      <span class="fc-prayer">
+        “Lord Jesus Christ, Son of God, have mercy on me, a sinner.”
+      </span>
+      <span class="fc-more">How to pray it, the prayer rope, and the way of the hesychasts →</span>
+    </a>
+
+    <div class="cards">
+      {categories.map((c) => (
+        <a class="card" href={`/prayers/${c.slug}/`}>
+          <strong>{c.name}</strong>
+          <span class="count">{c.prayers.length} {c.prayers.length === 1 ? 'prayer' : 'prayers'}</span>
+          <span class="desc">{c.description}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <style>
+    .index { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.7rem; line-height: 1.08;
+    }
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 2.2rem; }
+
+    /* Jesus Prayer gets pride of place */
+    .feature-card {
+      display: flex; flex-direction: column; gap: 0.5rem; text-decoration: none;
+      background: var(--indigo); color: var(--parchment);
+      border-radius: 8px; padding: 1.8rem 1.7rem; margin-bottom: 2rem;
+    }
+    .feature-card:hover { background: #26325c; }
+    .fc-label {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.14em;
+      font-size: 0.68rem; color: var(--gold-bright);
+    }
+    .feature-card strong {
+      font-family: 'Spectral', serif; font-size: 1.7rem; color: var(--parchment); font-weight: 700;
+    }
+    .fc-prayer {
+      font-family: 'EB Garamond', serif; font-size: 1.15rem; font-style: italic; color: #d8d2c2;
+    }
+    .fc-more {
+      font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--gold-bright); margin-top: 0.4rem;
+    }
+
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .card {
+      display: flex; flex-direction: column; gap: 0.35rem; text-decoration: none; color: var(--ink);
+      border: 1px solid var(--rule); border-radius: 6px; padding: 1.3rem 1.4rem; background: #fff;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: var(--gold); }
+    .card strong { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; }
+    .count {
+      font-family: 'Inter', sans-serif; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted);
+    }
+    .desc { color: #4a4a44; font-size: 0.98rem; }
+  </style>
+</Base>

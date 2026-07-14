@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import { JESUS_PRAYER } from '../../data/prayers.js';
+
+const title = 'The Jesus Prayer — How to Pray It | Orthodox Christian Prayers';
+const description =
+  'Lord Jesus Christ, Son of God, have mercy on me, a sinner. How to pray the Jesus Prayer, the prayer rope, hesychasm, and the way of the Fathers.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'The Jesus Prayer',
+  description,
+  inLanguage: 'en',
+  url: new URL('/prayers/jesus-prayer/', Astro.site).href,
+};
+
+const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Boolean);
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/prayers/jesus-prayer/">
+  <section class="wrap jp">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/prayers/">Prayers</a>
+    </nav>
+
+    <p class="eyebrow">The Prayer of the Heart</p>
+    <h1>The Jesus Prayer</h1>
+
+    <blockquote class="the-prayer">
+      {JESUS_PRAYER.prayer}
+    </blockquote>
+
+    {JESUS_PRAYER.sections.map((s) => (
+      <section class="section">
+        <h2>{s.title}</h2>
+        {paragraphsOf(s.body).map((para) => <p>{para}</p>)}
+      </section>
+    ))}
+
+    <blockquote class="the-prayer closing">
+      {JESUS_PRAYER.prayer}
+    </blockquote>
+
+    <p class="back"><a href="/prayers/">← All prayers</a></p>
+  </section>
+
+  <style>
+    .jp { padding-top: 2.5rem; }
+    .crumbs {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.8rem;
+    }
+    .crumbs a { color: var(--indigo); text-decoration: none; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2.1rem, 5.5vw, 3.2rem); margin: 0 0 1.6rem; line-height: 1.06;
+    }
+
+    /* The prayer itself, set apart — the visual anchor of the page */
+    .the-prayer {
+      margin: 0 0 2.5rem; padding: 1.6rem 1.8rem;
+      background: var(--indigo); color: var(--parchment); border-radius: 8px;
+      font-family: 'Spectral', serif; font-size: clamp(1.15rem, 2.6vw, 1.5rem);
+      line-height: 1.5; text-align: center; border-left: 4px solid var(--gold);
+    }
+    .the-prayer.closing { margin-top: 3rem; }
+
+    .section { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 2rem; }
+    .section h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.45rem;
+      margin: 0 0 0.9rem; line-height: 1.2;
+    }
+    .section p { margin: 0 0 1rem; }
+
+    .back { margin-top: 2.5rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>

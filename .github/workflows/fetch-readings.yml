@@ -1,0 +1,42 @@
+name: Fetch daily readings
+
+on:
+  schedule:
+    # 08:10 UTC daily — early morning US Eastern, so the new day's readings are
+    # archived and rebuilt before most visitors arrive.
+    - cron: '10 8 * * *'
+  # Allows running it by hand from the Actions tab (useful for the first run).
+  workflow_dispatch:
+
+# Needed so the job can push the archived JSON back into the repo.
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch and archive readings
+        run: node scripts/fetch-readings.mjs --refresh 2
+
+      - name: Commit any new or updated readings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/readings
+          # Only commit if something actually changed, so we don't create
+          # empty commits (which would trigger pointless Cloudflare rebuilds).
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Archive daily readings ($(date -u +%Y-%m-%d))"
+            git push
+          fi

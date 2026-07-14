@@ -1,0 +1,82 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import DayReadings from '../../../../components/DayReadings.astro';
+
+// One static page per archived day: /readings/2026/06/17/
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../../data/readings/*/*/*.json', { eager: true });
+
+  // Collect and sort so we can wire prev/next between consecutive days.
+  const records = Object.entries(files)
+    .map(([p, mod]) => {
+      const parts = p.split('/');
+      const year = parts[parts.length - 3];
+      const month = parts[parts.length - 2];
+      const day = parts[parts.length - 1].replace('.json', '');
+      return { year, month, day, record: mod.default };
+    })
+    .sort((a, b) => (a.record.date < b.record.date ? -1 : 1));
+
+  const href = (r) => `/readings/${r.year}/${r.month}/${r.day}/`;
+  const label = (r) => {
+    const [yy, mm, dd] = r.record.date.split('-').map(Number);
+    return new Date(Date.UTC(yy, mm - 1, dd)).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', timeZone: 'UTC',
+    });
+  };
+
+  return records.map((r, i) => {
+    const p = records[i - 1];
+    const n = records[i + 1];
+    return {
+      params: { year: r.year, month: r.month, day: r.day },
+      props: {
+        record: r.record,
+        prev: p ? { href: href(p), label: label(p) } : null,
+        next: n ? { href: href(n), label: label(n) } : null,
+      },
+    };
+  });
+}
+
+const { record, prev, next } = Astro.props;
+const day = record.data ?? {};
+
+const [yy, mm, dd] = record.date.split('-').map(Number);
+const dateObj = new Date(Date.UTC(yy, mm - 1, dd));
+const dateLabel = dateObj.toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+});
+
+const dayTitle = day.titles?.[0] ?? dateLabel;
+// Titles people actually search: "Orthodox readings for June 17, 2026"
+const title = `Orthodox Daily Readings — ${dateLabel}`;
+
+const refs = (day.readings ?? []).map((r) => r.display).filter(Boolean).join(', ');
+const description = `Orthodox scripture readings, fasting, and commemorations for ${dateLabel}. ${refs}`.slice(0, 155);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  datePublished: record.date,
+  about: dayTitle,
+  inLanguage: 'en',
+  url: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <section class="wrap">
+    <DayReadings record={record} showNav={true} prev={prev} next={next} />
+    <p class="back"><a href="/readings/">← Today's readings</a> · <a href="/readings/archive/">Browse all days</a></p>
+  </section>
+
+  <style>
+    .wrap { padding-top: 2.5rem; }
+    .back {
+      font-family: 'Inter', sans-serif; font-size: 0.85rem; margin-top: 1.5rem;
+    }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>

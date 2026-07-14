@@ -1,0 +1,117 @@
+---
+// Renders a single day's readings. Used by both the dated archive pages
+// and the stable /readings/ (today) page, so the markup stays in one place.
+const { record, showNav = false, prev = null, next = null } = Astro.props;
+
+const day = record?.data ?? {};
+const dateStr = record?.date ?? '';
+
+// Pretty date label from the YYYY-MM-DD string (parsed as UTC to avoid
+// off-by-one shifts in negative-offset timezones).
+const [yy, mm, dd] = dateStr.split('-').map(Number);
+const dateObj = new Date(Date.UTC(yy, mm - 1, dd));
+const dateLabel = dateObj.toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+});
+
+const dayTitle = day.titles?.[0] ?? dateLabel;
+
+// Fasting line: level plus any exception note.
+let fastLine = day.fast_level_desc ?? '';
+if (day.fast_exception_desc) fastLine += ` — ${day.fast_exception_desc}`;
+
+// Commemorations can appear under a few different keys depending on the feed.
+const commemorations = day.saints ?? day.commemorations ?? [];
+
+const readings = day.readings ?? [];
+---
+<article class="day">
+  <p class="eyebrow">Orthodox Daily Readings</p>
+  <h1>{dayTitle}</h1>
+  <p class="day-meta">{dateLabel}</p>
+
+  {fastLine && <p class="fast">{fastLine}</p>}
+
+  {commemorations.length > 0 && (
+    <section class="commem">
+      <h2>Commemorations</h2>
+      <ul>
+        {commemorations.map((c) => <li>{typeof c === 'string' ? c : c.title ?? ''}</li>)}
+      </ul>
+    </section>
+  )}
+
+  {readings.length === 0 ? (
+    <p class="empty">No readings listed for this day.</p>
+  ) : (
+    readings.map((reading) => (
+      <section class="reading">
+        <h2>{reading.display ?? 'Reading'}</h2>
+        <div class="passage">
+          {(reading.passage ?? []).map((v) => (
+            <p class="verse">
+              <span class="vn">{v.verse}</span>
+              <span class="vt">{v.content}</span>
+            </p>
+          ))}
+        </div>
+      </section>
+    ))
+  )}
+
+  {showNav && (
+    <nav class="pager" aria-label="Day navigation">
+      {prev ? <a rel="prev" href={prev.href}>← {prev.label}</a> : <span></span>}
+      {next ? <a rel="next" href={next.href}>{next.label} →</a> : <span></span>}
+    </nav>
+  )}
+
+  <p class="attribution">
+    Readings, fasting rules, and commemorations follow the OCA calendar, provided by
+    <a href="https://orthocal.info" rel="noopener" target="_blank">orthocal.info</a>.
+    Scripture is the King James Version.
+  </p>
+</article>
+
+<style>
+  .eyebrow {
+    font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+    font-size: 0.74rem; color: var(--gold); margin: 0 0 0.6rem;
+  }
+  .day h1 {
+    font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+    font-size: clamp(1.9rem, 4.6vw, 2.8rem); margin: 0 0 0.4rem; line-height: 1.1;
+  }
+  .day-meta { font-family: 'Inter', sans-serif; color: var(--muted); font-size: 0.95rem; margin: 0 0 1.5rem; }
+  .fast {
+    display: inline-block; font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 600;
+    color: var(--indigo); background: var(--parchment-deep); border: 1px solid var(--rule);
+    border-radius: 999px; padding: 0.4rem 1rem; margin: 0 0 2rem;
+  }
+  .commem { border-top: 1px solid var(--rule); padding-top: 1.4rem; margin-bottom: 0.5rem; }
+  .commem h2 { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; margin: 0 0 0.6rem; }
+  .commem ul { margin: 0; padding-left: 1.2rem; }
+  .commem li { margin-bottom: 0.3rem; }
+
+  .reading { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 1.6rem; }
+  .reading h2 { font-family: 'Spectral', serif; color: var(--oxblood); font-size: 1.35rem; margin: 0 0 1rem; }
+  .passage .verse { margin: 0 0 0.5rem; }
+  .vn {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600; color: var(--gold);
+    vertical-align: super; margin-right: 0.3rem;
+  }
+  .empty { color: var(--muted); font-style: italic; }
+
+  .pager {
+    display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.6rem;
+    padding-top: 1.3rem; border-top: 1px solid var(--rule);
+    font-family: 'Inter', sans-serif; font-size: 0.9rem;
+  }
+  .pager a { text-decoration: none; font-weight: 500; }
+
+  .attribution {
+    margin-top: 2.5rem; padding-top: 1.3rem; border-top: 1px solid var(--rule);
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--muted); line-height: 1.6;
+  }
+  .attribution a { color: var(--oxblood); }
+</style>

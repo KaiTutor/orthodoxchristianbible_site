@@ -1,0 +1,89 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const files = import.meta.glob('../../data/readings/*/*/*.json', { eager: true });
+
+const records = Object.values(files)
+  .map((m) => m.default)
+  .sort((a, b) => (a.date < b.date ? -1 : 1));
+
+// Group by "YYYY-MM" so the index reads as months rather than one long list.
+const groups = {};
+for (const r of records) {
+  const key = r.date.slice(0, 7); // YYYY-MM
+  (groups[key] ??= []).push(r);
+}
+
+const monthLabel = (key) => {
+  const [y, m] = key.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString('en-US', {
+    month: 'long', year: 'numeric', timeZone: 'UTC',
+  });
+};
+
+const dayNum = (dateStr) => Number(dateStr.slice(8, 10));
+const hrefFor = (dateStr) => `/readings/${dateStr.replaceAll('-', '/')}/`;
+
+const monthKeys = Object.keys(groups).sort();
+
+const title = 'Orthodox Daily Readings Archive';
+const description =
+  'Browse Orthodox daily scripture readings, fasting rules, and commemorations by date.';
+---
+<Base title={title} description={description}>
+  <section class="wrap archive">
+    <p class="eyebrow">Archive</p>
+    <h1>Daily Readings by Date</h1>
+    <p class="lede">
+      Every day's readings, fasting guidance, and commemorations — browse by month.
+    </p>
+
+    {monthKeys.length === 0 && (
+      <p class="empty">The archive is still being built. Check back shortly.</p>
+    )}
+
+    {monthKeys.map((key) => (
+      <section class="month">
+        <h2>{monthLabel(key)}</h2>
+        <ul class="days">
+          {groups[key].map((r) => (
+            <li><a href={hrefFor(r.date)}>{dayNum(r.date)}</a></li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="back"><a href="/readings/">← Today's readings</a></p>
+  </section>
+
+  <style>
+    .archive { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.6rem;
+    }
+    .archive h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(1.9rem, 4.6vw, 2.8rem); margin: 0 0 0.5rem; line-height: 1.1;
+    }
+    .lede { color: #4a4a44; margin: 0 0 2rem; max-width: 48ch; }
+    .empty { color: var(--muted); font-style: italic; }
+
+    .month { border-top: 1px solid var(--rule); padding: 1.3rem 0; }
+    .month h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.3rem; margin: 0 0 0.8rem;
+    }
+    .days { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .days a {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 2.4rem; height: 2.4rem; padding: 0 0.5rem;
+      border: 1px solid var(--rule); border-radius: 4px; text-decoration: none;
+      font-family: 'Inter', sans-serif; font-size: 0.9rem; color: var(--indigo);
+    }
+    .days a:hover { border-color: var(--gold); color: var(--oxblood); }
+
+    .back { margin-top: 2rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>

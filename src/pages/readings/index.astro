@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import DayReadings from '../../components/DayReadings.astro';
+
+// Load every archived day, then pick "today" (or the closest available day).
+const files = import.meta.glob('../../data/readings/*/*/*.json', { eager: true });
+const records = Object.values(files)
+  .map((m) => m.default)
+  .sort((a, b) => (a.date < b.date ? -1 : 1));
+
+// Build-time "today" in UTC — matches how the fetch script anchors dates.
+const now = new Date();
+const todayStr = `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}-${String(now.getUTCDate()).padStart(2, '0')}`;
+
+// Prefer today's record; otherwise fall back to the nearest upcoming day,
+// and failing that, the most recent one we have.
+const record =
+  records.find((r) => r.date === todayStr) ??
+  records.find((r) => r.date > todayStr) ??
+  records[records.length - 1] ??
+  null;
+
+const hasData = Boolean(record);
+
+const title = "Today's Orthodox Daily Readings, Fasting & Commemorations";
+const description =
+  'Today\u2019s Orthodox scripture readings, fasting guidance, and commemorations, following the OCA calendar. Updated every day.';
+
+// Canonical points at the dated page so today's content has one authoritative
+// home in the archive, and /readings/ stays the stable bookmarkable entry point.
+const dated = record ? `/readings/${record.date.replaceAll('-', '/')}/` : '/readings/';
+
+const jsonLd = record
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      datePublished: record.date,
+      inLanguage: 'en',
+      url: new URL('/readings/', Astro.site).href,
+    }
+  : null;
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/readings/">
+  <section class="wrap">
+    {hasData ? (
+      <DayReadings record={record} />
+    ) : (
+      <div class="empty-state">
+        <h1>Daily Readings</h1>
+        <p>
+          Readings will appear here once the daily archive has run. If this
+          persists, the scheduled fetch may need attention.
+        </p>
+      </div>
+    )}
+
+    <p class="archive-link">
+      <a href="/readings/archive/">Browse the readings archive →</a>
+    </p>
+  </section>
+
+  <script is:inline define:vars={{ builtDate: record?.date ?? null }}>
+    // Safety net: this page is generated at build time, so if a visitor lands
+    // here after midnight but before the next build, the date shown could lag.
+    // If we have a page for the visitor's actual local date, send them there.
+    (function () {
+      if (!builtDate) return;
+      const n = new Date();
+      const local = `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+      if (local !== builtDate) {
+        // Try the dated archive page for the visitor's own today.
+        const target = `/readings/${local.replaceAll('-', '/')}/`;
+        fetch(target, { method: 'HEAD' })
+          .then((r) => { if (r.ok) window.location.replace(target); })
+          .catch(() => { /* stay put — the built day is still useful */ });
+      }
+    })();
+  </script>
+
+  <style>
+    .wrap { padding-top: 2.5rem; }
+    .empty-state h1 {
+      font-family: 'Spectral', serif; color: var(--oxblood); font-size: 2rem; margin: 0 0 0.6rem;
+    }
+    .empty-state p { color: var(--muted); }
+    .archive-link {
+      margin-top: 1.5rem; font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    }
+    .archive-link a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .archive-link a:hover { color: var(--gold); }
+  </style>
+</Base>

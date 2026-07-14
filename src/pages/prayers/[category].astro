@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PRAYER_CATEGORIES } from '../../data/prayers.js';
+
+// One static page per prayer category. Adding a category to prayers.js
+// automatically creates its page here — no code changes needed.
+export async function getStaticPaths() {
+  return PRAYER_CATEGORIES.map((c) => ({
+    params: { category: c.slug },
+    props: { category: c },
+  }));
+}
+
+const { category } = Astro.props;
+
+const title = `${category.name} — Orthodox Christian Prayers`;
+const description = category.description.slice(0, 155);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: category.name,
+  description: category.description,
+  inLanguage: 'en',
+  url: new URL(Astro.url.pathname, Astro.site).href,
+};
+
+// Split each prayer's text into paragraphs for clean rendering.
+const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Boolean);
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <section class="wrap prayers">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/prayers/">Prayers</a>
+    </nav>
+
+    <p class="eyebrow">Orthodox Prayers</p>
+    <h1>{category.name}</h1>
+    <p class="lede">{category.description}</p>
+
+    {category.prayers.map((p) => (
+      <article class="prayer">
+        <h2>{p.title}</h2>
+        {paragraphsOf(p.text).map((para) => (
+          <p set:html={para.replaceAll('__________', '<span class="blank"></span>')} />
+        ))}
+      </article>
+    ))}
+
+    <p class="back"><a href="/prayers/">← All prayers</a></p>
+  </section>
+
+  <style>
+    .prayers { padding-top: 2.5rem; }
+    .crumbs {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.8rem;
+    }
+    .crumbs a { color: var(--indigo); text-decoration: none; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.6rem; line-height: 1.08;
+    }
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 1rem; }
+
+    .prayer { border-top: 1px solid var(--rule); padding-top: 1.7rem; margin-top: 2rem; }
+    .prayer h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.45rem;
+      margin: 0 0 1rem; line-height: 1.2;
+    }
+    .prayer p { margin: 0 0 1rem; }
+
+    /* Fill-in line for the patron saint prayer */
+    .blank {
+      display: inline-block; min-width: 7rem; border-bottom: 1px solid var(--gold);
+      margin: 0 0.15rem; vertical-align: baseline;
+    }
+
+    .back { margin-top: 2.5rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>
