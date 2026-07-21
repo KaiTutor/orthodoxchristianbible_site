@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ARTICLES } from '../../data/articles.js';
+
+// One static page per article. Adding an article to articles.js
+// automatically creates its page here — no code changes needed.
+export async function getStaticPaths() {
+  return ARTICLES.map((a) => ({
+    params: { slug: a.slug },
+    props: { article: a },
+  }));
+}
+
+const { article } = Astro.props;
+
+const title = `${article.title} | Orthodox Christian Bible`;
+const description = article.description.slice(0, 155);
+
+const dateLabel = article.date
+  ? new Date(article.date + 'T00:00:00Z').toLocaleDateString('en-US', {
+      year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+    })
+  : null;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  inLanguage: 'en',
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  ...(article.date ? { datePublished: article.date } : {}),
+};
+
+// Split a section body into paragraphs on blank lines.
+const paragraphsOf = (text) =>
+  text.split('\n\n').map((p) => p.trim()).filter(Boolean);
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <article class="wrap art">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/articles/">Articles</a>
+    </nav>
+
+    <p class="eyebrow">On the Orthodox Faith</p>
+    <h1>{article.title}</h1>
+    {dateLabel && <p class="meta">{dateLabel}</p>}
+    <p class="lede">{article.description}</p>
+
+    <div class="body" data-pagefind-body data-pagefind-filter="Section:Articles">
+      {article.sections.map((s) => (
+        <section class="sect">
+          <h2>{s.title}</h2>
+          {paragraphsOf(s.body).map((para) => <p>{para}</p>)}
+        </section>
+      ))}
+    </div>
+
+    <p class="back"><a href="/articles/">← All articles</a></p>
+  </article>
+
+  <style>
+    .art { padding-top: 2.5rem; }
+    .crumbs {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.8rem;
+    }
+    .crumbs a { color: var(--indigo); text-decoration: none; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.5rem; line-height: 1.08;
+    }
+    .meta {
+      font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--muted);
+      margin: 0 0 1.2rem;
+    }
+    .lede {
+      font-size: 1.22rem; color: #4a4a44; max-width: 52ch;
+      margin: 0 0 1rem; font-style: italic;
+    }
+
+    .sect { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 2rem; }
+    .sect h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.45rem;
+      margin: 0 0 0.9rem; line-height: 1.2;
+    }
+    .sect p { margin: 0 0 1rem; }
+
+    .back { margin-top: 2.5rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>

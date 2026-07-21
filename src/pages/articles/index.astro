@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ARTICLES } from '../../data/articles.js';
+
+// Newest first.
+const articles = [...ARTICLES].sort((a, b) =>
+  (b.date ?? '').localeCompare(a.date ?? ''),
+);
+
+const title = 'Articles on the Orthodox Faith | Orthodox Christian Bible';
+const description =
+  'Writings on Orthodox Christian belief and practice - spiritual warfare, prayer, fasting, the Church Fathers, and the life of faith.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Articles on the Orthodox Faith',
+  description,
+  inLanguage: 'en',
+  url: new URL('/articles/', Astro.site).href,
+};
+
+const dateLabel = (d) =>
+  d
+    ? new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', {
+        year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+      })
+    : null;
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/articles/">
+  <section class="wrap index">
+    <p class="eyebrow">The Library</p>
+    <h1>On the Orthodox Faith</h1>
+    <p class="lede">
+      Writings on Orthodox Christian belief, practice, and the spiritual life,
+      the teaching of the Fathers, and the path of repentance and prayer.
+    </p>
+
+    {articles.length === 0 && <p class="empty">Articles are on the way.</p>}
+
+    <div class="cards">
+      {articles.map((a) => (
+        <a class="card" href={`/articles/${a.slug}/`}>
+          <strong>{a.title}</strong>
+          {a.date && <span class="date">{dateLabel(a.date)}</span>}
+          <span class="desc">{a.description}</span>
+          <span class="more">Read →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <style>
+    .index { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.7rem; line-height: 1.08;
+    }
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 2.2rem; }
+    .empty { color: var(--muted); font-style: italic; }
+
+    .cards { display: grid; gap: 1rem; }
+    .card {
+      display: flex; flex-direction: column; gap: 0.4rem; text-decoration: none;
+      color: var(--ink); border: 1px solid var(--rule); border-radius: 6px;
+      padding: 1.5rem 1.6rem; background: #fff; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: var(--gold); }
+    .card strong {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.35rem;
+      line-height: 1.25;
+    }
+    .date {
+      font-family: 'Inter', sans-serif; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted);
+    }
+    .desc { color: #4a4a44; font-size: 1.02rem; }
+    .more {
+      font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--oxblood);
+      font-weight: 600; margin-top: 0.3rem;
+    }
+  </style>
+</Base>

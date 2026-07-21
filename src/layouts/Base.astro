@@ -54,11 +54,11 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
       header.site {
         border-bottom: 1px solid var(--rule);
         background: var(--parchment-deep);
+        position: relative;
       }
       header.site .bar {
         max-width: 960px; margin: 0 auto; padding: 0.9rem 1.5rem;
-        display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
-        flex-wrap: wrap;
+        display: flex; align-items: center; justify-content: space-between; gap: 1rem;
       }
       .brand {
         font-family: 'Spectral', serif; font-weight: 700; font-size: 1.15rem;
@@ -72,16 +72,40 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
       }
       nav.versions a:hover { color: var(--gold); }
 
+      /* Hamburger button — hidden on desktop, shown on mobile */
+      .nav-toggle {
+        display: none;
+        background: none; border: 1px solid var(--rule); border-radius: 4px;
+        padding: 0.45rem 0.55rem; cursor: pointer; line-height: 0;
+        color: var(--indigo);
+      }
+      .nav-toggle:hover { border-color: var(--gold); }
+      .nav-toggle svg { display: block; }
+      .nav-toggle .icon-close { display: none; }
+      .nav-toggle[aria-expanded='true'] .icon-open { display: none; }
+      .nav-toggle[aria-expanded='true'] .icon-close { display: block; }
+
       @media (max-width: 640px) {
-        header.site .bar {
-          flex-direction: column; align-items: flex-start; gap: 0.7rem;
-          padding: 0.8rem 1.1rem;
-        }
+        header.site .bar { padding: 0.8rem 1.1rem; }
+        .nav-toggle { display: block; }
+
         nav.versions {
-          gap: 0.5rem 1.2rem; flex-wrap: wrap; width: 100%;
-          font-size: 0.8rem;
+          display: none;
+          position: absolute; left: 0; right: 0; top: 100%;
+          z-index: 50;
+          flex-direction: column; gap: 0;
+          background: var(--parchment-deep);
+          border-bottom: 1px solid var(--rule);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+          padding: 0.4rem 0;
         }
-        nav.versions a { padding: 0.15rem 0; }
+        nav.versions.open { display: flex; }
+        nav.versions a {
+          padding: 0.85rem 1.1rem;
+          border-top: 1px solid var(--rule);
+          font-size: 0.85rem;
+        }
+        nav.versions a:first-child { border-top: none; }
       }
 
       footer.site {
@@ -96,13 +120,35 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
     <header class="site">
       <div class="bar">
         <a class="brand" href="/">Orthodox Christian Bible</a>
-          <nav class="versions" aria-label="Site sections">
-            <a href="/readings/">Daily Readings</a>
-            <a href="/prayers/">Prayers</a>
-            <a href="/bible/kjv/">KJV</a>
-            <a href="/bible/brenton/">Septuagint</a>
-            <a href="/search/">Search</a>
-          </nav>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Menu"
+        >
+          <svg class="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+          <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="5" y1="5" x2="19" y2="19" />
+            <line x1="19" y1="5" x2="5" y2="19" />
+          </svg>
+        </button>
+
+        <nav class="versions" id="site-nav" aria-label="Site sections">
+          <a href="/readings/">Daily Readings</a>
+          <a href="/prayers/">Prayers</a>
+          <a href="/articles/">Articles</a>
+          <a href="/bible/kjv/">KJV</a>
+          <a href="/bible/brenton/">Septuagint</a>
+          <a href="/search/">Search</a>
+        </nav>
       </div>
     </header>
     <main>
@@ -114,5 +160,50 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
         Also available as an iOS app.
       </div>
     </footer>
+
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById('nav-toggle');
+        var nav = document.getElementById('site-nav');
+        if (!btn || !nav) return;
+
+        function setOpen(open) {
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          nav.classList.toggle('open', open);
+        }
+
+        btn.addEventListener('click', function () {
+          setOpen(btn.getAttribute('aria-expanded') !== 'true');
+        });
+
+        // Close when a link is tapped.
+        nav.addEventListener('click', function (e) {
+          if (e.target.tagName === 'A') setOpen(false);
+        });
+
+        // Close on Escape, and return focus to the button.
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+            setOpen(false);
+            btn.focus();
+          }
+        });
+
+        // Close when tapping outside the header.
+        document.addEventListener('click', function (e) {
+          if (
+            btn.getAttribute('aria-expanded') === 'true' &&
+            !e.target.closest('header.site')
+          ) {
+            setOpen(false);
+          }
+        });
+
+        // If the viewport grows past the mobile breakpoint, reset state.
+        window.addEventListener('resize', function () {
+          if (window.innerWidth > 640) setOpen(false);
+        });
+      })();
+    </script>
   </body>
 </html>
