@@ -9,19 +9,22 @@ const description = 'Search the King James Version and Brenton\u2019s Septuagint
     <p class="lede">Find any word, phrase, or reference across both translations.</p>
     <div id="search"></div>
   </section>
-
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     window.addEventListener('DOMContentLoaded', () => {
       // Pagefind only exists after a production build + index step.
       if (typeof PagefindUI === 'undefined') return;
-      const ui = new PagefindUI({ element: '#search', showSubResults: true, pageSize: 8 });
+      const ui = new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        pageSize: 8,
+        showFilters: true,
+      });
       const q = new URLSearchParams(location.search).get('q');
       if (q) ui.triggerSearch(q);
     });
   </script>
-
   <style>
     .search { padding-top: 3rem; }
     .search h1 {

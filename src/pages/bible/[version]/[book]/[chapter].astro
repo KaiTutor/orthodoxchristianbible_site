@@ -67,7 +67,7 @@ const jsonLd = {
     <h1>{data.bookName} <span class="num">{chapter}</span></h1>
     <p class="version-note">{v.name} · {v.license}</p>
 
-    <div class="text" data-pagefind-body data-pagefind-meta={`reference:${ref} (${v.abbr})`}>
+    <div class="text" data-pagefind-body data-pagefind-filter={`Version:${v.name}`} data-pagefind-meta={`reference:${ref} (${v.abbr})`}>
       {data.verses.map((verse) => (
         <p class="verse" id={`v${verse.n}`}>
           <a class="vn" href={`#v${verse.n}`} aria-label={`Verse ${verse.n}`}>{verse.n}</a>
