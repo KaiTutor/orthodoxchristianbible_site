@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 115,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Alleluia. I believed, wherefore I have spoken: but I was greatly afflicted."
+    },
+    {
+      "n": 2,
+      "t": "And I said in mine amazement, Every man is a liar."
+    },
+    {
+      "n": 3,
+      "t": "What shall I render to the Lord for all the things wherein he has rewarded me?"
+    },
+    {
+      "n": 4,
+      "t": "I will take the cup of salvation, and call upon the name of the Lord."
+    },
+    {
+      "n": 6,
+      "t": "Precious in the sight of the Lord is the death of his saints."
+    },
+    {
+      "n": 7,
+      "t": "O Lord, I am thy servant; I am thy servant, and the son of thine handmaid: thou hast burst my bonds asunder."
+    },
+    {
+      "n": 8,
+      "t": "I will offer to thee the sacrifice of praise, and will call upon the name of the Lord."
+    },
+    {
+      "n": 9,
+      "t": "I will pay my vows unto the Lord, in the presence of all his people,"
+    },
+    {
+      "n": 10,
+      "t": "in the courts of the Lord's house, in the midst of thee, Jerusalem."
+    }
+  ]
+}

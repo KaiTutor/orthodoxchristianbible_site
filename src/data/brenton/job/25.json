@@ -1,0 +1,33 @@
+{
+  "book": "job",
+  "bookName": "Job",
+  "testament": "OT",
+  "chapter": 25,
+  "totalChapters": 42,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Then Baldad the Sauchite answered and said,"
+    },
+    {
+      "n": 2,
+      "t": "What beginning or fear is his—even he that makes all things in the highest?"
+    },
+    {
+      "n": 3,
+      "t": "For let none think that there is a respite for robbers: and upon whom will there not come a snare from him?"
+    },
+    {
+      "n": 4,
+      "t": "For how shall a mortal be just before the Lord? or who that is born of a woman shall purify himself?"
+    },
+    {
+      "n": 5,
+      "t": "If he gives an order to the moon, then it shines not; and the stars are not pure before him."
+    },
+    {
+      "n": 6,
+      "t": "But alas! man is corruption, and the son of man a worm."
+    }
+  ]
+}

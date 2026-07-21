@@ -1,0 +1,21 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 132,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "A Song of Degrees. See now! what is so good, or what so pleasant, as for brethren to dwell together?"
+    },
+    {
+      "n": 2,
+      "t": "[It is] as ointment on the head, that ran down to the beard, [even] the beard of Aaron; that ran down to the fringe of his clothing."
+    },
+    {
+      "n": 3,
+      "t": "As the dew of Aermon, that comes down on the mountains of Sion: for there the Lord commanded the blessing, [even] life for ever."
+    }
+  ]
+}

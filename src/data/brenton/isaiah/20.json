@@ -1,0 +1,33 @@
+{
+  "book": "isaiah",
+  "bookName": "Isaiah",
+  "testament": "OT",
+  "chapter": 20,
+  "totalChapters": 66,
+  "verses": [
+    {
+      "n": 1,
+      "t": "In the year when Tanathan came to Azotus, when he was sent by Arna king of the Assyrians, and warred against Azotus, and took it;"
+    },
+    {
+      "n": 2,
+      "t": "then the Lord spoke to Esaias the son of Amos, saying, Go and take the sackcloth off thy loins, and loose thy sandals from off thy feet, and do thus, going naked and barefoot."
+    },
+    {
+      "n": 3,
+      "t": "And the Lord said, As my servant Esaias has walked naked and barefoot three years, there shall be three years for signs and wonders to the Egyptians and Ethiopians;"
+    },
+    {
+      "n": 4,
+      "t": "for thus shall the king of the Assyrians lead the captivity of Egypt and the Ethiopians, young men and old, naked and barefoot, having the shame of Egypt exposed."
+    },
+    {
+      "n": 5,
+      "t": "And the Egyptians being defeated shall be ashamed of the Ethiopians, in whom they had trusted; for they were their glory."
+    },
+    {
+      "n": 6,
+      "t": "And they that dwell in this island shall say in that day, Behold, we trusted to flee to them for help, who could not save themselves from the king of the Assyrians: and how shall we be saved?"
+    }
+  ]
+}

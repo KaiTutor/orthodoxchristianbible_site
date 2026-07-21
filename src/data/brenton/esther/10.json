@@ -1,0 +1,21 @@
+{
+  "book": "esther",
+  "bookName": "Esther",
+  "testament": "OT",
+  "chapter": 10,
+  "totalChapters": 10,
+  "verses": [
+    {
+      "n": 1,
+      "t": "And the king levied [a tax] upon [his] kingdom both by land and sea."
+    },
+    {
+      "n": 2,
+      "t": "And [as for] his strength and valour, and the wealth and glory of his kingdom, behold, they are written in the book of the Persians and Medes, for a memorial."
+    },
+    {
+      "n": 3,
+      "t": "And Mardochæus was viceroy to king Artaxerxes, and was a great man in the kingdom, and honoured by the Jews, and passed his life beloved of all his nation."
+    }
+  ]
+}

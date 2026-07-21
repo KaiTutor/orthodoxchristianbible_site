@@ -1,0 +1,21 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 133,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "A Song of Degrees. Behold now, bless ye the Lord, all the servants of the Lord, who stand in the house of the Lord, in the courts of the house of our God."
+    },
+    {
+      "n": 2,
+      "t": "Lift up your hands by night in the sanctuaries, and bless the Lord."
+    },
+    {
+      "n": 3,
+      "t": "May the Lord, who made heaven and earth, bless thee out of Sion."
+    }
+  ]
+}

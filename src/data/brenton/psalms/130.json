@@ -1,0 +1,21 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 130,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "A Song of Degrees. O Lord, my heart is not exalted, neither have mine eyes been [haughtily] raised: neither have I exercised myself in great [matters], nor in things too wonderful for me."
+    },
+    {
+      "n": 2,
+      "t": "[I shall have sinned] if I have not been humble, but have exalted my soul: according to [the relation of] a weaned child to his mother, so wilt thou recompense my soul."
+    },
+    {
+      "n": 3,
+      "t": "Let Israel hope in the Lord, from henceforth and for ever."
+    }
+  ]
+}

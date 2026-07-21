@@ -1,0 +1,289 @@
+{
+  "book": "ezra",
+  "bookName": "Ezra",
+  "testament": "OT",
+  "chapter": 2,
+  "totalChapters": 23,
+  "verses": [
+    {
+      "n": 1,
+      "t": "And these [are] the people of the land that went up, of the number of prisoners who were removed, whom Nabuchodonosor king of Babylon carried away to Babylon, and they returned to Juda and Jerusalem, every man to his city;"
+    },
+    {
+      "n": 2,
+      "t": "who came with Zorobabel: Jesus, Neemias, Saraias, Reelias, Mardochæus, Balasan, Masphar, Baguai, Reum, Baana. The number of the people of Israel:"
+    },
+    {
+      "n": 3,
+      "t": "The children of Phares, two thousand one hundred and seventy-two."
+    },
+    {
+      "n": 4,
+      "t": "The children of Saphatia, three hundred and seventy-two."
+    },
+    {
+      "n": 5,
+      "t": "The children of Ares, seven hundred and seventy-five."
+    },
+    {
+      "n": 6,
+      "t": "The children of Phaath Moab, belonging to the sons of Jesue [and] Joab, two thousand eight hundred and twelve."
+    },
+    {
+      "n": 7,
+      "t": "The children of Ælam, a thousand two hundred and fifty-four."
+    },
+    {
+      "n": 8,
+      "t": "The children of Zatthua, nine hundred and forty-five."
+    },
+    {
+      "n": 9,
+      "t": "The children of Zacchu, seven hundred and sixty."
+    },
+    {
+      "n": 10,
+      "t": "The children of Banui, six hundred and forty-two."
+    },
+    {
+      "n": 11,
+      "t": "The children of Babai, six hundred and twenty-three."
+    },
+    {
+      "n": 12,
+      "t": "The children of Asgad, a thousand two hundred and twenty-two."
+    },
+    {
+      "n": 13,
+      "t": "The children of Adonicam, six hundred and sixty-six."
+    },
+    {
+      "n": 14,
+      "t": "The children of Bague, two thousand and fifty-six."
+    },
+    {
+      "n": 15,
+      "t": "The children of Addin, four hundred and fifty-four."
+    },
+    {
+      "n": 16,
+      "t": "The children of Ater [the son] of Ezekias, ninety-eight."
+    },
+    {
+      "n": 17,
+      "t": "The children of Bassu, three hundred and twenty-three."
+    },
+    {
+      "n": 18,
+      "t": "The children of Jora, a hundred and twelve."
+    },
+    {
+      "n": 19,
+      "t": "The children of Asum, two hundred and twenty-three."
+    },
+    {
+      "n": 20,
+      "t": "The children of Gaber, ninety-five."
+    },
+    {
+      "n": 21,
+      "t": "The children of Bethlaem, a hundred and twenty-three."
+    },
+    {
+      "n": 22,
+      "t": "The children of Netopha, fifty-six."
+    },
+    {
+      "n": 23,
+      "t": "The children of Anathoth, a hundred and twenty-eight."
+    },
+    {
+      "n": 24,
+      "t": "The children of Azmoth, forty-three."
+    },
+    {
+      "n": 25,
+      "t": "The children of Cariathiarim, Chaphira, and Beroth, seven hundred and forty-three."
+    },
+    {
+      "n": 26,
+      "t": "The children of Rama and Gabaa, six hundred and twenty-one."
+    },
+    {
+      "n": 27,
+      "t": "The men of Machmas, a hundred and twenty-two."
+    },
+    {
+      "n": 28,
+      "t": "The men of Bæthel and Aia, four hundred and twenty-three."
+    },
+    {
+      "n": 29,
+      "t": "The children of Nabu, fifty-two."
+    },
+    {
+      "n": 30,
+      "t": "The children of Magebis, a hundred and fifty-six."
+    },
+    {
+      "n": 31,
+      "t": "The children of Elamar, a thousand two hundred and fifty-four."
+    },
+    {
+      "n": 32,
+      "t": "The children of Elam, three hundred and twenty."
+    },
+    {
+      "n": 33,
+      "t": "The children of Lodadi and Ono, seven hundred and twenty-five."
+    },
+    {
+      "n": 34,
+      "t": "The children of Jericho, three hundred and forty-five."
+    },
+    {
+      "n": 35,
+      "t": "The children of Senaa, three thousand six hundred and thirty."
+    },
+    {
+      "n": 36,
+      "t": "And the priests, the sons of Jedua, [belonging to] the house of Jesus, [were] nine hundred and seventy-three."
+    },
+    {
+      "n": 37,
+      "t": "The children of Emmer, a thousand [and] fifty-two."
+    },
+    {
+      "n": 38,
+      "t": "The children of Phassur, a thousand two hundred [and] forty-seven."
+    },
+    {
+      "n": 39,
+      "t": "The children of Erem, a thousand [and] seven."
+    },
+    {
+      "n": 40,
+      "t": "And the Levites, the sons of Jesus and Cadmiel, belonging to the sons of Oduia, seventy-four."
+    },
+    {
+      "n": 41,
+      "t": "The sons of Asaph, singers, a hundred [and] twenty-eight."
+    },
+    {
+      "n": 42,
+      "t": "The children of the porters, the children of Sellum, the children of Ater, the children of Telmon, the children of Acub, the children of Atita, the children of Sobai, [in] all a hundred [and] thirty-nine."
+    },
+    {
+      "n": 43,
+      "t": "The Nathinim: the children of Suthia, the children of Asupha, the children of Tabaoth,"
+    },
+    {
+      "n": 44,
+      "t": "the sons of Cades, the children of Siaa, the children of Phadon,"
+    },
+    {
+      "n": 45,
+      "t": "the children of Labano, the children of Agaba, the sons of Acub,"
+    },
+    {
+      "n": 46,
+      "t": "the children of Agab, the children of Selami, the children of Anan,"
+    },
+    {
+      "n": 47,
+      "t": "the children of Geddel, the children of Gaar, the children of Raia,"
+    },
+    {
+      "n": 48,
+      "t": "the children of Rason, the children of Necoda, the children of Gazem,"
+    },
+    {
+      "n": 49,
+      "t": "the children of Azo, the children of Phase, the children of Basi,"
+    },
+    {
+      "n": 50,
+      "t": "the children of Asena, the children of Moünim, the children of Nephusim,"
+    },
+    {
+      "n": 51,
+      "t": "the children of Bacbuc, the children of Acupha, the children of Arur,"
+    },
+    {
+      "n": 52,
+      "t": "the children of Basaloth, the children of Mauda, the children of Arsa,"
+    },
+    {
+      "n": 53,
+      "t": "the children of Barcos, the children of Sisara, the children of Thema,"
+    },
+    {
+      "n": 54,
+      "t": "the children of Nasthie, the children of Atupha."
+    },
+    {
+      "n": 55,
+      "t": "The children of the servants of Solomon: the children of Sotai, the children of Sephera, the children of Phadura,"
+    },
+    {
+      "n": 56,
+      "t": "the children of Jeela, the children of Darcon, the children of Gedel,"
+    },
+    {
+      "n": 57,
+      "t": "the children of Saphatia, the children of Atil, the children of Phacherath, the children of Aseboim, the children of Emei."
+    },
+    {
+      "n": 58,
+      "t": "All the Nathanim, and the sons of Abdeselma [were] three hundred and ninety-two."
+    },
+    {
+      "n": 59,
+      "t": "And these [are] they that went up from Thelmelech, Thelaresa, Cherub, Hedan, Emmer: and they were not able to tell the house of their fathers, and their seed, whether they were of Israel:"
+    },
+    {
+      "n": 60,
+      "t": "the children of Dalæa, the children of Bua, the children of Tobias, the children of Necoda, six hundred [and] fifty-two."
+    },
+    {
+      "n": 61,
+      "t": "And of the children of the priests, the children of Labeia, the children of Akkus, the children of Berzellai, who took a wife of the daughter of Berzellai the Galaadite, and was called by their name."
+    },
+    {
+      "n": 62,
+      "t": "These sought their genealogy [as though] they had been reckoned, but they were not found; and they were removed, [as polluted], from the priesthood."
+    },
+    {
+      "n": 63,
+      "t": "And the Athersastha told them that they should not eat of the most holy things, until a priest should arise with Lights and Perfections."
+    },
+    {
+      "n": 64,
+      "t": "And all the congregation together [were] about forty-two thousand three hundred and sixty;"
+    },
+    {
+      "n": 65,
+      "t": "besides their men-servants and maid-servants, [and] these were seven thousand three hundred [and] thirty-seven: and [among] these were two hundred singing men and singing women."
+    },
+    {
+      "n": 66,
+      "t": "Their horses [were] seven hundred [and] thirty-six, their mules, two hundred [and] forty-five."
+    },
+    {
+      "n": 67,
+      "t": "Their camels, four hundred [and] thirty-five; their asses, six thousand seven hundred [and] twenty."
+    },
+    {
+      "n": 68,
+      "t": "And [some] of the chiefs of families, when they went into the house of the Lord that was in Jerusalem, offered willingly for the house of God, to establish it on its prepared place."
+    },
+    {
+      "n": 69,
+      "t": "According to their power they gave into the treasury of the work pure gold sixty-one thousand pieces, and five thousand pounds of silver, and one hundred priests' garments."
+    },
+    {
+      "n": 70,
+      "t": "So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nathinim, dwelt in their cities, and all Israel in their cities."
+    }
+  ]
+}

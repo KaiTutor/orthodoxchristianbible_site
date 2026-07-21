@@ -1,0 +1,225 @@
+{
+  "book": "numbers",
+  "bookName": "Numbers",
+  "testament": "OT",
+  "chapter": 1,
+  "totalChapters": 36,
+  "verses": [
+    {
+      "n": 1,
+      "t": "And the Lord spoke to Moses in the wilderness of Sina, in the tabernacle of witness, on the first day of the second month, in the second year of their departure from the land of Egypt, saying,"
+    },
+    {
+      "n": 2,
+      "t": "Take the sum of all the congregation of Israel according to their kindreds, according to the houses of their fathers' families, according to their number by their names, according to their heads: every male"
+    },
+    {
+      "n": 3,
+      "t": "from twenty years old and upwards, every one that goes forth in the forces of Israel, take account of them with their strength; thou and Aaron take account of them."
+    },
+    {
+      "n": 4,
+      "t": "And with you there shall be each one of the rulers according to the tribe of each: they shall be according to the houses of their families."
+    },
+    {
+      "n": 5,
+      "t": "And these are the names of the men who shall be present with you; of the tribe of Ruben, Elisur the son of Sediur."
+    },
+    {
+      "n": 6,
+      "t": "Of Symeon, Salamiel the son of Surisadai."
+    },
+    {
+      "n": 7,
+      "t": "Of Juda, Naasson the son of Aminadab."
+    },
+    {
+      "n": 8,
+      "t": "Of Issachar, Nathanael the son of Sogar."
+    },
+    {
+      "n": 9,
+      "t": "Of Zabulon, Eliab the son of Chælon."
+    },
+    {
+      "n": 10,
+      "t": "Of the sons of Joseph, of Ephraim, Elisama the son of Emiud: of Manasses, Gamaliel the son of Phadasur."
+    },
+    {
+      "n": 11,
+      "t": "Of Benjamin, Abidan the son of Gadeoni."
+    },
+    {
+      "n": 12,
+      "t": "Of Dan, Achiezer the son of Amisadai."
+    },
+    {
+      "n": 13,
+      "t": "Of Aser, Phagaiel the son of Echran."
+    },
+    {
+      "n": 14,
+      "t": "Of Gad, Elisaph the son of Raguel."
+    },
+    {
+      "n": 15,
+      "t": "Of Nephthali, Achire the son of Ænan."
+    },
+    {
+      "n": 16,
+      "t": "These were famous men of the congregation, heads of the tribes according to their families: these are heads of thousands in Israel."
+    },
+    {
+      "n": 17,
+      "t": "And Moses and Aaron took these men who were called by name."
+    },
+    {
+      "n": 18,
+      "t": "And they assembled all the congregation on the first day of the month in the second year; and they registered them after their lineage, after their families, after the number of their names, from twenty years old and upwards, every male according to their number:"
+    },
+    {
+      "n": 19,
+      "t": "as the Lord commanded Moses, so they were numbered in the wilderness of Sina."
+    },
+    {
+      "n": 20,
+      "t": "And the sons of Ruben the first-born of Israel according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their heads, were—all males from twenty years old and upward, every one that went out with the host—"
+    },
+    {
+      "n": 21,
+      "t": "the numbering of them of the tribe of Ruben, was forty-six thousand and four hundred."
+    },
+    {
+      "n": 22,
+      "t": "For the children of Symeon according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes out with the host,"
+    },
+    {
+      "n": 23,
+      "t": "the numbering of them of the tribe of Symeon, was fifty-nine thousand and three hundred."
+    },
+    {
+      "n": 24,
+      "t": "For the sons of Juda according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 25,
+      "t": "the numbering of them of the tribe of Juda, was seventy-four thousand and six hundred."
+    },
+    {
+      "n": 26,
+      "t": "For the sons of Issachar according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 27,
+      "t": "the numbering of them of the tribe of Issachar, was fifty-four thousand and four hundred."
+    },
+    {
+      "n": 28,
+      "t": "For the sons of Zabulon according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes out with the host,"
+    },
+    {
+      "n": 29,
+      "t": "the numbering of them of the tribe of Zabulon, was fifty-seven thousand and four hundred."
+    },
+    {
+      "n": 30,
+      "t": "For the sons of Joseph, the sons of Ephraim, according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes out with the host,"
+    },
+    {
+      "n": 31,
+      "t": "the numbering of them of the tribe of Ephraim, was forty thousand and five hundred."
+    },
+    {
+      "n": 32,
+      "t": "For the sons of Manasse according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes out with the host,"
+    },
+    {
+      "n": 33,
+      "t": "the numbering of them of the tribe of Manasse, was thirty-two thousand and two hundred."
+    },
+    {
+      "n": 34,
+      "t": "For the sons of Benjamin according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, every male from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 35,
+      "t": "the numbering of them of the tribe of Benjamin, was thirty-five thousand and four hundred."
+    },
+    {
+      "n": 36,
+      "t": "For the sons of Gad according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 37,
+      "t": "the numbering of them of the tribe of Gad, was forty and five thousand and six hundred and fifty."
+    },
+    {
+      "n": 38,
+      "t": "For the sons of Dan according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, all males from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 39,
+      "t": "the numbering of them of the tribe of Dan, was sixty and two thousand and seven hundred."
+    },
+    {
+      "n": 40,
+      "t": "For the sons of Aser according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, every male from twenty years old and upward, every one that goes forth with the host,"
+    },
+    {
+      "n": 41,
+      "t": "the numbering of them of the tribe of Aser, was forty and one thousand and five hundred."
+    },
+    {
+      "n": 42,
+      "t": "For the sons of Nephthali according to their kindreds, according to their divisions, according to the houses of their families, according to the number of their names, according to their polls, every male from twenty years old and upward, every one who goes forth with the host,"
+    },
+    {
+      "n": 43,
+      "t": "the numbering of them of the tribe of Nephthali, was fifty-three thousand and four hundred."
+    },
+    {
+      "n": 44,
+      "t": "This is the numbering which Moses and Aaron and the rulers of Israel, being twelve men, conducted: there was a man for each tribe, they were according to the tribe of the houses of their family."
+    },
+    {
+      "n": 45,
+      "t": "And the whole numbering of the children of Israel with their host from twenty years old and upward, every one that goes out to set himself in battle array in Israel, came to"
+    },
+    {
+      "n": 46,
+      "t": "six hundred thousand and three thousand and five hundred and fifty."
+    },
+    {
+      "n": 47,
+      "t": "But the Levites of the tribe of their family were not counted among the children of Israel."
+    },
+    {
+      "n": 48,
+      "t": "And the Lord spoke to Moses, saying,"
+    },
+    {
+      "n": 49,
+      "t": "See, thou shalt not muster the tribe of Levi, and thou shalt not take their numbers, in the midst of the children of Israel."
+    },
+    {
+      "n": 50,
+      "t": "And do thou set the Levites over the tabernacle of witness, and over all its furniture, and over all things that are in it; and they shall do service in it, and they shall encamp round about the tabernacle."
+    },
+    {
+      "n": 51,
+      "t": "And in removing the tabernacle, the Levites shall take it down, and in pitching the tabernacle they shall set it up: and let the stranger that advances [to touch it] die."
+    },
+    {
+      "n": 52,
+      "t": "And the children of Israel shall encamp, every man in his own order, and every man according to his company, with their host."
+    },
+    {
+      "n": 53,
+      "t": "But let the Levites encamp round about the tabernacle of witness fronting it, and [so] there shall be no sin among the children of Israel; and the Levites themselves shall keep the guard of the tabernacle of witness."
+    },
+    {
+      "n": 54,
+      "t": "And the children of Israel did according to all that the Lord commanded Moses and Aaron, so did they."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 121,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "A Song of Degrees. I was glad when they said to me, Let us go into the house of the Lord."
+    },
+    {
+      "n": 2,
+      "t": "Our feet stood in thy courts, O Jerusalem."
+    },
+    {
+      "n": 3,
+      "t": "Jerusalem is built as a city whose fellowship is complete."
+    },
+    {
+      "n": 4,
+      "t": "For thither the tribes went up, the tribes of the Lord, as a testimony for Israel, to give thanks unto the name of the Lord."
+    },
+    {
+      "n": 5,
+      "t": "For there are set thrones for judgment, [even] thrones for the house of David."
+    },
+    {
+      "n": 6,
+      "t": "Pray now for the peace of Jerusalem: and [let there be] prosperity to them that love thee."
+    },
+    {
+      "n": 7,
+      "t": "Let peace, I pray, be within thine host, and prosperity in thy palaces."
+    },
+    {
+      "n": 8,
+      "t": "For the sake of my brethren and my neighbours, I have indeed spoken peace concerning thee."
+    },
+    {
+      "n": 9,
+      "t": "Because of the house of the Lord our God, I have diligently sought thy good."
+    }
+  ]
+}

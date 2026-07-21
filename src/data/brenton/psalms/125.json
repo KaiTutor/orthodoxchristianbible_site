@@ -1,0 +1,33 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 125,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "A Song of Degrees. When the Lord turned the captivity of Sion, we became as comforted ones."
+    },
+    {
+      "n": 2,
+      "t": "Then was our mouth filled with joy, and our tongue with exultation: then would they say among the Gentiles,"
+    },
+    {
+      "n": 3,
+      "t": "The Lord has done great things among them. The Lord has done great things for us, we became joyful."
+    },
+    {
+      "n": 4,
+      "t": "Turn, O Lord, our captivity, as the streams in the south."
+    },
+    {
+      "n": 5,
+      "t": "They that sow in tears shall reap in joy."
+    },
+    {
+      "n": 6,
+      "t": "They went on and wept as they cast their seeds; but they shall surely come with exultation, bringing their sheaves [with them]."
+    }
+  ]
+}

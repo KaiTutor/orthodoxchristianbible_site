@@ -1,0 +1,57 @@
+{
+  "book": "ecclesiastes",
+  "bookName": "Ecclesiastes",
+  "testament": "OT",
+  "chapter": 6,
+  "totalChapters": 12,
+  "verses": [
+    {
+      "n": 1,
+      "t": "There is an evil which I have seen under the sun, and it is abundant with man:"
+    },
+    {
+      "n": 2,
+      "t": "a man to whom God shall give wealth, and substance, and honour, and he wants nothing for his soul of all things that he shall desire, yet God shall not give him power to eat of it, for a stranger shall devour it: this is vanity, and an evil infirmity."
+    },
+    {
+      "n": 3,
+      "t": "If a man beget a hundred [children], and live many years, yea, however abundant the days of his years shall be, yet [if] his soul shall not be satisfied with good, and also he have no burial; I said, An untimely birth is better than he."
+    },
+    {
+      "n": 4,
+      "t": "For he came in vanity, and departs in darkness, and his name shall be covered in darkness."
+    },
+    {
+      "n": 5,
+      "t": "Moreover he has not seen the sun, nor known rest: there is [no more rest] to this one than another."
+    },
+    {
+      "n": 6,
+      "t": "Though he has lived to the return of a thousand years, yet he has seen no good: do not all go to one place?"
+    },
+    {
+      "n": 7,
+      "t": "All the labour of a man is for his mouth, and yet the appetite shall not be satisfied."
+    },
+    {
+      "n": 8,
+      "t": "For [what] advantage has the wise man over the fool, since [even] the poor knows how to walk in the direction of life?"
+    },
+    {
+      "n": 9,
+      "t": "The sight of the eyes is better than that which wanders in soul: this is also vanity, and waywardness of spirit."
+    },
+    {
+      "n": 10,
+      "t": "If anything has been, its name has already been called: and it is known what man is; neither can he contend with him who is stronger than he."
+    },
+    {
+      "n": 11,
+      "t": "For there are many things which increase vanity."
+    },
+    {
+      "n": 12,
+      "t": "What advantage has a man? for who knows [what is] good for a man in his life, [during] the number of the life of the days of his vanity? and he has spent them as a shadow; for who shall tell a man what shall be after him under the sun?"
+    }
+  ]
+}

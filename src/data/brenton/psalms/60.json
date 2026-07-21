@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 60,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "For the end, among the Hymns of David."
+    },
+    {
+      "n": 2,
+      "t": "O God, hearken to my petition; attend to my prayer."
+    },
+    {
+      "n": 3,
+      "t": "From the ends of the earth have I cried to thee, when my heart was in trouble: thou liftedst me up on a rock, thou didst guide me:"
+    },
+    {
+      "n": 4,
+      "t": "because thou wert my hope, a tower of strength from the face of the enemy."
+    },
+    {
+      "n": 5,
+      "t": "I will dwell in thy tabernacle for ever; I will shelter myself under the shadow of thy wings. Pause."
+    },
+    {
+      "n": 6,
+      "t": "For thou, O God, hast heard my prayers; thou hast given an inheritance to them that fear thy name."
+    },
+    {
+      "n": 7,
+      "t": "Thou shalt add days to the days of the king; [thou shalt lengthen] his years to all generations."
+    },
+    {
+      "n": 8,
+      "t": "He shall endure for ever before God: which of them will seek out his mercy and truth?"
+    },
+    {
+      "n": 9,
+      "t": "So will I sing to thy name for ever and ever, that I may daily perform my vows."
+    }
+  ]
+}

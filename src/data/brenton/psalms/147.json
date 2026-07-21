@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "bookName": "Psalms",
+  "testament": "OT",
+  "chapter": 147,
+  "totalChapters": 151,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Alleluia, [a Psalm] of Aggæus and Zacharias. Praise the Lord, O Jerusalem; praise thy God, O Sion."
+    },
+    {
+      "n": 2,
+      "t": "For he has strengthened the bars of thy gates; he has blessed thy children within thee."
+    },
+    {
+      "n": 3,
+      "t": "He makes thy borders peaceful, and fills thee with the flour of wheat."
+    },
+    {
+      "n": 4,
+      "t": "He sends his oracle to the earth: his word will run swiftly."
+    },
+    {
+      "n": 5,
+      "t": "He gives snow like wool: he scatters the mist like ashes."
+    },
+    {
+      "n": 6,
+      "t": "Casting [forth] his ice like morsels: who shall stand before his cold?"
+    },
+    {
+      "n": 7,
+      "t": "He shall send out his word, and melt them: he shall blow [with] his wind, and the waters shall flow."
+    },
+    {
+      "n": 8,
+      "t": "He sends his word to Jacob, his ordinances and judgments to Israel."
+    },
+    {
+      "n": 9,
+      "t": "He has not done so to any [other] nation; and he has not shewn them his judgments."
+    }
+  ]
+}

@@ -26,7 +26,7 @@ export async function getStaticPaths() {
 const { version, books } = Astro.props;
 const v = getVersion(version);
 
-const title = `${v.name} (${v.abbr}) — Read Online | Orthodox Christian Bible`;
+const title = `${v.name} (${v.abbr}) - Read Online | Orthodox Christian Bible`;
 const description = `Read the complete ${v.name} (${v.abbr}) online. ${v.description}`.slice(0, 155);
 
 const entries = Object.entries(books).sort();
