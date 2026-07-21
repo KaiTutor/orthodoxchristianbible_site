@@ -19,8 +19,8 @@ export const VERSIONS = [
     abbr: 'LXX',
     year: '1851',
     license: 'Public Domain',
-    description:
-      "Sir Lancelot C. L. Brenton's English translation of the Greek Septuagint — the Old Testament text used across the Orthodox Church.",
+    description: 
+      "Sir Lancelot C. L. Brenton's 1851 English translation of the Greek Septuagint - the Orthodox Old Testament, including Tobit, Judith, Wisdom, Sirach, Baruch, and 1–4 Maccabees.",
   },
   // {
   //   slug: 'osb',
