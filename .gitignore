@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Astro build cache / generated types
+.astro/
+
+# Env files (none currently used, but standard practice)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
