@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import { VERSIONS, getVersion } from '../../../data/versions.js';
+import { BOOK_ORDER } from '../../../data/book-order.js';
 
 export async function getStaticPaths() {
   const files = import.meta.glob('../../../data/*/*/*.json', { eager: true });
@@ -29,7 +30,11 @@ const v = getVersion(version);
 const title = `${v.name} (${v.abbr}) - Read Online | Orthodox Christian Bible`;
 const description = `Read the complete ${v.name} (${v.abbr}) online. ${v.description}`.slice(0, 155);
 
-const entries = Object.entries(books).sort();
+// Sort by canonical book order, not the default (alphabetical-by-slug) sort.
+const bookOrderIndex = new Map(BOOK_ORDER.map((slug, i) => [slug, i]));
+const entries = Object.entries(books).sort(
+  ([a], [b]) => (bookOrderIndex.get(a) ?? Infinity) - (bookOrderIndex.get(b) ?? Infinity),
+);
 ---
 <Base title={title} description={description}>
   <section class="wrap vhead">
