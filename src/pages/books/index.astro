@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// One JSON file per whole book (not per chapter, unlike scripture) — drop a
+// new src/data/books/<slug>/<slug>.json in and it shows up here automatically.
+const files = import.meta.glob('../../data/books/*/*.json', { eager: true });
+
+const books = Object.entries(files)
+  .map(([path, mod]) => {
+    const slug = path.split('/').at(-2);
+    const data = mod.default;
+    const book = data.books[0];
+    return {
+      slug,
+      name: book.name,
+      translation: data.translation,
+      chapterCount: book.chapters.length,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const title = 'Orthodox Texts & Books - Read Online | Orthodox Christian Bible';
+const description =
+  'Read the Divine Liturgy, the writings of the Church Fathers, and other Orthodox Christian texts online, free.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Orthodox Texts & Books',
+  description,
+  inLanguage: 'en',
+  url: new URL('/books/', Astro.site).href,
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/books/">
+  <section class="wrap index">
+    <p class="eyebrow">The Orthodox Library</p>
+    <h1>Books &amp; Texts</h1>
+    <p class="lede">
+      Liturgical texts and the writings of the Church Fathers — free to read
+      online, chapter by chapter.
+    </p>
+
+    <div class="cards">
+      {books.map((b) => (
+        <a class="card" href={`/books/${b.slug}/`}>
+          <strong>{b.name}</strong>
+          <span class="count">{b.chapterCount} chapters</span>
+          <span class="desc">{b.translation}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <style>
+    .index { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.7rem; line-height: 1.08;
+    }
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 2.2rem; }
+
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .card {
+      display: flex; flex-direction: column; gap: 0.35rem; text-decoration: none; color: var(--ink);
+      border: 1px solid var(--rule); border-radius: 6px; padding: 1.3rem 1.4rem; background: #fff;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: var(--gold); }
+    .card strong { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; }
+    .count {
+      font-family: 'Inter', sans-serif; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted);
+    }
+    .desc { color: #4a4a44; font-size: 0.98rem; }
+  </style>
+</Base>

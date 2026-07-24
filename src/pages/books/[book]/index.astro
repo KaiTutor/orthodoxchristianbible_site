@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+// Build one static page per book file under src/data/books/<slug>/. Unlike
+// scripture (one file per chapter), each of these files holds an entire book,
+// so its chapter list comes from the single file's own `chapters` array.
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../data/books/*/*.json', { eager: true });
+  const paths = [];
+
+  for (const path in files) {
+    const slug = path.split('/').at(-2);
+    const data = files[path].default;
+    const book = data.books[0];
+
+    paths.push({
+      params: { book: slug },
+      props: {
+        slug,
+        name: book.name,
+        translation: data.translation,
+        chapters: book.chapters.map((c) => c.chapter),
+      },
+    });
+  }
+  return paths;
+}
+
+const { slug, name, translation, chapters } = Astro.props;
+
+const title = `${name} - Read Online | Orthodox Christian Bible`;
+const description = `Read ${name} online. ${translation}`.slice(0, 155);
+---
+<Base title={title} description={description} canonicalPath={`/books/${slug}/`}>
+  <section class="wrap vhead">
+    <p class="eyebrow">{translation}</p>
+    <h1>{name}</h1>
+  </section>
+
+  <section class="wrap booklist">
+    <div class="book">
+      <ul class="chapters">
+        {chapters.map((ch) => (
+          <li><a href={`/books/${slug}/${ch}`}>{ch}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <style>
+    .vhead { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.12em;
+      font-size: 0.74rem; color: var(--muted); margin: 0 0 0.6rem;
+    }
+    .vhead h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 0 0 0.8rem; line-height: 1.05;
+    }
+    .booklist { margin-top: 2rem; }
+    .book { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
+    .chapters { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .chapters a {
+      display: inline-flex; align-items: center; justify-content: center; min-width: 2.4rem;
+      height: 2.4rem; padding: 0 0.5rem; border: 1px solid var(--rule); border-radius: 4px;
+      text-decoration: none; font-family: 'Inter', sans-serif; font-size: 0.9rem; color: var(--indigo);
+    }
+    .chapters a:hover { border-color: var(--gold); color: var(--oxblood); }
+  </style>
+</Base>

@@ -16,6 +16,11 @@ export async function getStaticPaths() {
     const chapter = parts[parts.length - 1].replace('.json', '');
     const data = files[path].default;
 
+    // Skip anything outside src/data/<registered version>/ — the glob is
+    // generic across all of src/data, so other content types (e.g. books/)
+    // that happen to also be 3 levels deep would otherwise match here too.
+    if (!getVersion(version)) continue;
+
     paths.push({
       params: { version, book, chapter },
       props: { data, version, book, chapter: Number(chapter) },
