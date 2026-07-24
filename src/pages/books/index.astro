@@ -1,79 +1,81 @@
 ---
-import Base from '../../../layouts/Base.astro';
+import Base from '../../layouts/Base.astro';
 
-// Build one static page per book file under src/data/books/<slug>/. Unlike
-// scripture (one file per chapter), each of these files holds an entire book,
-// so its chapter list comes from the single file's own `chapters` array.
-export async function getStaticPaths() {
-  const files = import.meta.glob('../../../data/books/*/*.json', { eager: true });
-  const paths = [];
+// One JSON file per whole book (not per chapter, unlike scripture) — drop a
+// new src/data/books/<slug>/<slug>.json in and it shows up here automatically.
+const files = import.meta.glob('../../data/books/*/*.json', { eager: true });
 
-  for (const path in files) {
+const books = Object.entries(files)
+  .map(([path, mod]) => {
     const slug = path.split('/').at(-2);
-    const data = files[path].default;
+    const data = mod.default;
     const book = data.books[0];
+    return {
+      slug,
+      name: book.name,
+      translation: data.translation,
+      chapterCount: book.chapters.length,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
 
-    paths.push({
-      params: { book: slug },
-      props: {
-        slug,
-        name: book.name,
-        translation: data.translation,
-        chapters: book.chapters.map((c) => c.chapter),
-      },
-    });
-  }
-  return paths;
-}
-
-const { slug, name, translation, chapters } = Astro.props;
-
-const title = `${name} - Read Online | Orthodox Christian Bible`;
-const description = `Read ${name} online. ${translation}`.slice(0, 155);
+const title = 'Orthodox Texts & Books - Read Online | Orthodox Christian Bible';
+const description =
+  'Read the Divine Liturgy, the writings of the Church Fathers, and other Orthodox Christian texts online, free.';
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name,
+  name: 'Orthodox Texts & Books',
   description,
   inLanguage: 'en',
-  url: new URL(`/books/${slug}/`, Astro.site).href,
+  url: new URL('/books/', Astro.site).href,
 };
 ---
-<Base title={title} description={description} jsonLd={jsonLd} canonicalPath={`/books/${slug}/`}>
-  <section class="wrap vhead">
-    <p class="eyebrow">{translation}</p>
-    <h1>{name}</h1>
-  </section>
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/books/">
+  <section class="wrap index">
+    <p class="eyebrow">The Orthodox Library</p>
+    <h1>Books &amp; Texts</h1>
+    <p class="lede">
+      Liturgical texts and the writings of the Church Fathers — free to read
+      online, chapter by chapter.
+    </p>
 
-  <section class="wrap booklist">
-    <div class="book">
-      <ul class="chapters">
-        {chapters.map((ch) => (
-          <li><a href={`/books/${slug}/${ch}`}>{ch}</a></li>
-        ))}
-      </ul>
+    <div class="cards">
+      {books.map((b) => (
+        <a class="card" href={`/books/${b.slug}/`}>
+          <strong>{b.name}</strong>
+          <span class="count">{b.chapterCount} chapters</span>
+          <span class="desc">{b.translation}</span>
+        </a>
+      ))}
     </div>
   </section>
 
   <style>
-    .vhead { padding-top: 3rem; }
+    .index { padding-top: 3rem; }
     .eyebrow {
-      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.12em;
-      font-size: 0.74rem; color: var(--muted); margin: 0 0 0.6rem;
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
     }
-    .vhead h1 {
+    h1 {
       font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
-      font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 0 0 0.8rem; line-height: 1.05;
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.7rem; line-height: 1.08;
     }
-    .booklist { margin-top: 2rem; }
-    .book { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
-    .chapters { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .chapters a {
-      display: inline-flex; align-items: center; justify-content: center; min-width: 2.4rem;
-      height: 2.4rem; padding: 0 0.5rem; border: 1px solid var(--rule); border-radius: 4px;
-      text-decoration: none; font-family: 'Inter', sans-serif; font-size: 0.9rem; color: var(--indigo);
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 2.2rem; }
+
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .card {
+      display: flex; flex-direction: column; gap: 0.35rem; text-decoration: none; color: var(--ink);
+      border: 1px solid var(--rule); border-radius: 6px; padding: 1.3rem 1.4rem; background: #fff;
+      transition: border-color 0.15s;
     }
-    .chapters a:hover { border-color: var(--gold); color: var(--oxblood); }
+    .card:hover { border-color: var(--gold); }
+    .card strong { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; }
+    .count {
+      font-family: 'Inter', sans-serif; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted);
+    }
+    .desc { color: #4a4a44; font-size: 0.98rem; }
   </style>
 </Base>

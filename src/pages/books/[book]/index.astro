@@ -30,8 +30,17 @@ const { slug, name, translation, chapters } = Astro.props;
 
 const title = `${name} - Read Online | Orthodox Christian Bible`;
 const description = `Read ${name} online. ${translation}`.slice(0, 155);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name,
+  description,
+  inLanguage: 'en',
+  url: new URL(`/books/${slug}/`, Astro.site).href,
+};
 ---
-<Base title={title} description={description} canonicalPath={`/books/${slug}/`}>
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath={`/books/${slug}/`}>
   <section class="wrap vhead">
     <p class="eyebrow">{translation}</p>
     <h1>{name}</h1>
