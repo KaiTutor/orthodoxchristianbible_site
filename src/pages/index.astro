@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { VERSIONS } from '../data/versions.js';
 import { APP } from '../data/app.js';
+import { REVIEWS } from '../data/reviews.js';
 
 const title = 'Orthodox Christian Bible - Prayers, Scripture & the Church Fathers';
 const description =
@@ -100,6 +101,82 @@ const jsonLd = {
       </div>
     </div>
   </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <div class="wrap">
+      <h2 class="section-title">What people are saying</h2>
+
+      <div class="carousel" id="reviews-carousel">
+        <div class="track" id="reviews-track">
+          {REVIEWS.map((r) => (
+            <article class="review-card">
+              <div class="stars" aria-label={`${r.rating} out of 5 stars`} aria-hidden="true">
+                {'★'.repeat(r.rating)}
+              </div>
+              <h3>{r.title}</h3>
+              <p class="review-text">{r.text}</p>
+              <p class="review-meta">{r.author} · App Store · {r.date}</p>
+            </article>
+          ))}
+        </div>
+
+        <button class="arrow prev" id="reviews-prev" type="button" aria-label="Previous review">‹</button>
+        <button class="arrow next" id="reviews-next" type="button" aria-label="Next review">›</button>
+      </div>
+
+      <div class="dots" id="reviews-dots" role="tablist" aria-label="Choose a review">
+        {REVIEWS.map((_, i) => (
+          <button class="dot" type="button" data-index={i} role="tab" aria-label={`Show review ${i + 1}`}></button>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var carousel = document.getElementById('reviews-carousel');
+      var track = document.getElementById('reviews-track');
+      var prevBtn = document.getElementById('reviews-prev');
+      var nextBtn = document.getElementById('reviews-next');
+      var dotsWrap = document.getElementById('reviews-dots');
+      if (!carousel || !track || !prevBtn || !nextBtn || !dotsWrap) return;
+
+      var dots = Array.prototype.slice.call(dotsWrap.querySelectorAll('.dot'));
+      var count = track.children.length;
+      var index = 0;
+
+      // Reviews vary a lot in length, so size the carousel to the card
+      // that's actually in view rather than the tallest one in the set
+      // (a plain flex row would otherwise stretch to the longest review
+      // and leave the arrows floating far below short ones).
+      function render() {
+        track.style.transform = 'translateX(-' + index * 100 + '%)';
+        carousel.style.height = track.children[index].offsetHeight + 'px';
+        dots.forEach(function (dot, i) {
+          var active = i === index;
+          dot.classList.toggle('active', active);
+          dot.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+      }
+
+      function goTo(i) {
+        index = (i + count) % count;
+        render();
+      }
+
+      prevBtn.addEventListener('click', function () { goTo(index - 1); });
+      nextBtn.addEventListener('click', function () { goTo(index + 1); });
+      dots.forEach(function (dot, i) {
+        dot.addEventListener('click', function () { goTo(i); });
+      });
+
+      // Re-measure on resize: text reflow at a new width changes card height.
+      window.addEventListener('resize', render);
+
+      render();
+    })();
+  </script>
 
   <style>
     .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
@@ -201,10 +278,52 @@ const jsonLd = {
     }
     .vdesc { color: #4a4a44; font-size: 1rem; }
 
+    /* ---- REVIEWS ---- */
+    .reviews { margin-top: 3.5rem; padding: 3rem 0 3.5rem; }
+    .carousel { position: relative; overflow: hidden; transition: height 0.35s ease; }
+    .track { display: flex; align-items: flex-start; transition: transform 0.35s ease; }
+    .review-card {
+      flex: 0 0 100%; box-sizing: border-box; padding: 0.2rem 3.2rem;
+      display: flex; flex-direction: column; gap: 0.7rem; text-align: center; align-items: center;
+    }
+    .stars { color: var(--gold); font-size: 1.1rem; letter-spacing: 0.15em; }
+    .review-card h3 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: 1.3rem; margin: 0;
+    }
+    .review-text {
+      font-size: 1.08rem; line-height: 1.7; color: #4a4a44; max-width: 56ch;
+    }
+    .review-meta {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin: 0;
+    }
+
+    .arrow {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      width: 2.4rem; height: 2.4rem; border-radius: 50%; border: 1px solid var(--rule);
+      background: #fff; color: var(--indigo); font-size: 1.4rem; line-height: 1; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .arrow:hover { border-color: var(--gold); color: var(--oxblood); }
+    .arrow.prev { left: 0; }
+    .arrow.next { right: 0; }
+
+    .dots { display: flex; justify-content: center; gap: 0.5rem; margin-top: 1.6rem; }
+    .dot {
+      width: 0.55rem; height: 0.55rem; border-radius: 50%; border: none;
+      background: var(--rule); cursor: pointer; padding: 0;
+    }
+    .dot.active { background: var(--gold); }
+
     @media (max-width: 760px) {
       .hero-inner { grid-template-columns: 1fr; }
       .hero-art { order: -1; }
       .phone { width: 170px; height: 340px; }
+    }
+
+    @media (max-width: 640px) {
+      .review-card { padding: 0.2rem 2.6rem; }
     }
   </style>
 </Base>
