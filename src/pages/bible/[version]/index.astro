@@ -35,8 +35,17 @@ const bookOrderIndex = new Map(BOOK_ORDER.map((slug, i) => [slug, i]));
 const entries = Object.entries(books).sort(
   ([a], [b]) => (bookOrderIndex.get(a) ?? Infinity) - (bookOrderIndex.get(b) ?? Infinity),
 );
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${v.name} (${v.abbr})`,
+  description,
+  inLanguage: 'en',
+  url: new URL(`/bible/${version}/`, Astro.site).href,
+};
 ---
-<Base title={title} description={description}>
+<Base title={title} description={description} jsonLd={jsonLd}>
   <section class="wrap vhead">
     <p class="eyebrow">{v.year} · {v.license}</p>
     <h1>{v.name}</h1>
