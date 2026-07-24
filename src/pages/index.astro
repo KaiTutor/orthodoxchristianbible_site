@@ -8,7 +8,7 @@ const title = 'Orthodox Christian Bible - Prayers, Scripture & the Church Father
 const description =
   'Read the Bible online, pray the daily prayers of the Orthodox Church, follow the calendar, and explore the Church Fathers. Also available as a free iOS app.';
 
-const jsonLd = {
+const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'Orthodox Christian Bible',
@@ -19,6 +19,25 @@ const jsonLd = {
     'query-input': 'required name=search_term_string',
   },
 };
+
+// Aggregate rating for the "Orthodoxy" iOS app — powers the star rich
+// snippet in search results. Keep ratingValue/ratingCount in sync with the
+// real App Store numbers (edited in src/data/app.js).
+const appJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: APP.name,
+  operatingSystem: 'iOS',
+  applicationCategory: 'LifestyleApplication',
+  url: APP.appStoreUrl,
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: APP.rating,
+    ratingCount: APP.ratingCount,
+  },
+};
+
+const jsonLd = [websiteJsonLd, appJsonLd];
 ---
 <Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/">
   <!-- APP FUNNEL HERO -->
@@ -106,6 +125,10 @@ const jsonLd = {
   <section class="reviews">
     <div class="wrap">
       <h2 class="section-title">What people are saying</h2>
+      <p class="rating-summary">
+        <span class="rs-stars" aria-hidden="true">★★★★★</span>
+        {APP.rating} out of 5 · {APP.ratingCount} App Store reviews
+      </p>
 
       <div class="carousel" id="reviews-carousel">
         <div class="track" id="reviews-track">
@@ -280,6 +303,12 @@ const jsonLd = {
 
     /* ---- REVIEWS ---- */
     .reviews { margin-top: 3.5rem; padding: 3rem 0 3.5rem; }
+    .rating-summary {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      font-family: 'Inter', sans-serif; font-size: 0.92rem; color: var(--muted);
+      margin: 0 0 2.2rem;
+    }
+    .rs-stars { color: var(--gold); font-size: 1rem; letter-spacing: 0.1em; }
     .carousel { position: relative; overflow: hidden; transition: height 0.35s ease; }
     .track { display: flex; align-items: flex-start; transition: transform 0.35s ease; }
     .review-card {
