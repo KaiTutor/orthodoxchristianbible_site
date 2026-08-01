@@ -160,9 +160,12 @@ fetch script calls the public, unauthenticated `orthocal.info` API.
   that builds or deploys the site itself — Cloudflare's own git integration owns that.
 - **Security headers:** `public/_headers` (Cloudflare Pages' native headers file) applies
   CSP, HSTS, X-Frame-Options, etc. to all routes. The CSP explicitly allows
-  `wasm-unsafe-eval` (required for Pagefind's WASM search) and `connect-src
+  `wasm-unsafe-eval` (required for Pagefind's WASM search), `connect-src
   https://orthocal.info` (the readings API called client-side... verify if this is actually
-  called client-side or only at build time before changing this header).
+  called client-side or only at build time before changing this header), and
+  `https://static.cloudflareinsights.com` / `https://cloudflareinsights.com` in
+  `script-src`/`connect-src` (Cloudflare Web Analytics' auto-injected beacon script —
+  required whenever Web Analytics is enabled on the zone, otherwise the CSP blocks it).
 - **Content pipeline as CI:** `.github/workflows/fetch-readings.yml` runs daily at 08:10 UTC
   (plus manual `workflow_dispatch`). It runs `node scripts/fetch-readings.mjs --refresh 2`,
   and if that produced any new/changed files under `src/data/readings/`, commits them with
