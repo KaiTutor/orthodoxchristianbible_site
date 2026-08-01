@@ -197,8 +197,10 @@ tokens) live in `Base.astro`'s `is:global` block.
 - **Layout:** a `.wrap` utility class (`max-width: 720px; margin: 0 auto; padding: 0
   1.5rem;`) is the standard content-width container for reading-focused pages (chapters,
   readings). Wider sections (homepage hero/features) use their own max-width.
-- Responsive breakpoints are ad hoc (`@media (max-width: 640px)` / `760px`), not a token
-  system — mobile-nav collapse triggers at 640px, homepage hero reflow at 760px.
+- Responsive breakpoints are ad hoc (`@media (max-width: 1024px)` / `760px`), not a token
+  system — mobile-nav collapse triggers at 1024px (raised from 640px once the nav grew to 8
+  items and started wrapping mid-phrase at in-between widths — see `header.site .bar`'s
+  1100px cap in `Base.astro`), homepage hero reflow at 760px.
 - Accessibility touches are consistent across components: `:focus-visible` outlines,
   `prefers-reduced-motion` handling in `Base.astro`, `aria-label`/`aria-expanded` on the
   mobile nav toggle, skip-friendly `.sr` (screen-reader-only) utility class on the homepage

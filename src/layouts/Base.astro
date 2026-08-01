@@ -57,7 +57,7 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
         position: relative;
       }
       header.site .bar {
-        max-width: 960px; margin: 0 auto; padding: 0.9rem 1.5rem;
+        max-width: 1100px; margin: 0 auto; padding: 0.9rem 1.5rem;
         display: flex; align-items: center; justify-content: space-between; gap: 1rem;
       }
       .brand {
@@ -68,7 +68,7 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
       nav.versions { display: flex; gap: 1.1rem; font-family: 'Inter', sans-serif; font-size: 0.82rem; }
       nav.versions a {
         text-transform: uppercase; letter-spacing: 0.08em; color: var(--indigo);
-        text-decoration: none; font-weight: 600;
+        text-decoration: none; font-weight: 600; white-space: nowrap;
       }
       nav.versions a:hover { color: var(--gold); }
 
@@ -85,7 +85,7 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
       .nav-toggle[aria-expanded='true'] .icon-open { display: none; }
       .nav-toggle[aria-expanded='true'] .icon-close { display: block; }
 
-      @media (max-width: 640px) {
+      @media (max-width: 1024px) {
         header.site .bar { padding: 0.8rem 1.1rem; }
         .nav-toggle { display: block; }
 
@@ -203,7 +203,7 @@ const { title, description, jsonLd, canonicalPath } = Astro.props;
 
         // If the viewport grows past the mobile breakpoint, reset state.
         window.addEventListener('resize', function () {
-          if (window.innerWidth > 640) setOpen(false);
+          if (window.innerWidth > 1024) setOpen(false);
         });
       })();
     </script>
