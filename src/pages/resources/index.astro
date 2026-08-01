@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import { RESOURCE_CATEGORIES, RESOURCES } from '../../data/resources.js';
+
+const categories = [...RESOURCE_CATEGORIES]
+  .sort((a, b) => a.order - b.order)
+  .map((cat) => ({
+    ...cat,
+    items: RESOURCES.filter((r) => r.category === cat.slug).sort((a, b) =>
+      a.title.localeCompare(b.title),
+    ),
+  }))
+  .filter((cat) => cat.items.length > 0);
+
+const title = 'Orthodox Resources - Books, Podcasts, YouTube & More | Orthodox Christian Bible';
+const description =
+  'A curated library of Orthodox Christian books, YouTube channels, websites, podcasts, and audiobooks worth your time.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Orthodox Resources',
+  description,
+  inLanguage: 'en',
+  url: new URL('/resources/', Astro.site).href,
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd} canonicalPath="/resources/">
+  <section class="wrap index">
+    <p class="eyebrow">Recommended</p>
+    <h1>Resources</h1>
+    <p class="lede">
+      Books, YouTube channels, websites, podcasts, and audiobooks worth your
+      time for going deeper into the Orthodox Christian faith.
+    </p>
+
+    {categories.length === 0 && <p class="empty">Resources are on the way.</p>}
+
+    {categories.map((cat) => (
+      <div class="category">
+        <h2>{cat.name}</h2>
+        <div class="cards">
+          {cat.items.map((r) => (
+            <a class="card" href={`/resources/${r.slug}/`}>
+              <strong>{r.title}</strong>
+              {r.creator && <span class="creator">{r.creator}</span>}
+              <span class="desc">{r.description}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <style>
+    .index { padding-top: 3rem; }
+    .eyebrow {
+      font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.16em;
+      font-size: 0.74rem; color: var(--gold); margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.7rem; line-height: 1.08;
+    }
+    .lede { color: #4a4a44; max-width: 52ch; margin: 0 0 2.2rem; }
+    .empty { color: var(--muted); font-style: italic; }
+
+    .category { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 2rem; }
+    .category h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.5rem;
+      margin: 0 0 1rem;
+    }
+
+    .cards { display: grid; gap: 1rem; }
+    .card {
+      display: flex; flex-direction: column; gap: 0.35rem; text-decoration: none;
+      color: var(--ink); border: 1px solid var(--rule); border-radius: 6px;
+      padding: 1.3rem 1.4rem; background: #fff; transition: border-color 0.15s;
+    }
+    .card:hover { border-color: var(--gold); }
+    .card strong { font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.2rem; }
+    .creator {
+      font-family: 'Inter', sans-serif; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted);
+    }
+    .desc { color: #4a4a44; font-size: 0.98rem; }
+  </style>
+</Base>

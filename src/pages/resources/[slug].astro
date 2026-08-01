@@ -1,0 +1,99 @@
+---
+import Base from '../../layouts/Base.astro';
+import { RESOURCES, RESOURCE_CATEGORIES } from '../../data/resources.js';
+
+// One static page per resource. Adding an entry to resources.js
+// automatically creates its page here — no code changes needed.
+export async function getStaticPaths() {
+  return RESOURCES.map((r) => ({
+    params: { slug: r.slug },
+    props: { resource: r },
+  }));
+}
+
+const { resource } = Astro.props;
+const category = RESOURCE_CATEGORIES.find((c) => c.slug === resource.category);
+const categoryName = category?.name ?? resource.category;
+// "Books" -> "Book", "YouTube Channels" -> "YouTube Channel", etc.
+const visitLabel = categoryName.replace(/s$/, '');
+
+const title = `${resource.title} | Orthodox Christian Bible`;
+const description = resource.description.slice(0, 155);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: resource.title,
+  description: resource.description,
+  inLanguage: 'en',
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  ...(resource.creator ? { author: { '@type': 'Person', name: resource.creator } } : {}),
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Resources', item: new URL('/resources/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: categoryName, item: new URL('/resources/', Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: resource.title },
+    ],
+  },
+};
+
+// Split the body into paragraphs on blank lines — same convention as articles.js.
+const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Boolean);
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <article class="wrap resource">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/resources/">Resources</a>
+      <span aria-hidden="true">·</span>
+      <span>{categoryName}</span>
+    </nav>
+
+    <h1>{resource.title}</h1>
+    {resource.creator && <p class="creator-line">By {resource.creator}</p>}
+    <p class="lede">{resource.description}</p>
+
+    <div class="body" data-pagefind-body data-pagefind-filter="Section:Resources">
+      {paragraphsOf(resource.body).map((para) => <p>{para}</p>)}
+    </div>
+
+    <a class="visit-btn" href={resource.url} rel="noopener" target="_blank">
+      Visit this {visitLabel} ↗
+    </a>
+
+    <p class="back"><a href="/resources/">← All resources</a></p>
+  </article>
+
+  <style>
+    .resource { padding-top: 2.5rem; }
+    .crumbs {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.8rem;
+    }
+    .crumbs a { color: var(--indigo); text-decoration: none; }
+    .crumbs span { margin: 0 0.5rem; color: var(--rule); }
+
+    h1 {
+      font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
+      font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.4rem; line-height: 1.08;
+    }
+    .creator-line {
+      font-family: 'Inter', sans-serif; font-size: 0.85rem; color: var(--muted); margin: 0 0 1rem;
+    }
+    .lede { font-size: 1.15rem; color: #4a4a44; max-width: 52ch; margin: 0 0 1.8rem; }
+
+    .body { border-top: 1px solid var(--rule); padding-top: 1.6rem; }
+    .body p { margin: 0 0 1rem; }
+
+    .visit-btn {
+      display: inline-block; margin-top: 1.6rem; background: var(--gold); color: var(--indigo);
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.95rem;
+      padding: 0.85rem 1.5rem; border-radius: 6px; text-decoration: none;
+    }
+    .visit-btn:hover { background: var(--gold-bright); color: var(--indigo); }
+
+    .back { margin-top: 2.2rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
+    .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }
+    .back a:hover { color: var(--gold); }
+  </style>
+</Base>
