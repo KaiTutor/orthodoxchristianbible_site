@@ -22,8 +22,8 @@ export const APP = {
       body: 'A full Orthodox prayer library: Morning & Evening Prayers, Liturgical Hymns, the Trisagion, Prayers for the Departed, Before Holy Communion, and more. Daily notifications take you straight into prayer.',
     },
     {
-      title: 'Orthodox Study Bible',
-      body: 'Read the full Orthodox Study Bible with easy chapter navigation. A new verse of the day greets you each morning, synced to your home and lock screen widgets.',
+      title: 'Orthodox Study Bible (Coming Soon)',
+      body: 'We’re working with the publisher to bring the full Orthodox Study Bible into the app. It isn’t available yet, but we’re actively pursuing permission to add it.',
     },
     {
       title: 'Orthodox Calendar',
