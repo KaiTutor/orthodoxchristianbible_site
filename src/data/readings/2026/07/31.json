@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "fetched_at": "2026-07-13T23:41:38.763Z",
+  "fetched_at": "2026-07-31T10:48:58.023Z",
   "data": {
     "pascha_distance": 110,
     "julian_day_number": 2461253,
@@ -24,8 +24,7 @@
     "fast_exception_desc": "",
     "saints": [
       "Righteous Joseph of Arimathea",
-      "Righteous Eudocimus of Cappadocia (9th c.)",
-      "Righteous Joseph of Arimathea (1st c.)"
+      "Righteous Eudocimus of Cappadocia (9th c.)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -208,12 +207,12 @@
     ],
     "stories": [
       {
-        "title": "Righteous Eudocimus of Cappadocia (9th c.)",
-        "story": "<p>“Saint Eudocimus was from Cappadocia, the son of pious and most illustrious parents, patricians in rank. He especially cultivated chastity and mercy, the one by never meeting the gaze of a woman, the other by cheerfully providing the needs of the poor. When he was made military commander of Cappadocia, he continued in his righteous ways, showing mercy and uprightness in all his dealings. Having so lived in piety, quietly and without ostentation, he was called from this life at the age of thirty-three, about the year 840, during the reign of the Iconoclast Theophilus. Not long after his burial, his grave became a fountain of unending miracles, as God revealed the virtue that Eudocimus had striven to hide; when his grave was later opened, his body was found incorrupt. His holy relics were translated to Constantinople.” (<i>Great Horologion</i>)</p>"
+        "title": "Righteous Joseph of Arimathea",
+        "story": "<p>The “noble Joseph” was a secret follower of Christ and a wealthy member of the Jewish Sanhendrin (ruling council); it was he who provided Christ’s tomb. When his faith became known he was driven from the Sanhendrin, from the synagogues, and from the Holy Land, and traveled through many lands, proclaiming the Gospel of Christ. According to some accounts he eventually reached England, where he reposed in peace.</p>"
       },
       {
-        "title": "Righteous Joseph of Arimathea (1st c.)",
-        "story": "<p>The “noble Joseph” was a secret follower of Christ and a wealthy member of the Jewish Sanhendrin (ruling council); it was he who provided Christ’s tomb. When his faith became known he was driven from the Sanhendrin, from the synagogues, and from the Holy Land, and traveled through many lands, proclaiming the Gospel of Christ. According to some accounts he eventually reached England, where he reposed in peace.</p>"
+        "title": "Righteous Eudocimus of Cappadocia (9th c.)",
+        "story": "<p>“Saint Eudocimus was from Cappadocia, the son of pious and most illustrious parents, patricians in rank. He especially cultivated chastity and mercy, the one by never meeting the gaze of a woman, the other by cheerfully providing the needs of the poor. When he was made military commander of Cappadocia, he continued in his righteous ways, showing mercy and uprightness in all his dealings. Having so lived in piety, quietly and without ostentation, he was called from this life at the age of thirty-three, about the year 840, during the reign of the Iconoclast Theophilus. Not long after his burial, his grave became a fountain of unending miracles, as God revealed the virtue that Eudocimus had striven to hide; when his grave was later opened, his body was found incorrupt. His holy relics were translated to Constantinople.” (<i>Great Horologion</i>)</p>"
       }
     ]
   }
