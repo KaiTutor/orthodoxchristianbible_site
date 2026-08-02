@@ -27,7 +27,11 @@ const jsonLd = {
   description: resource.description,
   inLanguage: 'en',
   url: new URL(Astro.url.pathname, Astro.site).href,
-  ...(resource.creator ? { author: { '@type': 'Person', name: resource.creator } } : {}),
+  // Plain string, not typed as Person/Organization — creator is sometimes an
+  // individual (e.g. a YouTube host) and sometimes an institution (e.g. a
+  // publisher), and nothing here distinguishes which.
+  ...(resource.creator ? { author: resource.creator } : {}),
+  ...(resource.image ? { image: new URL(resource.image, Astro.site).href } : {}),
   breadcrumb: {
     '@type': 'BreadcrumbList',
     itemListElement: [
@@ -49,13 +53,36 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
       <span>{categoryName}</span>
     </nav>
 
-    <h1>{resource.title}</h1>
-    {resource.creator && <p class="creator-line">By {resource.creator}</p>}
-    <p class="lede">{resource.description}</p>
+    <div class="hero-row">
+      {resource.image && <img class="hero-img" src={resource.image} alt={resource.title} width="220" height="220" />}
+      <div class="hero-text">
+        <h1>{resource.title}</h1>
+        {resource.creator && <p class="creator-line">By {resource.creator}</p>}
+        <p class="lede">{resource.description}</p>
+      </div>
+    </div>
 
     <div class="body" data-pagefind-body data-pagefind-filter="Section:Resources">
       {paragraphsOf(resource.body).map((para) => <p>{para}</p>)}
     </div>
+
+    {resource.features && resource.features.length > 0 && (
+      <div class="features">
+        <h2>Highlights</h2>
+        <ul>
+          {resource.features.map((f) => <li>{f}</li>)}
+        </ul>
+      </div>
+    )}
+
+    {resource.specs && resource.specs.length > 0 && (
+      <div class="specs">
+        <h2>Technical Details</h2>
+        <ul>
+          {resource.specs.map((s) => <li>{s}</li>)}
+        </ul>
+      </div>
+    )}
 
     <a class="visit-btn" href={resource.url} rel="noopener" target="_blank">
       Visit this {visitLabel} ↗
@@ -73,6 +100,13 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
     .crumbs a { color: var(--indigo); text-decoration: none; }
     .crumbs span { margin: 0 0.5rem; color: var(--rule); }
 
+    .hero-row { display: flex; gap: 1.8rem; align-items: flex-start; margin-bottom: 1.8rem; }
+    .hero-img {
+      width: 9.5rem; height: 9.5rem; flex: none; border-radius: 8px;
+      object-fit: cover; border: 1px solid var(--rule); background: var(--parchment-deep);
+    }
+    .hero-text { min-width: 0; }
+
     h1 {
       font-family: 'Spectral', serif; font-weight: 700; color: var(--oxblood);
       font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.4rem; line-height: 1.08;
@@ -80,10 +114,23 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
     .creator-line {
       font-family: 'Inter', sans-serif; font-size: 0.85rem; color: var(--muted); margin: 0 0 1rem;
     }
-    .lede { font-size: 1.15rem; color: #4a4a44; max-width: 52ch; margin: 0 0 1.8rem; }
+    .lede { font-size: 1.15rem; color: #4a4a44; max-width: 52ch; margin: 0; }
 
     .body { border-top: 1px solid var(--rule); padding-top: 1.6rem; }
     .body p { margin: 0 0 1rem; }
+
+    .features, .specs { border-top: 1px solid var(--rule); padding-top: 1.6rem; margin-top: 1.8rem; }
+    .features h2, .specs h2 {
+      font-family: 'Spectral', serif; color: var(--indigo); font-size: 1.3rem; margin: 0 0 0.9rem;
+    }
+    .features ul, .specs ul { margin: 0; padding-left: 1.3rem; }
+    .features li { margin-bottom: 0.9rem; line-height: 1.6; }
+    .specs li { margin-bottom: 0.5rem; color: #4a4a44; }
+
+    @media (max-width: 640px) {
+      .hero-row { flex-direction: column; align-items: center; text-align: center; }
+      .lede { max-width: none; }
+    }
 
     .visit-btn {
       display: inline-block; margin-top: 1.6rem; background: var(--gold); color: var(--indigo);
