@@ -18,6 +18,10 @@
 //               bullet list under the body.
 //   specs       Optional array of short strings for a "Technical Details"
 //               bullet list (page count, format, etc.) — mainly for books.
+//   embed       Optional embed src URL (e.g. a Spotify show/episode embed
+//               link) — rendered as an iframe near the top of the page.
+//               The embed's origin must be allowed in public/_headers'
+//               CSP frame-src, or the browser will silently block it.
 
 export const RESOURCE_CATEGORIES = [
   { slug: 'books', name: 'Books', order: 1 },
@@ -54,6 +58,25 @@ Ancient Christianity speaks to today's world. The Orthodox Study Bible unites th
       'Clear and readable 9.5-point type',
       'Hardcover dimension: 6-5/8" x 9-1/2" x 1.5"',
     ],
+  },
+
+  {
+    slug: 'orthodox-wisdom',
+    title: 'Orthodox Wisdom',
+    category: 'podcasts',
+    creator: 'Timothy Honeycutt',
+    url: 'https://open.spotify.com/show/3jloW3Pjt5GHRvtRuqM0O2?si=51e751eab4394444&nd=1&dlsi=2d08d0d32c844acd',
+    image: '/resources/orthodox-wisdom-spotifiy-image.jpg',
+    embed: 'https://open.spotify.com/embed/show/3jloW3Pjt5GHRvtRuqM0O2?utm_source=generator&si=f5d2273dce804b5e',
+    description:
+      'Readings from Saints of Holy Orthodoxy — a podcast of readings from the writings and lives of Orthodox Christian saints.',
+    body: `A podcast on Spotify of the readings of the saints. Readings of the Writings and Lives of Orthodox Christian Saints.
+
+These recordings are free to download and share. All I ask is that you do so respectfully and reference this channel.
+
+You can also contact me, Timothy Honeycutt, at: orthodoxwisdom1@gmail.com
+
+Glory to Jesus Christ!`,
   },
 
   // Example — copy this shape for a new entry, then delete the example:
