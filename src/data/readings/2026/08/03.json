@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "fetched_at": "2026-07-13T23:41:39.860Z",
+  "fetched_at": "2026-08-02T10:05:34.553Z",
   "data": {
     "pascha_distance": 113,
     "julian_day_number": 2461256,
@@ -23,7 +23,8 @@
     "saints": [
       "Ven. Isaac, Dalmatius, Faustus",
       "Ven. Anthony the Roman of Novgorod",
-      "Holy Myrrh-bearer Salome"
+      "Holy Myrrh-bearer Salome",
+      "St Isaac, Founder of the Dalmatian Monastery"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -143,16 +144,16 @@
     ],
     "stories": [
       {
-        "title": "Sts Isaac, Dalmatus and Faustus, ascetics of the Dalmatian Monastery, Constantinople (5th c.)",
+        "title": "Ven. Isaac, Dalmatius, Faustus",
         "story": "<p>St Isaac is also commemorated May 30; see his life there. St Dalmatus was a soldier in the Imperial army, but along with his son Faustus left all to become a monk at the monastery founded by St Isaac. He was present at the Third Ecumenical Council at Ephesus in 431; there he labored zealously for the Orthodox faith against Patriarch Nestorius. He was made Archimandrite of all the monasteries in Constantinople, and reposed in peace, having lived for more than eighty years.</p>"
+      },
+      {
+        "title": "Ven. Anthony the Roman of Novgorod",
+        "story": "<p>He was born in Rome in 1086 to wealthy and pious parents. When the Roman Church broke away from the Orthodox around that time, those who continued to uphold Orthodoxy, Antony among them, were persecuted. Antony gave away his worldly possessions and fled to a small rocky island in the sea, where he spent fourteen months in asceticism. During this time, the island miraculously floated like a ship to Novgorod. There, Archbishop Nikita received the young monk and helped him to build a church to the holy Theotokos, which in time became a monastery. St Anthony served there as abbot for many years, reposing in peace in 1148.</p>"
       },
       {
         "title": "Holy Myrrh-bearer Salome",
         "story": "<p>She was the mother of the Apostles James and John, the wife of Zebedee, and the daughter of Joseph the Betrothed, who was a widower when he became betrothed to the Mother of God. She was a disciple of the Lord and one of the Myrrh-bearing women who first brought tidings of the Resurrection to the world.</p>"
-      },
-      {
-        "title": "Our Holy Father Antony the Roman (1148)",
-        "story": "<p>He was born in Rome in 1086 to wealthy and pious parents. When the Roman Church broke away from the Orthodox around that time, those who continued to uphold Orthodoxy, Antony among them, were persecuted. Antony gave away his worldly possessions and fled to a small rocky island in the sea, where he spent fourteen months in asceticism. During this time, the island miraculously floated like a ship to Novgorod. There, Archbishop Nikita received the young monk and helped him to build a church to the holy Theotokos, which in time became a monastery. St Anthony served there as abbot for many years, reposing in peace in 1148.</p>"
       }
     ]
   }
