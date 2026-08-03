@@ -266,6 +266,171 @@ For Thou art the illumination of our souls and bodies, O Christ our God, and unt
       },
     ],
   },
+
+  {
+    slug: 'intercessions',
+    name: 'Prayers of Intercession',
+    order: 9,
+    description: 'Prayers for those who suffer, and for the departed.',
+    prayers: [
+      {
+        title: 'For the Sick',
+        text: `O Christ, Who alone art our Defender: Visit and heal Thy suffering servant __________, delivering him from sickness and grievous pains. Raise him up that he may sing to Thee and praise Thee without ceasing; through the prayers of the Theotokos, O Thou Who alone lovest mankind.`,
+      },
+      {
+        title: 'For the Departed',
+        text: `O God of spirits and of all flesh, Who hast trampled down death and overthrown the devil, and given life to Thy world: Do Thou, the same Lord, give rest to the souls of Thy departed servants in a place of brightness, a place of refreshment, a place of repose, where all sickness, sighing, and sorrow have fled away. Pardon every transgression which they have committed, whether by word or deed or thought. For Thou art a good God and lovest mankind, because there is no man who lives yet does not sin; for Thou only art without sin; Thy righteousness is to all eternity, and Thy word is truth.
+
+For Thou art the Resurrection, the Life, and the Repose of Thy servants who have fallen asleep, O Christ our God, and unto Thee we ascribe glory, together with Thy Father, Who is from everlasting, and Thine all-holy, good, and life-creating Spirit, now and ever and unto ages of ages. Amen.`,
+      },
+    ],
+  },
+
+  {
+    slug: 'hymns',
+    name: 'Selected Liturgical Hymns',
+    order: 10,
+    description:
+      'Troparia of the Resurrection and the great feasts, and the Lenten Prayer of St. Ephraim the Syrian.',
+    prayers: [
+      {
+        title: 'Paschal Troparion',
+        text: `Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life!`,
+      },
+      {
+        title: 'Paschal Hypakoe',
+        text: `Before the dawn, Mary and the women came and found the stone rolled away from the tomb. They heard the angelic voice: "Why do you seek among the dead as a man the One Who is Everlasting Light? Behold the clothes in the grave! Go and proclaim to the world: The Lord is risen!" He has slain death, as He is the Son of God, saving the race of men.`,
+      },
+      {
+        title: 'Paschal Hymn to the Theotokos',
+        text: `The angel cried to the Lady Full of Grace: Rejoice, O Pure Virgin! Again I say: Rejoice! Your Son is risen from His three days in the tomb! With Himself He has raised all the dead! Rejoice, all ye people!
+
+Shine! Shine! O New Jerusalem! The glory of the Lord has shone on you! Exalt now and be glad, O Zion! Be radiant, O Pure Theotokos, in the Resurrection of your Son!`,
+      },
+      {
+        title: 'Hymn to the Resurrection',
+        text: `Having beheld the Resurrection of Christ, let us worship the holy Lord Jesus, the only Sinless One! We venerate Thy Cross, O Christ, and Thy Holy Resurrection we praise and glorify; for Thou art our God, and we know no other than Thee; we call on Thy name. Come, all you faithful, let us venerate Christ's Holy Resurrection! For, behold, through the Cross joy has come into all the world. Ever blessing the Lord, let us praise His Resurrection. By enduring the Cross for us, He destroyed death by death!`,
+      },
+      {
+        title: 'Troparion of the Ascension',
+        text: `O Christ God, Thou hast ascended in glory, granting joy to Thy disciples by the promise of the Holy Spirit. Through the blessing they were assured that Thou art the Son of God, the Redeemer of the world!`,
+      },
+      {
+        title: 'Troparion of Pentecost',
+        text: `Blessed art Thou, O Christ our God, Who hast revealed the fishermen as most wise by sending down upon them the Holy Spirit; through them Thou didst draw the world into Thy net. O Lover of Man, glory to Thee!`,
+      },
+      {
+        title: 'Troparion of the Cross',
+        text: `O Lord, save Thy people, and bless Thine inheritance. Grant victories to the Orthodox Christians over their adversaries; and by the virtue of Thy Cross, preserve Thy habitation.`,
+      },
+      {
+        title: 'Troparion of the Nativity',
+        text: `Thy Nativity, O Christ our God, has shone to the world the light of wisdom! For by it those who worshipped the stars were taught by a star to adore Thee, the Sun of Righteousness, and to know Thee, the Orient from on high! O Lord, glory to Thee!`,
+      },
+      {
+        title: 'Troparion of the Epiphany',
+        text: `When Thou, O Lord, wast baptized in the Jordan, the worship of the Trinity was made manifest! For the voice of the Father bore witness to Thee, and called Thee His beloved Son! And the Spirit, in the form of a dove, confirmed the truthfulness of His word. O Christ our God, Who hast revealed Thyself and hast enlightened the world, glory to Thee!`,
+      },
+      {
+        title: 'Troparion of the Annunciation',
+        text: `Today is the beginning of our salvation, the revelation of the eternal mystery! The Son of God becomes the Son of the Virgin, as Gabriel announces the coming of Grace. Together with him let us cry to the Theotokos: Rejoice, O Full of Grace! The Lord is with you!`,
+      },
+      {
+        title: 'Troparion of the Transfiguration',
+        text: `Thou wast transfigured on the mount, O Christ God, revealing Thy glory to the disciples as far as they could bear it. Let Thine everlasting light shine upon us sinners! Through the prayers of the Theotokos, O Giver of Light, glory to Thee!`,
+      },
+      {
+        title: 'The Lenten Prayer of St. Ephraim the Syrian',
+        text: `O Lord and Master of my life, take from me the spirit of sloth, despair, lust of power, and idle talk.
+
+But give rather the spirit of chastity, humility, patience, and love to Thy servant.
+
+Yea, O Lord and King, grant me to see my own sins, and not to judge my brother, for Thou art blessed unto ages of ages. Amen.`,
+      },
+    ],
+  },
+
+  {
+    slug: 'psalms',
+    name: 'Selected Psalms',
+    order: 11,
+    description:
+      'A short selection of Psalms for personal devotion (King James Version).',
+    prayers: [
+      {
+        title: 'Psalm 23',
+        text: `The LORD is my shepherd; I shall not want. He makes me to lie down in green pastures: he leads me beside the still waters. He restores my soul: he leads me in the paths of righteousness for his name's sake.
+
+Yes, though I walk through the valley of the shadow of death, I will fear no evil: for you are with me; your rod and your staff they comfort me. You prepare a table before me in the presence of my enemies: you anoint my head with oil; my cup runs over.
+
+Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.`,
+      },
+      {
+        title: 'Psalm 34',
+        text: `I will bless the LORD at all times: his praise shall continually be in my mouth. My soul shall make her boast in the LORD: the humble shall hear thereof, and be glad. O magnify the LORD with me, and let us exalt his name together.
+
+I sought the LORD, and he heard me, and delivered me from all my fears. They looked to him, and were lightened: and their faces were not ashamed. This poor man cried, and the LORD heard him, and saved him out of all his troubles. The angel of the LORD encamps round about them that fear him, and delivers them. O taste and see that the LORD is good: blessed is the man that trusts in him. O fear the LORD, you his saints: for there is no want to them that fear him. The young lions do lack, and suffer hunger: but they that seek the LORD shall not want any good thing.
+
+Come, you children, listen to me: I will teach you the fear of the LORD. What man is he that desires life, and loves many days, that he may see good? Keep your tongue from evil, and your lips from speaking guile. Depart from evil, and do good; seek peace, and pursue it.
+
+The eyes of the LORD are on the righteous, and his ears are open to their cry. The face of the LORD is against them that do evil, to cut off the remembrance of them from the earth. The righteous cry, and the LORD hears, and delivers them out of all their troubles. The LORD is near to them that are of a broken heart; and saves such as be of a contrite spirit. Many are the afflictions of the righteous: but the LORD delivers him out of them all. He keeps all his bones: not one of them is broken.
+
+Evil shall slay the wicked: and they that hate the righteous shall be desolate. The LORD redeems the soul of his servants: and none of them that trust in him shall be desolate.`,
+      },
+      {
+        title: 'Psalm 42',
+        text: `As the hart pants after the water brooks, so pants my soul after you, O God. My soul thirsts for God, for the living God: when shall I come and appear before God? My tears have been my meat day and night, while they continually say to me, Where is your God?
+
+When I remember these things, I pour out my soul in me: for I had gone with the multitude, I went with them to the house of God, with the voice of joy and praise, with a multitude that kept holy day. Why are you cast down, O my soul? and why are you disquieted in me? hope you in God: for I shall yet praise him for the help of his countenance.
+
+O my God, my soul is cast down within me: therefore will I remember you from the land of Jordan, and of the Hermonites, from the hill Mizar. Deep calls to deep at the noise of your waterspouts: all your waves and your billows are gone over me. Yet the LORD will command his loving kindness in the day time, and in the night his song shall be with me, and my prayer to the God of my life.
+
+I will say to God my rock, Why have you forgotten me? why go I mourning because of the oppression of the enemy? As with a sword in my bones, my enemies reproach me; while they say daily to me, Where is your God?
+
+Why are you cast down, O my soul? and why are you disquieted within me? hope you in God: for I shall yet praise him, who is the health of my countenance, and my God.`,
+      },
+      {
+        title: 'Psalm 67',
+        text: `God be merciful to us, and bless us; and cause his face to shine on us; that your way may be known on earth, your saving health among all nations.
+
+Let the people praise you, O God; let all the people praise you. O let the nations be glad and sing for joy: for you shall judge the people righteously, and govern the nations on earth.
+
+Let the people praise you, O God; let all the people praise you. Then shall the earth yield her increase; and God, even our own God, shall bless us. God shall bless us; and all the ends of the earth shall fear him.`,
+      },
+      {
+        title: 'Psalm 84',
+        text: `How amiable are your tabernacles, O LORD of hosts! My soul longs, yes, even faints for the courts of the LORD: my heart and my flesh cries out for the living God. Yes, the sparrow has found an house, and the swallow a nest for herself, where she may lay her young, even your altars, O LORD of hosts, my King, and my God.
+
+Blessed are they that dwell in your house: they will be still praising you. Blessed is the man whose strength is in you; in whose heart are the ways of them. Who passing through the valley of Baca make it a well; the rain also fills the pools. They go from strength to strength, every one of them in Zion appears before God.
+
+O LORD God of hosts, hear my prayer: give ear, O God of Jacob. Behold, O God our shield, and look on the face of your anointed. For a day in your courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.
+
+For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walk uprightly. O LORD of hosts, blessed is the man that trusts in you.`,
+      },
+      {
+        title: 'Psalm 134',
+        text: `Behold, bless you the LORD, all you servants of the LORD, which by night stand in the house of the LORD. Lift up your hands in the sanctuary, and bless the LORD. The LORD that made heaven and earth bless you out of Zion.`,
+      },
+      {
+        title: 'Psalm 138',
+        text: `I will praise you with my whole heart: before the gods will I sing praise to you. I will worship toward your holy temple, and praise your name for your loving kindness and for your truth: for you have magnified your word above all your name. In the day when I cried you answered me, and strengthened me with strength in my soul.
+
+All the kings of the earth shall praise you, O LORD, when they hear the words of your mouth. Yes, they shall sing in the ways of the LORD: for great is the glory of the LORD. Though the LORD be high, yet has he respect to the lowly: but the proud he knows afar off.
+
+Though I walk in the middle of trouble, you will revive me: you shall stretch forth your hand against the wrath of my enemies, and your right hand shall save me. The LORD will perfect that which concerns me: your mercy, O LORD, endures for ever: forsake not the works of your own hands.`,
+      },
+      {
+        title: 'Psalm 148',
+        text: `Praise you the LORD. Praise you the LORD from the heavens: praise him in the heights. Praise you him, all his angels: praise you him, all his hosts. Praise you him, sun and moon: praise him, all you stars of light. Praise him, you heavens of heavens, and you waters that be above the heavens.
+
+Let them praise the name of the LORD: for he commanded, and they were created. He has also established them for ever and ever: he has made a decree which shall not pass.
+
+Praise the LORD from the earth, you dragons, and all deeps: Fire, and hail; snow, and vapors; stormy wind fulfilling his word: Mountains, and all hills; fruitful trees, and all cedars: Beasts, and all cattle; creeping things, and flying fowl: Kings of the earth, and all people; princes, and all judges of the earth: Both young men, and maidens; old men, and children:
+
+Let them praise the name of the LORD: for his name alone is excellent; his glory is above the earth and heaven. He also exalts the horn of his people, the praise of all his saints; even of the children of Israel, a people near to him. Praise you the LORD.`,
+      },
+    ],
+  },
 ];
 
 export function getCategory(slug) {
