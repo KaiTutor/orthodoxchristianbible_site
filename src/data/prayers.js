@@ -61,7 +61,7 @@ O Lord, open Thou my lips, and my mouth shall show forth Thy praise. For Thou ha
 Do good to Zion in Thy good pleasure; rebuild the walls of Jerusalem. Then wilt Thou delight in right sacrifices, in burnt offerings and whole burnt offerings; then bulls will be offered on Thy altar.`,
       },
       {
-        title: 'The Symbol of Faith',
+        title: 'The Nicene Creed (Symbol of Faith)',
         text: `I believe in one God, the Father Almighty, Maker of Heaven and Earth, and of all things visible and invisible.
 
 And in one Lord Jesus Christ, the Son of God, the only-begotten, begotten of the Father before all ages. Light of Light; true God of true God; begotten, not made; of one essence with the Father, by Whom all things were made; Who for us men and for our salvation came down from Heaven, and was incarnate of the Holy Spirit and the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, and suffered, and was buried. And the third day He arose again, according to the Scriptures, and ascended into Heaven, and sits at the right hand of the Father; and He shall come again with glory to judge the living and the dead; Whose Kingdom shall have no end.
