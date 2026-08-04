@@ -18,10 +18,13 @@
 //               bullet list under the body.
 //   specs       Optional array of short strings for a "Technical Details"
 //               bullet list (page count, format, etc.) — mainly for books.
-//   embed       Optional embed src URL (e.g. a Spotify show/episode embed
-//               link) — rendered as an iframe near the top of the page.
-//               The embed's origin must be allowed in public/_headers'
-//               CSP frame-src, or the browser will silently block it.
+//   embed       Optional embed src URL (e.g. a Spotify show/episode or
+//               YouTube video embed link) — rendered as an iframe near the
+//               top of the page. The embed's origin must be allowed in
+//               public/_headers' CSP frame-src, or the browser will
+//               silently block it.
+//   quote       Optional { text, attribution } — shown as a styled
+//               pull-quote after the body write-up.
 
 export const RESOURCE_CATEGORIES = [
   { slug: 'books', name: 'Books', order: 1 },
@@ -77,6 +80,23 @@ These recordings are free to download and share. All I ask is that you do so res
 You can also contact me, Timothy Honeycutt, at: orthodoxwisdom1@gmail.com
 
 Glory to Jesus Christ!`,
+  },
+
+  {
+    slug: 'harmony',
+    title: 'harmony',
+    category: 'youtube',
+    creator: '@harmonyharmonyharmony',
+    url: 'https://www.youtube.com/@harmonyharmonyharmony',
+    image: '/resources/harmony-youtube.png',
+    embed: 'https://www.youtube.com/embed/kbqcLpxbHl4?si=Uy6JmXzxeuB5tr9P',
+    description:
+      'An Orthodox Christian production studio creating high-quality content drawn from the wisdom of the Eastern Orthodox Church.',
+    body: `We are a team of laymen dedicated to producing high-quality content that draws directly from the wisdom of the Eastern Orthodox Church. We believe that the words of the Holy Fathers and Mothers are just as relevant today as they were in centuries past, and our goal is to utilize technology to propagate these teachings to the ends of the Earth.`,
+    quote: {
+      text: 'When we labor in the fields of the Lord, we create harmony.',
+      attribution: 'Elder Thaddeus of Vitovnica',
+    },
   },
 
   // Example — copy this shape for a new entry, then delete the example:
