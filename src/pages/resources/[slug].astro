@@ -104,9 +104,16 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
       </blockquote>
     )}
 
-    <a class="visit-btn" href={resource.url} rel="noopener" target="_blank">
-      Visit this {visitLabel} ↗
-    </a>
+    <div class="cta-row">
+      <a class="visit-btn" href={resource.url} rel="noopener" target="_blank">
+        Visit this {visitLabel} ↗
+      </a>
+      {resource.secondaryLink && (
+        <a class="secondary-link" href={resource.secondaryLink.url} rel="noopener" target="_blank">
+          {resource.secondaryLink.label} →
+        </a>
+      )}
+    </div>
 
     <p class="back"><a href="/resources/">← All resources</a></p>
   </article>
@@ -171,6 +178,13 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
       padding: 0.85rem 1.5rem; border-radius: 6px; text-decoration: none;
     }
     .visit-btn:hover { background: var(--gold-bright); color: var(--indigo); }
+
+    .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem; }
+    .secondary-link {
+      font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 500;
+      color: var(--indigo); text-decoration: none;
+    }
+    .secondary-link:hover { color: var(--gold); }
 
     .back { margin-top: 2.2rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; }
     .back a { color: var(--indigo); text-decoration: none; font-weight: 500; }

@@ -25,6 +25,8 @@
 //               silently block it.
 //   quote       Optional { text, attribution } — shown as a styled
 //               pull-quote after the body write-up.
+//   secondaryLink Optional { label, url } — a small text link shown next
+//               to the main "Visit" button (e.g. a companion app).
 
 export const RESOURCE_CATEGORIES = [
   { slug: 'books', name: 'Books', order: 1 },
@@ -111,6 +113,24 @@ Glory to Jesus Christ!`,
     body: `Since its first publication thirty years ago, Timothy Ware's book has become established throughout the English-speaking world as the standard introduction to the Orthodox Church. Orthodoxy continues to be a subject of enormous interest among Western Christians, and the author believes that an understanding of its standpoint is necessary before the Roman Catholic and Protestant churches can be reunited.
 
 He explains the Orthodox views on such widely ranging matters as ecumenical councils, sacraments, free will, purgatory, the papacy, and the relation between the different Orthodox churches.`,
+  },
+
+  {
+    slug: 'ancient-faith-ministries',
+    title: 'Ancient Faith Ministries',
+    category: 'podcasts',
+    url: 'https://www.ancientfaith.com/',
+    image: '/resources/AFLogo_ministries.jpg',
+    secondaryLink: { label: 'Also available as an iOS app', url: 'https://apps.apple.com/us/app/ancient-faith/id542980935' },
+    description:
+      'Ancient Faith Ministries produces Orthodox Christian podcasts, radio, and publishing to evangelize, edify, educate, and engage.',
+    body: `Ancient Faith Ministries exists to carry out the Great Commission of Jesus Christ through accessible and excellently crafted publications and creative media that evangelize, edify, educate, and engage, leading to a living experience of God through His Holy Orthodox Church. It operates with the blessing of the Antiochian Orthodox Christian Archdiocese of North America, with a pan-Orthodox outreach.
+
+The ministry traces its roots to two organizations that merged in 2008. Conciliar Press began in 1977 as the publishing arm of a group of Evangelical Christians who had adopted a historic, liturgical approach to their faith; that group eventually became the Evangelical Orthodox Church, and when it was received into the Antiochian Archdiocese in 1987, Conciliar Press came with it.
+
+Ancient Faith Radio started separately in 2004, founded by John Maddex — previously a division manager overseeing radio stations for Moody Bible Institute — while he was a parishioner at All Saints Antiochian Orthodox Church in Chicago. It began as an internet stream of Orthodox liturgical music, then expanded in 2005 into podcasting, starting with recorded homilies from All Saints' own pastor, Fr. Patrick Henry Reardon.
+
+The two ministries merged in 2008 to form an official department of the Antiochian Archdiocese, and as the "Ancient Faith" name grew more recognized, the ministry adopted it in 2013, with its publishing division becoming Ancient Faith Publishing. Since then it has continued to grow: Ancient Faith Blogs launched in 2014, Ancient Faith Films began producing video content in 2015, and Orthodox Christian Ebooks, a marketplace for e-books from multiple Orthodox publishers, launched in 2016. The Virginia H. Farah Foundation, a nonprofit supporting Orthodox Christian initiatives, has also provided funding to the ministry along the way.`,
   },
 
   // Example — copy this shape for a new entry, then delete the example:
