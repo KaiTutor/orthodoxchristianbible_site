@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "fetched_at": "2026-07-13T23:41:40.573Z",
+  "fetched_at": "2026-08-04T10:47:48.770Z",
   "data": {
     "pascha_distance": 115,
     "julian_day_number": 2461258,
@@ -12,10 +12,12 @@
     "titles": [
       "Wednesday of the 10th week after Pentecost"
     ],
-    "summary_title": "Martyr Eusignius of Antioch",
+    "summary_title": "Forefeast of Transfiguration",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
-    "feasts": null,
+    "feasts": [
+      "Forefeast of Transfiguration"
+    ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 0,
@@ -150,7 +152,7 @@
     ],
     "stories": [
       {
-        "title": "Martyr Eusignius of Antioch (362)",
+        "title": "Martyr Eusignius of Antioch",
         "story": "<p>He was a soldier in the Imperial army beginning under the pagan Emperor Maximian. He was a general under Constantine, and saw the Cross that appeared to the Emperor. After sixty years of military service, he retired to his home town and devoted himself to prayer, fasting and good works. A townsman, angry with a judgment that Eusignius had made to settle a dispute, denounced him to Julian the Apostate as a Christian. Summoned before Julian, he vigorously rebuked the Emperor for his apostasy from the Faith; for this he was beheaded, in advanced old age, in 362.</p>"
       },
       {
