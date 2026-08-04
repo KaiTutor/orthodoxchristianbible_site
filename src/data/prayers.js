@@ -10,7 +10,7 @@ export const PRAYER_CATEGORIES = [
     name: 'Trisagion Prayers',
     order: 1,
     description:
-      'The opening prayers that begin the Orthodox prayer rule: O Heavenly King, the Trisagion, the Lord\u2019s Prayer, and the Psalm of Repentance.',
+      'The opening prayers that begin the Orthodox prayer rule: O Heavenly King, the Trisagion, the Lord\u2019s Prayer, the Psalm of Repentance, the Symbol of Faith, and more.',
     prayers: [
       {
         title: 'O Heavenly King',
@@ -59,6 +59,26 @@ Then I will teach transgressors Thy ways and sinners will return to Thee. Delive
 O Lord, open Thou my lips, and my mouth shall show forth Thy praise. For Thou hast no delight in sacrifice; were I to give a burnt offering, Thou wouldst not be pleased. The sacrifice acceptable to God is a broken spirit; a broken and contrite heart, O God, Thou wilt not despise.
 
 Do good to Zion in Thy good pleasure; rebuild the walls of Jerusalem. Then wilt Thou delight in right sacrifices, in burnt offerings and whole burnt offerings; then bulls will be offered on Thy altar.`,
+      },
+      {
+        title: 'The Symbol of Faith',
+        text: `I believe in one God, the Father Almighty, Maker of Heaven and Earth, and of all things visible and invisible.
+
+And in one Lord Jesus Christ, the Son of God, the only-begotten, begotten of the Father before all ages. Light of Light; true God of true God; begotten, not made; of one essence with the Father, by Whom all things were made; Who for us men and for our salvation came down from Heaven, and was incarnate of the Holy Spirit and the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, and suffered, and was buried. And the third day He arose again, according to the Scriptures, and ascended into Heaven, and sits at the right hand of the Father; and He shall come again with glory to judge the living and the dead; Whose Kingdom shall have no end.
+
+And in the Holy Spirit, the Lord, the Giver of Life, Who proceeds from the Father; Who with the Father and the Son together is worshipped and glorified; Who spoke by the prophets.
+
+In one Holy, Catholic, and Apostolic Church. I acknowledge one baptism for the remission of sins. I look for the resurrection of the dead, and the life of the world to come. Amen.`,
+      },
+      {
+        title: 'The Hymn to the Theotokos',
+        text: `It is truly meet to bless you, O Theotokos, ever-blessed and most pure, and the Mother of our God. More honorable than the Cherubim, and more glorious beyond compare than the Seraphim: without defilement you gave birth to God the Word: true Theotokos, we magnify you.`,
+      },
+      {
+        title: 'Prayer of the Hours',
+        text: `Thou Who at all times and at every hour, both in Heaven and on earth art worshipped and glorified, O Christ God: long-suffering, plenteous in mercy and compassion; Who lovest the just and showest mercy to those who are hardened in sin; Who callest all men to salvation through the promise of good things to come. Do Thou, the same Lord, receive also our supplications at this present time, and direct our lives according to Thy commandments.
+
+Sanctify our souls. Purify our bodies. Set aright our minds; cleanse our thoughts; and deliver us from all calamity, wrath, and distress. Surround us with Thy holy angels; that, guided and guarded by their host, we may attain unto the unity of the faith, and unto the comprehension of Thine ineffable glory. For blessed art Thou unto ages of ages. Amen.`,
       },
     ],
   },
@@ -354,80 +374,89 @@ Yea, O Lord and King, grant me to see my own sins, and not to judge my brother, 
     slug: 'psalms',
     name: 'Selected Psalms',
     order: 11,
-    description:
-      'A short selection of Psalms for personal devotion (King James Version).',
+    description: 'A short selection of Psalms for personal devotion.',
     prayers: [
       {
         title: 'Psalm 23',
-        text: `The LORD is my shepherd; I shall not want. He makes me to lie down in green pastures: he leads me beside the still waters. He restores my soul: he leads me in the paths of righteousness for his name's sake.
+        text: `The Lord is my shepherd, I shall not want. He makes me lie down in green pastures. He leads me beside still waters; He restores my soul. He leads me in the paths of righteousness for His name's sake.
 
-Yes, though I walk through the valley of the shadow of death, I will fear no evil: for you are with me; your rod and your staff they comfort me. You prepare a table before me in the presence of my enemies: you anoint my head with oil; my cup runs over.
+Even though I walk through the valley of the shadow of death, I fear no evil, for Thou art with me. Thy rod and Thy staff, they comfort me. Thou preparest a table before me in the presence of my enemies. Thou anointest my head with oil, my cup overflows.
 
-Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.`,
+Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the Lord forever.`,
       },
       {
         title: 'Psalm 34',
-        text: `I will bless the LORD at all times: his praise shall continually be in my mouth. My soul shall make her boast in the LORD: the humble shall hear thereof, and be glad. O magnify the LORD with me, and let us exalt his name together.
+        text: `I will bless the Lord at all times; His praise shall continually be in my mouth. My soul makes its boast in the Lord; let the afflicted hear and be glad. O magnify the Lord with me, and let us exalt His name together!
 
-I sought the LORD, and he heard me, and delivered me from all my fears. They looked to him, and were lightened: and their faces were not ashamed. This poor man cried, and the LORD heard him, and saved him out of all his troubles. The angel of the LORD encamps round about them that fear him, and delivers them. O taste and see that the LORD is good: blessed is the man that trusts in him. O fear the LORD, you his saints: for there is no want to them that fear him. The young lions do lack, and suffer hunger: but they that seek the LORD shall not want any good thing.
+I sought the Lord and He answered me, and delivered me from all my fears. Look to Him and be radiant, so your faces shall never be ashamed. This poor man cried, and the Lord heard him, and saved him out of all his troubles. The angel of the Lord encamps around those who fear Him, and delivers them. O taste and see that the Lord is good! Happy is the man who takes refuge in Him! O fear the Lord, you His saints, for those who fear Him have no want! The young lions suffer want and hunger; but those who seek the Lord lack no good thing.
 
-Come, you children, listen to me: I will teach you the fear of the LORD. What man is he that desires life, and loves many days, that he may see good? Keep your tongue from evil, and your lips from speaking guile. Depart from evil, and do good; seek peace, and pursue it.
+Come, O sons, listen to me; I will teach you the fear of the Lord. What man is there who desires life, and covets many days, that he may enjoy good? Keep your tongue from evil, and your lips from speaking deceit. Depart from evil, and do good; seek peace, and pursue it.
 
-The eyes of the LORD are on the righteous, and his ears are open to their cry. The face of the LORD is against them that do evil, to cut off the remembrance of them from the earth. The righteous cry, and the LORD hears, and delivers them out of all their troubles. The LORD is near to them that are of a broken heart; and saves such as be of a contrite spirit. Many are the afflictions of the righteous: but the LORD delivers him out of them all. He keeps all his bones: not one of them is broken.
+The eyes of the Lord are toward the righteous, and His ears toward their cry. The face of the Lord is against evildoers, to cut off the remembrance of them from the earth. When the righteous cry for help, the Lord hears and delivers them out of all their troubles. The Lord is near to the brokenhearted, and saves the crushed in spirit. Many are the afflictions of the righteous; but the Lord delivers him out of them all. He keeps all his bones; not one of them is broken.
 
-Evil shall slay the wicked: and they that hate the righteous shall be desolate. The LORD redeems the soul of his servants: and none of them that trust in him shall be desolate.`,
+Evil shall slay the wicked; and those who hate the righteous will be condemned. The Lord redeems the life of His servants; none of those who take refuge in Him will be condemned.`,
+      },
+      {
+        title: 'Psalm 39',
+        text: `I said, "I will guard my ways, that I may not sin with my tongue; I will bridle my mouth, so long as the wicked are in my presence." I was dumb and silent, I held my peace to no avail; my distress grew worse, my heart became hot within me. As I mused, the fire burned; then I spoke with my tongue:
+
+"Lord, let me know my end, and what is the measure of my days; let me know how fleeting my life is! Behold, Thou hast made my life a few handbreadths, and my lifetime is as nothing in Thy sight. Surely every man stands as a breath! Surely man goes about as a shadow! Surely for nought are they in turmoil; man heaps up, and knows not who will gather!
+
+And now, Lord, for what do I wait? My hope is in Thee. Deliver me from all my transgressions. Make me not the scorn of the fool! I am dumb, I do not open my mouth; for it is Thee who hast done it. Remove Thy stroke from me; I am spent by the blows of Thy hand. When Thou dost chasten a man with rebukes for sin, Thou dost consume like a moth what is dear to him; surely every man is mere breath!
+
+Hear my prayer, O Lord, and give ear to my cry; hold not Thy peace at my tears! For I am Thy passing guest, a sojourner, like all my fathers. Look away from me, that I may know gladness, before I depart and be no more!"`,
       },
       {
         title: 'Psalm 42',
-        text: `As the hart pants after the water brooks, so pants my soul after you, O God. My soul thirsts for God, for the living God: when shall I come and appear before God? My tears have been my meat day and night, while they continually say to me, Where is your God?
+        text: `As a hart longs for flowing streams, so longs my soul for Thee, O God. My soul thirsts for God, for the living God. When shall I come and behold the face of God? My tears have been my food day and night, while men say to me continually, "Where is your God?"
 
-When I remember these things, I pour out my soul in me: for I had gone with the multitude, I went with them to the house of God, with the voice of joy and praise, with a multitude that kept holy day. Why are you cast down, O my soul? and why are you disquieted in me? hope you in God: for I shall yet praise him for the help of his countenance.
+These things I remember, as I pour out my soul: how I went with the throng and led them in procession to the House of God, with glad shouts and songs of thanksgiving, a multitude keeping festival. Why are you cast down, O my soul, and why are you disquieted within me? Hope in God; for I shall again praise Him, my help and my God!
 
-O my God, my soul is cast down within me: therefore will I remember you from the land of Jordan, and of the Hermonites, from the hill Mizar. Deep calls to deep at the noise of your waterspouts: all your waves and your billows are gone over me. Yet the LORD will command his loving kindness in the day time, and in the night his song shall be with me, and my prayer to the God of my life.
+My soul is cast down within me; therefore I remember Thee from the land of Jordan and of Hermon, from Mount Mizar. Deep calls to deep at the thunder of Thy cataracts; all Thy waves and billows have gone over me. By day the Lord commands His steadfast love; and at night His song is with me, a prayer to the God of my life.
 
-I will say to God my rock, Why have you forgotten me? why go I mourning because of the oppression of the enemy? As with a sword in my bones, my enemies reproach me; while they say daily to me, Where is your God?
+I say to God my rock: "Why hast Thou forgotten me? Why go I mourning because of the oppression of the enemy?" As with a deadly wound to my body, my adversaries taunt me, while they say to me continually, "Where is your God?"
 
-Why are you cast down, O my soul? and why are you disquieted within me? hope you in God: for I shall yet praise him, who is the health of my countenance, and my God.`,
+Why are you cast down, O my soul, and why are you disquieted within me? Hope in God; for I shall again praise Him, my help and my God!`,
       },
       {
         title: 'Psalm 67',
-        text: `God be merciful to us, and bless us; and cause his face to shine on us; that your way may be known on earth, your saving health among all nations.
+        text: `May God be gracious to us and bless us and make His face to shine upon us! That Thy way may be known upon earth, Thy saving power among all nations.
 
-Let the people praise you, O God; let all the people praise you. O let the nations be glad and sing for joy: for you shall judge the people righteously, and govern the nations on earth.
+Let the peoples praise Thee, O God, let all the peoples praise Thee! Let the nations be glad and sing for joy, for Thou dost judge the people with equity and guide the nations upon earth.
 
-Let the people praise you, O God; let all the people praise you. Then shall the earth yield her increase; and God, even our own God, shall bless us. God shall bless us; and all the ends of the earth shall fear him.`,
+Let the people praise Thee, O God; let all the peoples praise Thee! The earth has yielded its increase; God, our God, has blessed us. God has blessed us; let all the ends of the earth fear Him!`,
       },
       {
         title: 'Psalm 84',
-        text: `How amiable are your tabernacles, O LORD of hosts! My soul longs, yes, even faints for the courts of the LORD: my heart and my flesh cries out for the living God. Yes, the sparrow has found an house, and the swallow a nest for herself, where she may lay her young, even your altars, O LORD of hosts, my King, and my God.
+        text: `How lovely is Thy dwelling place, O Lord of Hosts! My soul longs, yea, faints for the courts of the Lord! My heart and flesh sing for joy to the living God! Even the sparrow finds a home, and the swallow a nest for herself, where she may lay her young, at Thy altars, O Lord of Hosts, my King and my God!
 
-Blessed are they that dwell in your house: they will be still praising you. Blessed is the man whose strength is in you; in whose heart are the ways of them. Who passing through the valley of Baca make it a well; the rain also fills the pools. They go from strength to strength, every one of them in Zion appears before God.
+Blessed are those who dwell in Thy house, ever singing Thy praise! Blessed are the men whose strength is in Thee, in whose heart are the highways to Zion. As they go through the valleys of Baca they make it a place of springs; the early rain also covers it with pools. They go from strength to strength; the God of gods will be seen in Zion.
 
-O LORD God of hosts, hear my prayer: give ear, O God of Jacob. Behold, O God our shield, and look on the face of your anointed. For a day in your courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.
+O Lord God of Hosts, hear my prayer; give ear, O God of Jacob! Behold our shield, O God; look upon the face of Thine anointed! For a day in Thy courts is better than a thousand elsewhere. I would rather be a doorkeeper in the house of my God than dwell in the tents of wickedness.
 
-For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walk uprightly. O LORD of hosts, blessed is the man that trusts in you.`,
+For the Lord God is a sun and shield; He bestows favor and honor. No good thing does the Lord withhold from those who walk uprightly. O Lord of Hosts, blessed is the man who trusts in Thee!`,
       },
       {
         title: 'Psalm 134',
-        text: `Behold, bless you the LORD, all you servants of the LORD, which by night stand in the house of the LORD. Lift up your hands in the sanctuary, and bless the LORD. The LORD that made heaven and earth bless you out of Zion.`,
+        text: `Come, bless the Lord, all you servants of the Lord, who stand by night in the house of the Lord! Lift up your hands to the holy place, and bless the Lord. May the Lord bless you from Zion, He who made heaven and earth!`,
       },
       {
         title: 'Psalm 138',
-        text: `I will praise you with my whole heart: before the gods will I sing praise to you. I will worship toward your holy temple, and praise your name for your loving kindness and for your truth: for you have magnified your word above all your name. In the day when I cried you answered me, and strengthened me with strength in my soul.
+        text: `I give Thee thanks, O Lord, with my whole heart; before the gods I sing Thy praise! I bow down toward Thy holy temple and give thanks to Thy name for Thy steadfast love and Thy faithfulness! For Thou hast exalted above everything Thy name and Thy word. On the day I called, Thou didst answer me, my strength of soul Thou didst increase.
 
-All the kings of the earth shall praise you, O LORD, when they hear the words of your mouth. Yes, they shall sing in the ways of the LORD: for great is the glory of the LORD. Though the LORD be high, yet has he respect to the lowly: but the proud he knows afar off.
+All the kings of the earth shall praise Thee, O Lord, for they have heard the words of Thy mouth; and they shall sing of the ways of the Lord, for great is the glory of the Lord. For though the Lord is high, He regards the lowly; but the haughty He knows from afar.
 
-Though I walk in the middle of trouble, you will revive me: you shall stretch forth your hand against the wrath of my enemies, and your right hand shall save me. The LORD will perfect that which concerns me: your mercy, O LORD, endures for ever: forsake not the works of your own hands.`,
+Though I walk in the midst of trouble, Thou dost preserve my life; Thou dost stretch out Thy hand against the wrath of my enemies, and Thy right hand delivers me. The Lord will fulfill His purpose for me; Thy steadfast love, O Lord, endures forever. Do not forsake the work of Thy hands.`,
       },
       {
         title: 'Psalm 148',
-        text: `Praise you the LORD. Praise you the LORD from the heavens: praise him in the heights. Praise you him, all his angels: praise you him, all his hosts. Praise you him, sun and moon: praise him, all you stars of light. Praise him, you heavens of heavens, and you waters that be above the heavens.
+        text: `Praise the Lord! Praise the Lord from the heavens, praise Him in the heights! Praise Him, all His angels! Praise Him, all His host! Praise Him, sun and moon! Praise Him, all you shining stars! Praise Him, you highest heavens, and you waters above the heavens!
 
-Let them praise the name of the LORD: for he commanded, and they were created. He has also established them for ever and ever: he has made a decree which shall not pass.
+Let them praise the name of the Lord! For He commanded and they were created. And He established them for ever and ever; He fixed their bounds which cannot be passed.
 
-Praise the LORD from the earth, you dragons, and all deeps: Fire, and hail; snow, and vapors; stormy wind fulfilling his word: Mountains, and all hills; fruitful trees, and all cedars: Beasts, and all cattle; creeping things, and flying fowl: Kings of the earth, and all people; princes, and all judges of the earth: Both young men, and maidens; old men, and children:
+Praise the Lord from earth, you sea monsters and all deeps, fire and hail, snow and frost, stormy wind fulfilling His command! Mountains and all hills, fruit trees and all cedars! Beasts and all cattle, creeping things and flying birds! Kings of the earth and all peoples, princes and all rulers of the earth! Young men and maidens together, old men and children!
 
-Let them praise the name of the LORD: for his name alone is excellent; his glory is above the earth and heaven. He also exalts the horn of his people, the praise of all his saints; even of the children of Israel, a people near to him. Praise you the LORD.`,
+Let them praise the name of the Lord, for His name alone is exalted; His glory is above earth and heaven. He has raised up a horn for His people, praise for all His saints, for the people of Israel who are near Him. Praise the Lord!`,
       },
     ],
   },
