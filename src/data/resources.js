@@ -99,6 +99,20 @@ Glory to Jesus Christ!`,
     },
   },
 
+  {
+    slug: 'the-orthodox-church',
+    title: 'The Orthodox Church: An Introduction to Eastern Christianity',
+    category: 'books',
+    creator: 'Timothy Ware',
+    url: 'https://a.co/d/01an1EuA',
+    image: '/resources/the-orthodox-church-introduction.jpg',
+    description:
+      'The standard introduction to the Orthodox Church for the English-speaking world, covering councils, sacraments, free will, and more.',
+    body: `Since its first publication thirty years ago, Timothy Ware's book has become established throughout the English-speaking world as the standard introduction to the Orthodox Church. Orthodoxy continues to be a subject of enormous interest among Western Christians, and the author believes that an understanding of its standpoint is necessary before the Roman Catholic and Protestant churches can be reunited.
+
+He explains the Orthodox views on such widely ranging matters as ecumenical councils, sacraments, free will, purgatory, the papacy, and the relation between the different Orthodox churches.`,
+  },
+
   // Example — copy this shape for a new entry, then delete the example:
   // {
   //   slug: 'mere-orthodoxy',
