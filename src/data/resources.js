@@ -133,6 +133,22 @@ Ancient Faith Radio started separately in 2004, founded by John Maddex — previ
 The two ministries merged in 2008 to form an official department of the Antiochian Archdiocese, and as the "Ancient Faith" name grew more recognized, the ministry adopted it in 2013, with its publishing division becoming Ancient Faith Publishing. Since then it has continued to grow: Ancient Faith Blogs launched in 2014, Ancient Faith Films began producing video content in 2015, and Orthodox Christian Ebooks, a marketplace for e-books from multiple Orthodox publishers, launched in 2016. The Virginia H. Farah Foundation, a nonprofit supporting Orthodox Christian initiatives, has also provided funding to the ministry along the way.`,
   },
 
+  {
+    slug: 'theosis-true-purpose',
+    title: 'Theosis: The True Purpose of Human Life',
+    category: 'books',
+    creator: 'Archimandrite George',
+    url: 'https://www.sainthermanmonastery.com/Theosis-the-True-Purpose-of-Human-Life-p/the.htm',
+    image: '/resources/theosis-true-purpose.jpg',
+    description:
+      'A concise introduction to the Orthodox doctrine of Theosis, deification by grace, by the Abbot of the Holy Monastery of St. Gregorios on Mount Athos.',
+    body: `Archimandrite George has served as Abbot of the Holy Monastery of St. Gregorios on Mount Athos since 1974, and is known throughout the Orthodox world as both a theologian and a spiritual father. First published in 1992 and now in its fourth edition, this short book gathers his teaching on theosis, the Orthodox understanding that the purpose of human life is union with God by grace.
+
+The book traces theosis from its scriptural roots through the teaching of the Church Fathers, explaining how the Incarnation makes deification possible, the role of the Theotokos, and why the Church is the place where this union with God is lived out. It also addresses the practical side of the spiritual life, including the humility, asceticism, and prayer that prepare a person to receive this gift, along with the teaching of St. Gregory Palamas on the distinction between God's essence and His uncreated energies.
+
+Because of its clarity and brevity, it is often recommended as an accessible entry point into a subject that can feel abstract at first, especially for readers encountering the idea of deification for the first time.`,
+  },
+
   // Example — copy this shape for a new entry, then delete the example:
   // {
   //   slug: 'mere-orthodoxy',
