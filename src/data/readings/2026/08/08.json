@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "fetched_at": "2026-07-13T23:41:41.719Z",
+  "fetched_at": "2026-08-07T09:13:02.811Z",
   "data": {
     "pascha_distance": 118,
     "julian_day_number": 2461261,
@@ -22,7 +22,6 @@
     "fast_exception_desc": "Wine and Oil are Allowed",
     "saints": [
       "St Emilian the Confessor",
-      "St Emilian the Confessor, bishop of Cyzicus (820)",
       "St Myron the Wonderworker, Bishop of Crete (350)",
       "St Gregory of Sinai (Mt Athos) (1346)"
     ],
@@ -137,7 +136,7 @@
     ],
     "stories": [
       {
-        "title": "St Emilian the Confessor, bishop of Cyzicus (820)",
+        "title": "St Emilian the Confessor",
         "story": "<p>He was one of the bishops summoned by the Patriarch Nikephoros to defend the veneration of the holy icons against the Emperor Leo the Armenian. For this reason he was sent into exile around 815, and after many sufferings for his faithful confession, reposed in exile in 820.</p>"
       },
       {
