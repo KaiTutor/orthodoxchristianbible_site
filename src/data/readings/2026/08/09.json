@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "fetched_at": "2026-07-13T23:41:42.099Z",
+  "fetched_at": "2026-08-08T08:54:34.290Z",
   "data": {
     "pascha_distance": 119,
     "julian_day_number": 2461262,
@@ -20,11 +20,18 @@
     ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
-    "fast_exception": 4,
-    "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_exception": 1,
+    "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "Apostle Matthias (1st c.)",
-      "Holy Martyr Anthony (2nd c.)"
+      "Holy Martyr Anthony (2nd c.)",
+      "Commemoration of the canonization (1970) of St Herman of Alaska (1837)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -645,6 +652,10 @@
       {
         "title": "Holy Martyr Anthony (2nd c.)",
         "story": "<p>A native of Alexandria, he was brought before the pagan governor and tortured for his faith, but would not renounce Christ. Finally he was burned alive, but from the flames he called out: ‘My beloved brethren, do not be enslaved by your bodies, but give thought to your souls, given to you by God and kin to God and to the heavenly powers.’</p>"
+      },
+      {
+        "title": "Commemoration of the canonization (1970) of St Herman of Alaska (1837)",
+        "story": "<p>His feast day is December 12. Due to the severity of the Alaskan climate, the annual pilgrimage to his relics in Kodiak, Alaska, is in the Summer, around this date.</p>"
       }
     ]
   }
