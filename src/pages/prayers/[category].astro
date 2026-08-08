@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import PrayerNav from '../../components/PrayerNav.astro';
 import { PRAYER_CATEGORIES } from '../../data/prayers.js';
 
 // One static page per prayer category. Adding a category to prayers.js
@@ -27,6 +28,11 @@ const jsonLd = {
 
 // Split each prayer's text into paragraphs for clean rendering.
 const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Boolean);
+
+// Slug for each prayer's heading, so search results can deep-link straight
+// to it (e.g. #the-nicene-creed-symbol-of-faith) instead of just the page.
+const slugify = (text) =>
+  text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 ---
 <Base title={title} description={description} jsonLd={jsonLd}>
   <section class="wrap prayers">
@@ -38,14 +44,18 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
     <h1>{category.name}</h1>
     <p class="lede">{category.description}</p>
 
-    {category.prayers.map((p) => (
-      <article class="prayer">
-        <h2>{p.title}</h2>
-        {paragraphsOf(p.text).map((para) => (
-          <p set:html={para.replaceAll('__________', '<span class="blank"></span>')} />
-        ))}
-      </article>
-    ))}
+    <PrayerNav current={category.slug} />
+
+    <div data-pagefind-body data-pagefind-filter="Section:Prayers">
+      {category.prayers.map((p) => (
+        <article class="prayer">
+          <h2 id={slugify(p.title)}>{p.title}</h2>
+          {paragraphsOf(p.text).map((para) => (
+            <p set:html={para.replaceAll('__________', '<span class="blank"></span>')} />
+          ))}
+        </article>
+      ))}
+    </div>
 
     <p class="back"><a href="/prayers/">← All prayers</a></p>
   </section>

@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import PrayerNav from '../../components/PrayerNav.astro';
 import { JESUS_PRAYER } from '../../data/prayers.js';
 
 const title = 'The Jesus Prayer — How to Pray It | Orthodox Christian Prayers';
@@ -26,16 +27,20 @@ const paragraphsOf = (text) => text.split('\n\n').map((p) => p.trim()).filter(Bo
     <p class="eyebrow">The Prayer of the Heart</p>
     <h1>The Jesus Prayer</h1>
 
+    <PrayerNav current="jesus-prayer" />
+
     <blockquote class="the-prayer">
       {JESUS_PRAYER.prayer}
     </blockquote>
 
-    {JESUS_PRAYER.sections.map((s) => (
-      <section class="section">
-        <h2>{s.title}</h2>
-        {paragraphsOf(s.body).map((para) => <p>{para}</p>)}
-      </section>
-    ))}
+    <div data-pagefind-body data-pagefind-filter="Section:Prayers">
+      {JESUS_PRAYER.sections.map((s) => (
+        <section class="section">
+          <h2>{s.title}</h2>
+          {paragraphsOf(s.body).map((para) => <p>{para}</p>)}
+        </section>
+      ))}
+    </div>
 
     <blockquote class="the-prayer closing">
       {JESUS_PRAYER.prayer}
