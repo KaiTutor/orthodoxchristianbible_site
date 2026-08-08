@@ -1,0 +1,48 @@
+---
+// Local jump-menu for the Prayers section only — lets a visitor switch
+// straight to another prayer category (or the Jesus Prayer) from wherever
+// they are, instead of going back to /prayers/ and clicking in again.
+// Not part of the site's global header nav.
+import { PRAYER_CATEGORIES } from '../data/prayers.js';
+
+const { current } = Astro.props;
+const categories = [...PRAYER_CATEGORIES].sort((a, b) => a.order - b.order);
+---
+<nav class="prayer-nav" aria-label="Jump to another prayer">
+  <label for="prayer-jump" class="sr">Jump to a prayer</label>
+  <select id="prayer-jump">
+    <option value="/prayers/jesus-prayer/" selected={current === 'jesus-prayer'}>
+      The Jesus Prayer
+    </option>
+    {categories.map((c) => (
+      <option value={`/prayers/${c.slug}/`} selected={current === c.slug}>
+        {c.name}
+      </option>
+    ))}
+  </select>
+</nav>
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll('#prayer-jump').forEach(function (select) {
+      select.addEventListener('change', function () {
+        window.location.href = this.value;
+      });
+    });
+  })();
+</script>
+
+<style>
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+  .prayer-nav { margin: 1.6rem 0 0; }
+  #prayer-jump {
+    width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--rule); border-radius: 6px;
+    background: #fff; color: var(--indigo); font-family: 'Inter', sans-serif; font-size: 0.95rem;
+    font-weight: 500; cursor: pointer; appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%231f2a4a'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 0.9rem center; background-size: 1.1em;
+  }
+  #prayer-jump:hover { border-color: var(--gold); }
+  #prayer-jump:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+</style>
