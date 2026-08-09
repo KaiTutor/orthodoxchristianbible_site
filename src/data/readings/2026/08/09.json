@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "fetched_at": "2026-08-08T08:54:34.290Z",
+  "fetched_at": "2026-08-09T08:56:12.480Z",
   "data": {
     "pascha_distance": 119,
     "julian_day_number": 2461262,
@@ -15,9 +15,7 @@
     "summary_title": "10th Sunday after Pentecost",
     "feast_level": 5,
     "feast_level_description": "Red cross half-circle (vigil typikon symbol)",
-    "feasts": [
-      "Ven. Herman of Alaska, Wonderworker of All America"
-    ],
+    "feasts": null,
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 1,
@@ -30,8 +28,8 @@
     ],
     "saints": [
       "Apostle Matthias (1st c.)",
-      "Holy Martyr Anthony (2nd c.)",
-      "Commemoration of the canonization (1970) of St Herman of Alaska (1837)"
+      "Commemoration of the canonization (1970) of St Herman of Alaska (1837)",
+      "Holy Martyr Anthony (2nd c.)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -650,12 +648,12 @@
         "story": "<p>He was numbered among the Seventy. Then, when Judas who betrayed Christ had taken his own life, the disciples (120 men and women) convened to choose one who would take his place among the Twelve. They nominated two, Joseph (called Barsabas or Justus) and Matthias, then cast lots. The lot fell to Matthais, who henceforth was numbered among the Twelve (See Acts ch. 1). Accounts of his Apostolate after this vary. According to some, he preached the Gospel in Ethiopia and met his martyrdom there. According to others, after visiting Ethiopia he returned to Judea, where he was tried and condemned by Ananias the High Priest, and stoned to death, then beheaded.</p>"
       },
       {
-        "title": "Holy Martyr Anthony (2nd c.)",
-        "story": "<p>A native of Alexandria, he was brought before the pagan governor and tortured for his faith, but would not renounce Christ. Finally he was burned alive, but from the flames he called out: ‘My beloved brethren, do not be enslaved by your bodies, but give thought to your souls, given to you by God and kin to God and to the heavenly powers.’</p>"
-      },
-      {
         "title": "Commemoration of the canonization (1970) of St Herman of Alaska (1837)",
         "story": "<p>His feast day is December 12. Due to the severity of the Alaskan climate, the annual pilgrimage to his relics in Kodiak, Alaska, is in the Summer, around this date.</p>"
+      },
+      {
+        "title": "Holy Martyr Anthony (2nd c.)",
+        "story": "<p>A native of Alexandria, he was brought before the pagan governor and tortured for his faith, but would not renounce Christ. Finally he was burned alive, but from the flames he called out: ‘My beloved brethren, do not be enslaved by your bodies, but give thought to your souls, given to you by God and kin to God and to the heavenly powers.’</p>"
       }
     ]
   }
