@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "fetched_at": "2026-08-10T09:43:31.027Z",
+  "fetched_at": "2026-08-11T09:10:41.147Z",
   "data": {
     "pascha_distance": 121,
     "julian_day_number": 2461264,
@@ -12,10 +12,12 @@
     "titles": [
       "Tuesday of the 11th week after Pentecost"
     ],
-    "summary_title": "Holy Martyr and Archdeacon Euplus of Catania; The Holy Martyr Susanna the Virgin, and those with her (295-296); Saint Niphon, Patriarch of Constantinople (1508)",
+    "summary_title": "Afterfeast of the Transfiguration",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
-    "feasts": null,
+    "feasts": [
+      "Afterfeast of the Transfiguration"
+    ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 0,

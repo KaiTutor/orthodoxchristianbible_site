@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "fetched_at": "2026-07-13T23:41:43.168Z",
+  "fetched_at": "2026-08-11T09:10:41.494Z",
   "data": {
     "pascha_distance": 122,
     "julian_day_number": 2461265,
@@ -12,14 +12,24 @@
     "titles": [
       "Wednesday of the 11th week after Pentecost"
     ],
-    "summary_title": "Martyrs Anicletus and Photius of Nicomedia",
+    "summary_title": "Afterfeast of the Transfiguration",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
-    "feasts": null,
+    "feasts": [
+      "Afterfeast of the Transfiguration"
+    ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyrs Anicletus and Photius of Nicomedia",
       "Hieromaryr Alexander, Bishop of Comana (3rd c.)"
@@ -184,7 +194,7 @@
     ],
     "stories": [
       {
-        "title": "Martyrs Anicetas and Photius of Nicomedia (305)",
+        "title": "Martyrs Anicletus and Photius of Nicomedia",
         "story": "<p>These holy martyrs suffered victoriously in the year 305 (<i>Prologue</i>) or 288 (<i>Great Horologion</i>), during the reign of Diocletian, who visited Nicomedia to stir up a persecution of Christians there. Anicetas, one of the city governors, presented himself before the Emperor, boldly confessed his Christian faith, and denounced the worship of the idols. Anicetas was subjected to a series of cruelties: his tongue was cut out, but he miraculously continued to speak; he was thrown to a lion, but it refused to attack him; then he was savagely beaten with rods until his bones showed through his wounds. His nephew Photius, seeing his endurance of all these trials, ran forward, embraced his uncle, and declared to the Emperor that he too was a Christian. The Emperor ordered that he be beheaded immediately, but the executioner, raising his sword, gave himself such a wound that he died instead. After many tortures, the two were put in prison for three years, then brought out and cast into a fiery furnace, where they died, though their bodies were brought out of the flames intact.</p>\n<p>Saint Anicetas is counted as one of the Holy Unmercenaries.</p>"
       },
       {
