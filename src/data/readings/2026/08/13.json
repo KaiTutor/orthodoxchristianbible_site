@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "fetched_at": "2026-07-13T23:41:43.531Z",
+  "fetched_at": "2026-08-12T09:20:13.129Z",
   "data": {
     "pascha_distance": 123,
     "julian_day_number": 2461266,
@@ -12,19 +12,27 @@
     "titles": [
       "Thursday of the 11th week after Pentecost"
     ],
-    "summary_title": "St Tikhon of Zadonsk",
+    "summary_title": "Leavetaking of Transfiguration",
     "feast_level": 4,
     "feast_level_description": "Red cross (polyeleos typikon symbol)",
     "feasts": [
-      "St Tikhon of Zadonsk"
+      "Leavetaking of Transfiguration"
     ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
-    "fast_exception": 4,
-    "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_exception": 0,
+    "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
-      "St Maximos the Confessor (662)",
       "St Tikhon of Zadonsk (1783)",
+      "St Maximos the Confessor (662)",
       "Holy Martyr Hippolytus of Rome and 18 Martyrs with him (258)",
       "Our Holy Mother the Empress Irene (Xenia in Monasticism) (12th c.)"
     ],
@@ -564,12 +572,12 @@
     ],
     "stories": [
       {
-        "title": "St Maximos the Confessor (662)",
-        "story": "<p>He was from a noble family in Constantinople, and became the private secretary of the Emperor Heraclius and his grandson Constans. But when the Monothelite heresy (that Christ possesses one divine will, rather than a divine and a human will) took hold in the Imperial court, the Saint could not bear to be surrounded by this error and left the court for the Monastery at Chrysopolis, where in time he became the abbot. From the monastery he continued to speak and write in defense of Orthodox belief. The Emperor Constans ordered him either to accept Monothelite belief or to cease speaking against it, but St Maximos would do neither. For this, his tongue was torn out, his right hand was cut off, and he was sent into exile, where he reposed in 662. He is also commemorated on January 21; see that day for a slightly fuller account.</p>"
-      },
-      {
         "title": "St Tikhon of Zadonsk (1783)",
         "story": "<p>He is one of the best-loved Saints of the Russian people. He was born into a very poor family in Novgorod province and received the baptismal name of Timothy. He went to seminary in Novgorod, where he excelled, later teaching Greek and other subjects. He was tonsured a monk at the age of thirty-four, receiving the monastic name of Tikhon. As his ascesis and wisdom became known, he quickly became eminent in the Church and in 1761 was made a bishop. In 1763 he was consecrated Bishop of Voronezh. After serving as bishop for about seven years, he retired to the monastery of Zadonsk, where he spent the remainder of his life. He devoted his “retirement” to prayer and the writing of books, producing a huge collection of writings that have earned him the name “the Russian Chrysostom.” He reposed in peace in 1783 at the age of fifty-nine. Many miracles were wrought by him after his death, and he was soon proclaimed a Saint by the people. When his body was exhumed in 1845 (over sixty years later) to make way for a new church in Zadonsk, his relics were found to be whole and incorrupt; even his vestments were free from decay. He was officially glorified in 1863; some three hundred thousand pilgrims attended his glorification.</p>"
+      },
+      {
+        "title": "St Maximos the Confessor (662)",
+        "story": "<p>He was from a noble family in Constantinople, and became the private secretary of the Emperor Heraclius and his grandson Constans. But when the Monothelite heresy (that Christ possesses one divine will, rather than a divine and a human will) took hold in the Imperial court, the Saint could not bear to be surrounded by this error and left the court for the Monastery at Chrysopolis, where in time he became the abbot. From the monastery he continued to speak and write in defense of Orthodox belief. The Emperor Constans ordered him either to accept Monothelite belief or to cease speaking against it, but St Maximos would do neither. For this, his tongue was torn out, his right hand was cut off, and he was sent into exile, where he reposed in 662. He is also commemorated on January 21; see that day for a slightly fuller account.</p>"
       },
       {
         "title": "Holy Martyr Hippolytus of Rome and 18 Martyrs with him (258)",
