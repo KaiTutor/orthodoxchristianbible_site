@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "fetched_at": "2026-07-13T23:41:42.461Z",
+  "fetched_at": "2026-08-10T09:43:30.655Z",
   "data": {
     "pascha_distance": 120,
     "julian_day_number": 2461263,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Holy Martyr and Archdeacon Lawrence of Rome"
     ],
@@ -211,7 +219,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Archdeacon Laurence, Pope Sixtus, and others with them (258)",
+        "title": "Holy Martyr and Archdeacon Lawrence of Rome",
         "story": "<p>“This Saint, who was born in Spain, was the Archdeacon of the Church of Rome, caring for the sacred vessels of the Church and distributing money to the needy. About the year 257, a harsh persecution was raised up against the Christians by Valerian. Pope Sixtus, who was from Athens, was commanded to worship the idols, and refused; before his martyrdom by beheading, he committed to Laurence all the sacred vessels of the Church. When Laurence was arrested and brought before the Prefect, he was questioned concerning the treasures of the Church; he asked for three days’ time to prepare them. He then proceeded to gather all the poor and needy, and presented them to the Prefect and said, “Behold the treasures of the Church.” The Prefect became enraged at this and gave command that Laurence be racked, then scourged with scorpions (a whip furnished with sharp iron points — compare II Chron. 10:11), then stretched out on a red-hot iron grill. But the courageous athlete of Christ endured without groaning. After he had been burned on one side, he said, “My body is done on one side; turn me over on the other.” And when this had taken place, the Martyr said to the tyrants, “My flesh is now well done, you may taste of it.” And when he had said this, and had prayed for his slayers in imitation of Christ, he gave up his spirit on August 10, 258.” (<i>Great Horologion</i>). His icon shows him stretched on the grill.</p>"
       }
     ]

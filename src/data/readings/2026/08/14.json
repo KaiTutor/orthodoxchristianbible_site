@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "fetched_at": "2026-07-13T23:41:43.880Z",
+  "fetched_at": "2026-08-14T09:16:20.668Z",
   "data": {
     "pascha_distance": 124,
     "julian_day_number": 2461267,
@@ -12,14 +12,24 @@
     "titles": [
       "Friday of the 11th week after Pentecost"
     ],
-    "summary_title": "Prophet Micah",
+    "summary_title": "Forefeast of Dormition",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
-    "feasts": null,
+    "feasts": [
+      "Forefeast of Dormition"
+    ],
     "fast_level": 4,
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Prophet Micah",
       "Translation of the Relics of St Theodosius of the Kiev Caves",
@@ -213,11 +223,7 @@
     ],
     "stories": [
       {
-        "title": "Translation of the Relics of St Theodosius of the Kiev Caves",
-        "story": "<p></p>"
-      },
-      {
-        "title": "Holy Prophet Micah (8th c. BC)",
+        "title": "Prophet Micah",
         "story": "<p>Read his prophecies (which include the prophecy that Christ would be born in Bethlehem, Micah 5:2) in the Old Testament book that bears his name. He was a contemporary of the prophets Isaiah, Amos and Hosea, and is ranked sixth among the “minor” prophets. It was he who prophesied that the Christ would be born in Bethlehem. (This is a different Micah from the one mentioned in 1 Chronicles 22:8, who lived earlier). Micah was buried in his home village of Morasth in the land of Judah; his holy relics were found along with those of the prophet Habbakuk during the reign of St Theodosius the Great — their location was given by a revelation to Zebennus, Bishop of Eleutheropolis.</p>"
       },
       {

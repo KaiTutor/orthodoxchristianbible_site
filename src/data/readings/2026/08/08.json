@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "fetched_at": "2026-08-07T09:13:02.811Z",
+  "fetched_at": "2026-08-08T08:54:33.884Z",
   "data": {
     "pascha_distance": 118,
     "julian_day_number": 2461261,
@@ -20,6 +20,12 @@
     "fast_level_desc": "Dormition Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "St Emilian the Confessor",
       "St Myron the Wonderworker, Bishop of Crete (350)",
