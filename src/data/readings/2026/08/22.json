@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "fetched_at": "2026-07-13T23:41:46.760Z",
+  "fetched_at": "2026-08-21T08:53:08.902Z",
   "data": {
     "pascha_distance": 132,
     "julian_day_number": 2461275,
@@ -12,7 +12,7 @@
     "titles": [
       "Saturday of the 12th week after Pentecost"
     ],
-    "summary_title": "Martyr Agathonicus and Companions",
+    "summary_title": "Martyr Agathonicus and Companions; Holy Martyr Eulalia of Barcelona (303)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Agathonicus and Companions",
       "Holy Martyr Eulalia of Barcelona (303)"
@@ -121,7 +122,7 @@
     ],
     "stories": [
       {
-        "title": "Martyr Agathonicus of Nicomedia and his companions (4th c.)",
+        "title": "Martyr Agathonicus and Companions",
         "story": "<p>He lived in Nicomedia, where he turned many pagans from their idolatry to faith in Christ. For this he and several companions were seized, beaten, bound, and taken to Byzantium. On the way, several of Agathonicus’ companions died from their harsh treatment. The survivors, including Agathonicus himself, were taken to Selyvria in Thrace, where they were tortured before the Emperor himself, then beheaded.</p>"
       },
       {
