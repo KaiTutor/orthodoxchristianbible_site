@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "fetched_at": "2026-07-13T23:41:47.490Z",
+  "fetched_at": "2026-08-23T08:42:48.925Z",
   "data": {
     "pascha_distance": 134,
     "julian_day_number": 2461277,
@@ -12,7 +12,7 @@
     "titles": [
       "Monday of the 13th week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Eutichius; Trans. Rel. Peter, Metr. Kiev",
+    "summary_title": "Hieromartyr Eutychius; Trans. Rel. Peter, Metr. Kiev; Hieromartyr Eutyches (1st c.)",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -20,9 +20,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
-      "Hieromartyr Eutichius",
+      "Hieromartyr Eutychius",
       "Trans. Rel. Peter, Metr. Kiev",
+      "Hieromartyr Eutyches (1st c.)",
       "New Hieromartyr Kosmas of Aitolia, Equal-to-the-Apostles (1779)"
     ],
     "service_notes": null,
@@ -168,12 +170,12 @@
         "story": "<p>He was a disciple and friend of St John the Theologian, and worked with the Apostle Paul, and is himself named as an Apostle though he is not one of the Seventy. He travelled widely in the ministry of the Gospel of Christ, suffering many imprisonments and tortures. He died in Sebastia, the place of his birth. The <i>Prologue</i> says that he was beheaded, the <i>Great Horologion</i> that he reposed in peace “in deep old age.”</p>"
       },
       {
-        "title": "New Hieromartyr Kosmas of Aitolia, Equal-to-the-Apostles (1779)",
-        "story": "<p>This recent Equal to the Apostles was born in Mega Dendron (Great Tree) in Aetolia. He became a monk on Mt Athos, where he lived and prayed for many years. But he was troubled by the ignorance of the Gospel that had fallen on many of the Orthodox people, living under the oppression of the Ottoman Turks. He went to Constantinople, where he studied the rhetorical arts and received the blessing of Patriarch Seraphim II to preach the Gospel. He travelled throughout Greece, Macedonia, Serbia and Albania, preaching at every town he visited. Often not only Greeks but many Muslims would come to hear him, so great was his reputation for holiness. Though he always sought the blessing of the local bishop and the local Turkish governor before he preached in an area, his strong condemnations of dishonest business practices aroused the enmity of Orthodox Christian and Jewish merchants, who falsely accused him to the authorities. He was strangled by the Turks and thrown into a river in Albania, but his wonderworking relics were preserved. He reposed at the age of sixty-five.</p>"
+        "title": "Trans. Rel. Peter, Metr. Kiev",
+        "story": "<p>See December 21 for his life.</p>"
       },
       {
-        "title": "Translation of the relics of St Peter, metropolitan of Kiev (1479)",
-        "story": "<p>See December 21 for his life.</p>"
+        "title": "New Hieromartyr Kosmas of Aitolia, Equal-to-the-Apostles (1779)",
+        "story": "<p>This recent Equal to the Apostles was born in Mega Dendron (Great Tree) in Aetolia. He became a monk on Mt Athos, where he lived and prayed for many years. But he was troubled by the ignorance of the Gospel that had fallen on many of the Orthodox people, living under the oppression of the Ottoman Turks. He went to Constantinople, where he studied the rhetorical arts and received the blessing of Patriarch Seraphim II to preach the Gospel. He travelled throughout Greece, Macedonia, Serbia and Albania, preaching at every town he visited. Often not only Greeks but many Muslims would come to hear him, so great was his reputation for holiness. Though he always sought the blessing of the local bishop and the local Turkish governor before he preached in an area, his strong condemnations of dishonest business practices aroused the enmity of Orthodox Christian and Jewish merchants, who falsely accused him to the authorities. He was strangled by the Turks and thrown into a river in Albania, but his wonderworking relics were preserved. He reposed at the age of sixty-five.</p>"
       }
     ]
   }
