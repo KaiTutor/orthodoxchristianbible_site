@@ -15,7 +15,7 @@ export const APP = {
     'Your complete Orthodox Christian companion — prayers, the Bible, liturgical texts, and the writings of the Church Fathers, all in one place.',
   // Current App Store rating — update these two when the rating changes.
   rating: 4.9,
-  ratingCount: 54,
+  ratingCount: 57,
   features: [
     {
       title: 'Daily Prayers',
