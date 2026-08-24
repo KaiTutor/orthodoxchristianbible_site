@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "fetched_at": "2026-07-13T23:41:47.841Z",
+  "fetched_at": "2026-08-24T08:59:18.862Z",
   "data": {
     "pascha_distance": 135,
     "julian_day_number": 2461278,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 13th week after Pentecost"
     ],
-    "summary_title": "Relics of Apostle Bartholomew",
+    "summary_title": "Relics of Apostle Bartholomew; Holy Apostle Titus of the Seventy",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Relics of Apostle Bartholomew",
       "Holy Apostle Titus of the Seventy"
@@ -198,12 +199,12 @@
     ],
     "stories": [
       {
-        "title": "Holy Apostle Titus of the Seventy",
-        "story": "<p>He was a Greek from the island of Crete. Born and raised as a pagan, he came to faith in Christ through the ministry of the Apostle Paul, and labored with the Apostle in preaching the Gospel. St Paul in his epistles calls St Titus both “son” and “brother.” He was ordained Bishop of Crete by St Paul, who wrote to him the Epistle that bears his name. He reposed in peace at the age of ninety-four.</p>"
+        "title": "Relics of Apostle Bartholomew",
+        "story": "<p>The Apostle’s main commemoration is on June 11.</p>"
       },
       {
-        "title": "Return of the relics of the Apostle Bartholomew from Anastasiopolis to Lipari (6th c.)",
-        "story": "<p>The Apostle’s main commemoration is on June 11.</p>"
+        "title": "Holy Apostle Titus of the Seventy",
+        "story": "<p>He was a Greek from the island of Crete. Born and raised as a pagan, he came to faith in Christ through the ministry of the Apostle Paul, and labored with the Apostle in preaching the Gospel. St Paul in his epistles calls St Titus both “son” and “brother.” He was ordained Bishop of Crete by St Paul, who wrote to him the Epistle that bears his name. He reposed in peace at the age of ninety-four.</p>"
       }
     ]
   }

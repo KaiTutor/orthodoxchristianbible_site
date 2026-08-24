@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "fetched_at": "2026-07-13T23:41:46.048Z",
+  "fetched_at": "2026-08-20T08:51:45.965Z",
   "data": {
     "pascha_distance": 130,
     "julian_day_number": 2461273,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 12th week after Pentecost"
     ],
-    "summary_title": "Prophet Samuel",
+    "summary_title": "Prophet Samuel; Hieromartyr Philip, Bishop of Heraklion, and those with him (2nd c.)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Prophet Samuel",
       "Hieromartyr Philip, Bishop of Heraklion, and those with him (2nd c.)"
@@ -170,7 +171,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Prophet Samuel (11th c. BC)",
+        "title": "Prophet Samuel",
         "story": "<p>He was the last of the Judges of Israel, and was appointed by God to anoint the first two kings of Israel, Saul and David. Read the Old Testament book 1 Samuel for his story. Many believe that he is the author of the books of Judges, Ruth and the first 24 chapters of I Samuel.</p>"
       },
       {

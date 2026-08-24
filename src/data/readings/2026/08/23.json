@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "fetched_at": "2026-07-13T23:41:47.132Z",
+  "fetched_at": "2026-08-23T08:42:48.556Z",
   "data": {
     "pascha_distance": 133,
     "julian_day_number": 2461276,
@@ -15,14 +15,16 @@
     "summary_title": "12th Sunday after Pentecost",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
-    "feasts": null,
+    "feasts": [
+      "Leavetaking of Dormition"
+    ],
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Lupus, Slave of St Demetrius",
-      "Leavetaking of Dormition",
       "Hieromartyr Irenaeus, bishop of Lyons (202)",
       "Hieromartyr Pothinos, Bishop of Lyons (177)"
     ],
@@ -371,12 +373,12 @@
         "story": "<p>On the Holy Mountain, the Feast of the Dormition is extended to August 28, thus consecrating almost the entire month of August to the Most Holy Theotokos.</p>"
       },
       {
-        "title": "Hieromartyr Irenaeus, bishop of Lyons (202)",
-        "story": "<p>He was born in Asia Minor around the year 120, and was a disciple of Saint Polycarp, who was in turn a disciple of St John the Evangelist. He succeeded the martyred St Pothinus as Bishop of Lyons in Gaul (now France). He produced many writings contesting not only against paganism but against Gnostic heresies that were then troubling the Church. When Victor, Bishop of Rome, planned to excommunicate the Christians of Asia Minor for celebrating Pascha on a different date than the Church of Rome, Irenaeus persuaded him to stay his hand and maintain unity and peace in the Church. (This was before the date of Pascha had been set by the Ecumenical Councils). By his efforts Lyons became for centuries a center and bastion of Orthodoxy in the West.</p>"
+        "title": "Martyr Lupus, Slave of St Demetrius",
+        "story": "<p>He was the servant of the Great Martyr Demetrius, and was present at his martyrdom. He dipped the hem of his garment in the martyr’s blood, and later worked many miracles with the garment, healing many illnesses. At the order of the Emperor Maximian, he was then himself arrested, tortured and, like his earthly master, beheaded for Christ. It is said that, as his death approached, he prayed to be baptized before his death, for, though a believer in Christ, he had never been able to be baptized. A cloud suddenly poured down a torrent of water upon him, answering his prayer.</p>"
       },
       {
-        "title": "Martyr Lupus (306), slave of St Demetrios of Thessalonica",
-        "story": "<p>He was the servant of the Great Martyr Demetrius, and was present at his martyrdom. He dipped the hem of his garment in the martyr’s blood, and later worked many miracles with the garment, healing many illnesses. At the order of the Emperor Maximian, he was then himself arrested, tortured and, like his earthly master, beheaded for Christ. It is said that, as his death approached, he prayed to be baptized before his death, for, though a believer in Christ, he had never been able to be baptized. A cloud suddenly poured down a torrent of water upon him, answering his prayer.</p>"
+        "title": "Hieromartyr Irenaeus, bishop of Lyons (202)",
+        "story": "<p>He was born in Asia Minor around the year 120, and was a disciple of Saint Polycarp, who was in turn a disciple of St John the Evangelist. He succeeded the martyred St Pothinus as Bishop of Lyons in Gaul (now France). He produced many writings contesting not only against paganism but against Gnostic heresies that were then troubling the Church. When Victor, Bishop of Rome, planned to excommunicate the Christians of Asia Minor for celebrating Pascha on a different date than the Church of Rome, Irenaeus persuaded him to stay his hand and maintain unity and peace in the Church. (This was before the date of Pascha had been set by the Ecumenical Councils). By his efforts Lyons became for centuries a center and bastion of Orthodoxy in the West.</p>"
       },
       {
         "title": "Hieromartyr Pothinos, Bishop of Lyons (177)",

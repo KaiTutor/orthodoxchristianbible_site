@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "fetched_at": "2026-07-13T23:41:44.972Z",
+  "fetched_at": "2026-08-17T08:55:22.695Z",
   "data": {
     "pascha_distance": 127,
     "julian_day_number": 2461270,
@@ -12,7 +12,7 @@
     "titles": [
       "Monday of the 12th week after Pentecost"
     ],
-    "summary_title": "Martyr Myron, Presbyter of Cyzicus",
+    "summary_title": "Martyr Myron, Presbyter of Cyzicus; Holy Martyr Patroclus (late 3rd c.)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Myron, Presbyter of Cyzicus",
       "Holy Martyr Patroclus (late 3rd c.)"
@@ -142,7 +143,7 @@
     ],
     "stories": [
       {
-        "title": "Martyr Myron of Cyzicus (250)",
+        "title": "Martyr Myron, Presbyter of Cyzicus",
         "story": "<p>He was a priest in Achaia. In the time of the Emperor Decius, when Antipater was governor of Achaia, the persecutors entered the church on the Feast of the Nativity, dragged Myron away from the service and put him to torture. He endured many horrible tortures, but would not worship the idols. Finally he was thrown to wild beasts. When Antipater saw the beasts greeting Myron affectionately, the persecutor seized a sword and slew himself. The Saint was then sent to Cyzicus, where he was beheaded by the proconsul.</p>"
       },
       {
