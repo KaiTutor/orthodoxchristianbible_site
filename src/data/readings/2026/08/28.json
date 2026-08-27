@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "fetched_at": "2026-07-13T23:41:49.011Z",
+  "fetched_at": "2026-08-27T19:02:25.620Z",
   "data": {
     "pascha_distance": 138,
     "julian_day_number": 2461281,
@@ -22,6 +22,12 @@
     "fast_level_desc": "Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "St Moses of Ethiopia (400)",
       "Righteous Anna the Prophetess (1st c.)",
@@ -628,24 +634,12 @@
     ],
     "stories": [
       {
-        "title": "St Moses of Ethiopia (400)",
-        "story": "<p>He is also called Moses the Black. He was a slave, but was cast out by his master due to his evil life. He then became the leader of a murderous band of robbers in Egypt. He came to repentance and took up monastic life in the desert under St Isidore of Sketis. For many years he struggled tirelessly, through prayer, fasting and vigils, with lustful and violent thoughts; he was finally freed of them through the prayers of St Isidore. He was revered by all the brethren for his ascetical life, his wisdom, and his deep humility. Once a brother committed some sin and the monks gathered to judge him. Moses at first refused to go at all, but when they insisted, he filled an old, leaky basket with sand and carried it into the assembly on his back. When the brethren asked him what his action meant, he said “My sins run out behind me, and I do not even see them, and I have come to judge my brother.” The monk was forgiven. In time the fame of this humblest of monks spread so far that kings and bishops traveled into the desert to seek his wisdom and his blessing. In his old age, he was warned that a band of brigands was coming to attack the Skete. He refused to leave saying, “It is written: he who lives by the sword shall die by the sword.” So, mindful that he had slain others by the sword, he willingly awaited his own murder. Six other monks who remained with him were also slain.</p>"
-      },
-      {
         "title": "Uncovering of the Relics of St Job of Pochaev (1651)",
         "story": "<p>For his life see May 6.</p>"
       },
       {
-        "title": "Righteous Anna the Prophetess (1st c.)",
-        "story": "<p></p>"
-      },
-      {
-        "title": "Righteous Hezekiah, King of Judah (691 BC)",
-        "story": "<p></p>"
-      },
-      {
-        "title": "New Hieromartyr Chrysostom, metropolitan of Smyrna (1922)",
-        "story": "<p></p>"
+        "title": "St Moses of Ethiopia (400)",
+        "story": "<p>He is also called Moses the Black. He was a slave, but was cast out by his master due to his evil life. He then became the leader of a murderous band of robbers in Egypt. He came to repentance and took up monastic life in the desert under St Isidore of Sketis. For many years he struggled tirelessly, through prayer, fasting and vigils, with lustful and violent thoughts; he was finally freed of them through the prayers of St Isidore. He was revered by all the brethren for his ascetical life, his wisdom, and his deep humility. Once a brother committed some sin and the monks gathered to judge him. Moses at first refused to go at all, but when they insisted, he filled an old, leaky basket with sand and carried it into the assembly on his back. When the brethren asked him what his action meant, he said “My sins run out behind me, and I do not even see them, and I have come to judge my brother.” The monk was forgiven. In time the fame of this humblest of monks spread so far that kings and bishops traveled into the desert to seek his wisdom and his blessing. In his old age, he was warned that a band of brigands was coming to attack the Skete. He refused to leave saying, “It is written: he who lives by the sword shall die by the sword.” So, mindful that he had slain others by the sword, he willingly awaited his own murder. Six other monks who remained with him were also slain.</p>"
       },
       {
         "title": "Repose of Elder Joseph the Hesychast of Mt Athos (1959) (August 15 OC)",
