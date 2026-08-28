@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "fetched_at": "2026-07-13T23:41:49.371Z",
+  "fetched_at": "2026-08-28T20:10:22.316Z",
   "data": {
     "pascha_distance": 139,
     "julian_day_number": 2461282,
@@ -22,6 +22,12 @@
     "fast_level_desc": "Fast",
     "fast_exception": 8,
     "fast_exception_desc": "Strict Fast (Wine and Oil)",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "Our Holy Mother Theodora of Salonica (879)"
     ],
