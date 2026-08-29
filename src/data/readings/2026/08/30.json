@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "fetched_at": "2026-07-13T23:41:49.719Z",
+  "fetched_at": "2026-08-29T13:48:16.822Z",
   "data": {
     "pascha_distance": 140,
     "julian_day_number": 2461283,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Ss Alexander, John, Paul, Pats. Constantinople",
       "Trans. Rel. St Alexander Nevsky",
@@ -271,12 +272,12 @@
     ],
     "stories": [
       {
-        "title": "Synaxis of Serbian Hierarchs",
-        "story": "<p>On this day are commemorated seventeen holy Serbian hierarchs, beginning with St Sava (Sabbas), first Archbishop of Serbia and Equal to the Apostles. They are: <ul> <li>St Sava, first Archbishop of Serbia, Equal to the Apostles</li> <li>Arsenius, his successor</li> <li>Sava II, son of King Stephen the First-Crowned</li> <li>Nicodemus, who lived on the Holy Mountain, was abbot of Hilandar Monastery there and Archbishop of Serbia</li> <li>Joannicius, patriarch from 1346-1349</li> <li>Ephraim, chosen as patriarch against his will in 1376. He crowned Prince Lazar, then renounced the patriarchal throne and retired into solitude</li> <li>Spiridon, his successor (+1388)</li> <li>Macarius, a great restorer of old churches and monasteries; printed many Church books (+1574)</li> <li>Gabriel, a nobleman by birth. The <i>Prologue</i> says that he ‘took part in the Moscow Council under Patriarch Nikhon, because of which he was tortured by the Turks for treason and hanged in 1656.’</li> <li>In addition, Eustace, Jacob, Danilo, Sava III, Gregory, John, Maxim and Nikhon.</li> </ul> The vital connection between the Serbian church and the Holy Mountain is obvious here; many of these hierarchs lived and struggled on Mt Athos.</p>"
+        "title": "Ss Alexander, John, Paul, Pats. Constantinople",
+        "story": "<p>St Alexander took part in the First Ecumenical Council as delegate of Patriarch Metrophanes, who was too frail to attend; and succeeded Metrophanes on the Patriarchal throne. By his prayer to God that the Church might be spared the schemings of Arius, Arius was struck dead.</p>\n<p>St John is, by one account, St John the Faster (Sept. 2), who reposed in 595; by another, St John Scholasticus (Feb. 21), who reposed in 577.</p>\n<p>St Paul was Patriarch for five years, then renounced the Patriarchal throne to take the Great Schema.</p>"
       },
       {
-        "title": "Sts Alexander (340), John (595), and Paul the New (784), patriarchs of Constantinople",
-        "story": "<p>St Alexander took part in the First Ecumenical Council as delegate of Patriarch Metrophanes, who was too frail to attend; and succeeded Metrophanes on the Patriarchal throne. By his prayer to God that the Church might be spared the schemings of Arius, Arius was struck dead.</p>\n<p>St John is, by one account, St John the Faster (Sept. 2), who reposed in 595; by another, St John Scholasticus (Feb. 21), who reposed in 577.</p>\n<p>St Paul was Patriarch for five years, then renounced the Patriarchal throne to take the Great Schema.</p>"
+        "title": "Synaxis of Serbian Hierarchs",
+        "story": "<p>On this day are commemorated seventeen holy Serbian hierarchs, beginning with St Sava (Sabbas), first Archbishop of Serbia and Equal to the Apostles. They are: <ul> <li>St Sava, first Archbishop of Serbia, Equal to the Apostles</li> <li>Arsenius, his successor</li> <li>Sava II, son of King Stephen the First-Crowned</li> <li>Nicodemus, who lived on the Holy Mountain, was abbot of Hilandar Monastery there and Archbishop of Serbia</li> <li>Joannicius, patriarch from 1346-1349</li> <li>Ephraim, chosen as patriarch against his will in 1376. He crowned Prince Lazar, then renounced the patriarchal throne and retired into solitude</li> <li>Spiridon, his successor (+1388)</li> <li>Macarius, a great restorer of old churches and monasteries; printed many Church books (+1574)</li> <li>Gabriel, a nobleman by birth. The <i>Prologue</i> says that he ‘took part in the Moscow Council under Patriarch Nikhon, because of which he was tortured by the Turks for treason and hanged in 1656.’</li> <li>In addition, Eustace, Jacob, Danilo, Sava III, Gregory, John, Maxim and Nikhon.</li> </ul> The vital connection between the Serbian church and the Holy Mountain is obvious here; many of these hierarchs lived and struggled on Mt Athos.</p>"
       }
     ]
   }
