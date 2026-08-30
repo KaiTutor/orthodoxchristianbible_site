@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "fetched_at": "2026-07-13T23:41:50.089Z",
+  "fetched_at": "2026-08-30T13:46:06.328Z",
   "data": {
     "pascha_distance": 141,
     "julian_day_number": 2461284,
@@ -12,17 +12,17 @@
     "titles": [
       "Monday of the 14th week after Pentecost"
     ],
-    "summary_title": "Sash of the Theotokos",
-    "feast_level": 0,
-    "feast_level_description": "Liturgy",
+    "summary_title": "Sash of the Theotokos; Hieromartyr Cyprian, bishop of Carthage (258); St Gennadius, Patriarch of Constantinople (471)",
+    "feast_level": 3,
+    "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Sash of the Theotokos",
-      "The Placing of the Sash of the Most Holy Theotokos (395-408? 886- 912?)",
       "Hieromartyr Cyprian, bishop of Carthage (258)",
       "St Gennadius, Patriarch of Constantinople (471)",
       "Saint Aidan of Lindisfarne (651)"
@@ -222,7 +222,7 @@
     ],
     "stories": [
       {
-        "title": "The Placing of the Sash of the Most Holy Theotokos (395-408? 886- 912?)",
+        "title": "Sash of the Theotokos",
         "story": "<p>At the Dormition of the Most Holy Theotokos, her sash came into the possession of the Apostle Thomas and after various transfers came to Cappadocia. It was later taken from there to Constantinople, where it was kept in a sealed casket in the Church of the Theotokos at Blachernae, at the time of the Emperor Arcadius (395-408). The casket was not opened until the reign of the Emperor Leo the Wise (886-912), when the Empress Zoe, who was ill, had a vision in which she was told to have the sash placed upon her. The Emperor obtained the blessing of the Patriarch, the sash was placed upon the Empress, and she was immediately healed. Some accounts say that today’s feast celebrates the bringing of the sash to Constantinople; others that it commemorates the miraculous healing of the Empress.</p>"
       },
       {
