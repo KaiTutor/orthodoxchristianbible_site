@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "fetched_at": "2026-07-13T23:41:50.442Z",
+  "fetched_at": "2026-08-31T16:06:54.952Z",
   "data": {
     "pascha_distance": 142,
     "julian_day_number": 2461285,
@@ -12,17 +12,19 @@
     "titles": [
       "Tuesday of the 14th week after Pentecost"
     ],
-    "summary_title": "Church New Year; Ven. Simeon the Stylite (The Elder)",
+    "summary_title": "Church New Year",
     "feast_level": 4,
     "feast_level_description": "Red cross (polyeleos typikon symbol)",
     "feasts": [
-      "Church New Year; Ven. Simeon the Stylite (The Elder)"
+      "Church New Year"
     ],
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
+      "Our Holy Father Symeon Stylites (459)",
       "Righteous Joshua, Son of Nun",
       "Saint Meletios the Younger (1095-1124)",
       "Holy New Martyr Angelis (1680)"
