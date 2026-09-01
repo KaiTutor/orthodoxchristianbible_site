@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "fetched_at": "2026-07-13T23:41:50.803Z",
+  "fetched_at": "2026-09-01T13:27:24.596Z",
   "data": {
     "pascha_distance": 143,
     "julian_day_number": 2461286,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 14th week after Pentecost"
     ],
-    "summary_title": "Ven. Anthony and Theodosius of Kiev Caves",
+    "summary_title": "Ven. Anthony and Theodosius of Kiev Caves; Martyr Mamas of Caesarea in Cappadocia (275), and his parents, Martyrs Theodotus and Rufina; St John IV, Patriarch of Constantinople, known as John the Faster (595)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,10 +20,19 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Ven. Anthony and Theodosius of Kiev Caves",
       "Martyr Mamas of Caesarea in Cappadocia (275), and his parents, Martyrs Theodotus and Rufina",
       "St John IV, Patriarch of Constantinople, known as John the Faster (595)",
+      "Ven. Anthony of the Kiev Caves",
       "Righteous Eleazar, son of Aaron and second High Priest of Israel",
       "Repose of Hieromonk Seraphim (Rose) of Platina (1982). (August 20 OC)"
     ],
