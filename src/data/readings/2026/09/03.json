@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "fetched_at": "2026-07-13T23:41:51.174Z",
+  "fetched_at": "2026-09-02T12:44:02.972Z",
   "data": {
     "pascha_distance": 144,
     "julian_day_number": 2461287,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 14th week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Anthimus, Bishop of Nicomedia",
+    "summary_title": "Hieromartyr Anthimus, Bishop of Nicomedia; Holy Martyr Basilissa (309); Our Holy Father Joannicius, Archbishop and first Patriarch of Serbia (1354)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Hieromartyr Anthimus, Bishop of Nicomedia",
       "Holy Martyr Basilissa (309)",
@@ -332,7 +333,7 @@
     ],
     "stories": [
       {
-        "title": "Hieromartyr Anthimos, bishop of Nicomedia, and those with him (303-304)",
+        "title": "Hieromartyr Anthimus, Bishop of Nicomedia",
         "story": "<p>“After the death of the 20,000 Martyrs of Nicomedia (see Dec. 28), their Bishop Anthimos fled to a certain village to care for his remaining flock. The Emperor Maximian sent men in search of him. When they found him, he promised to show Anthimos to them, but first took them in as guests, fed them, and only then made himself known to them. Amazed at his kindness, the soldiers promised him to tell Maximian that they had not found him. But Anthimos went willingly with them, and converting them by his admonitions, baptized them on the way. He boldly confessed his Faith before Maximian, and after frightful tortures was beheaded in the year 303 or 304.” <i>(Great Horologion)</i></p>\n<p>Our Holy Father Theoctistus, Fellow Ascetic of St Euthymius (451), is also commemorated today. A faithful disciple of St Euthymius, he was abbot of St Euthymius’ monastery in Palestine until his repose in peace at the age of ninety.</p>"
       },
       {
