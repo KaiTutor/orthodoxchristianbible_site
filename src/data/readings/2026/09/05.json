@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "fetched_at": "2026-07-13T23:41:51.894Z",
+  "fetched_at": "2026-09-04T12:40:50.080Z",
   "data": {
     "pascha_distance": 146,
     "julian_day_number": 2461289,
@@ -12,7 +12,7 @@
     "titles": [
       "Saturday of the 14th week after Pentecost"
     ],
-    "summary_title": "Prophet Zachariah",
+    "summary_title": "Prophet Zachariah and Elizabeth; Holy Hieromartyr Athanasius of Brest-Litovsk (1649); Holy Martyrs Abda the bishop, Hormizd and Sunin of Persia (4th c)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,9 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
-      "Prophet Zachariah",
+      "Prophet Zachariah and Elizabeth",
       "Holy Hieromartyr Athanasius of Brest-Litovsk (1649)",
       "Holy Martyrs Abda the bishop, Hormizd and Sunin of Persia (4th c)"
     ],
@@ -171,7 +172,7 @@
     ],
     "stories": [
       {
-        "title": "Holy and Glorious Prophet Zacharias, Father of St John the Baptist",
+        "title": "Prophet Zachariah and Elizabeth",
         "story": "<p>Much of his story is told in the first chapter of Luke’s Gospel. The <i>Synaxarion</i> continues:</p>\n<p>‘After the birth of Christ, Zacharias plainly declared the virginity of Mary and showed her truly to be the Mother of God; for he appointed her a place in that part of the Temple reserved for the virgins and so brought upon himself the hatred of the priests and levites.</p>\n<p>‘When John was six months old, Zacharias hid him and his mother in a cave beyond the Jordan because King Herod, hearing of the birth in Bethlehem of <i>the king of the Jews</i> and fearing a rival of his own worldly power, sent soldiers to kill all the male children of Bethlehem. His enemies seized this opportunity to denounce Zacharias to Herod, who had him pursued and put to death within the precinct of the Temple, at the very place the Mother of God abode for a witnes to her virginity. As the Prophet’s blood flowed within the sanctuary, it signified the withdrawing of the divine Presence. Priests came to take up his body and they buried him with his fathers. From that moment signs and prodigies occurred in the Temple, indicating that the rites of the Law would soon be abolished. No longer would the priests behold the angels of God, or have the grace of prophecy; no longer would they be able to deliver oracles or enlighten the people upon the dark places of holy Scripture, as they had been wont to do.’</p>"
       },
       {
