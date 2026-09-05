@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "fetched_at": "2026-07-13T23:41:52.256Z",
+  "fetched_at": "2026-09-05T11:48:14.204Z",
   "data": {
     "pascha_distance": 147,
     "julian_day_number": 2461290,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Miracle of Archangel Michael at Colossae",
       "Holy Prophet Zacharias and Righteous Elizabeth (1st c.), parents of St John the Forerunner.",
@@ -299,7 +300,7 @@
     ],
     "stories": [
       {
-        "title": "Commemoration of the Miracle of the Archangel Michael at Colossae (Chonae) (4th c.)",
+        "title": "Miracle of Archangel Michael at Colossae",
         "story": "<p>In Colossae in Phrygia there were a church and a holy spring dedicated to the Archangel Michael. Malicious pagans diverted the course of two rivers so that they would inundate the church. But the Archangel appeared, bringing with him an earthquake that shook the whole area and opened a fissure into which the waters plunged, sparing the church. The place was thereafter called “Chonae” Greek for “funnels” instead of Colossae.</p>"
       },
       {
