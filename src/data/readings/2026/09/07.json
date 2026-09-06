@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "fetched_at": "2026-07-13T23:41:52.607Z",
+  "fetched_at": "2026-09-06T12:06:21.307Z",
   "data": {
     "pascha_distance": 148,
     "julian_day_number": 2461291,
@@ -12,18 +12,20 @@
     "titles": [
       "Monday of the 15th week after Pentecost"
     ],
-    "summary_title": "Martyr Sozon of Cilicia; St John, Archbishop of Novgorod",
+    "summary_title": "Forefeast of Nativity",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
-    "feasts": null,
+    "feasts": [
+      "Forefeast of Nativity"
+    ],
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Sozon of Cilicia",
       "St John, Archbishop of Novgorod",
-      "Martyr Sozon of Cilicia (208/304)",
       "Holy Apostles Evodus and Onesiphorus of the Seventy",
       "Holy Martyr Eupsychyius of Caesarea (2nd c.)",
       "St Kassia (Kassiani) the Hymnographer (9th c.)"
@@ -174,8 +176,12 @@
     ],
     "stories": [
       {
-        "title": "Martyr Sozon of Cilicia (208/304)",
+        "title": "Martyr Sozon of Cilicia",
         "story": "<p>He began life as a pagan shepherd in Lycaonia. Coming to faith in Christ, he was baptized and received the name Sozon (“Save”). Thereafter he took every opportunity to proclaim the Gospel to his countrymen and to urge them to give up their idols. Entering a temple of Artemis in Cilicia, he cut off its golden hand, broke it into pieces, and distributed the gold to the poor. When he learned that because of this some were being punished unjustly for theft, he gave himself up to the governor Maximian. He was beaten to death with rods, by some accounts in 288, by others in 304.</p>"
+      },
+      {
+        "title": "St John, Archbishop of Novgorod",
+        "story": "<p>“He was first a married priest and then, from 1163, bishop in Novgorod, building seven churches during his lifetime. He had a vision of the holy Mother of God and a rare power over demons, making them obey him, and he once miraculously preserved Novgorod from an attack by seventy-two princes. He suffered from diabolical temptations, but overcame them all by the power of the Cross and by prayer. Retiring to a monastery in old age, he received the Great Habit and entered peacefully into rest in the Lord on September 7th, 1185.” (<i>Prologue</i>)</p>"
       },
       {
         "title": "Holy Apostles Evodus and Onesiphorus of the Seventy",
@@ -184,10 +190,6 @@
       {
         "title": "Holy Martyr Eupsychyius of Caesarea (2nd c.)",
         "story": "<p>He was the son of a wealthy pagan senator in Caesarea of Cappadocia. When his father died, he gave his inheritance to the poor, proclaiming the Kingdom of God while he did so. For this he was arrested by Sapricius, Governor of Cappadocia, and put in prison. He persuaded his jailers to release him for awhile, and set about giving away the remainder of his worldly goods, first to his accusers and persecutors, then to the poor. When all his wealth was gone, he voluntarily returned to prison. He was viciously scourged several times, then beheaded. At his martyrdom, it is said that milk instead of blood flowed from his body.</p>"
-      },
-      {
-        "title": "Our Holy Father John, Archbishop of Novgorod (1185)",
-        "story": "<p>“He was first a married priest and then, from 1163, bishop in Novgorod, building seven churches during his lifetime. He had a vision of the holy Mother of God and a rare power over demons, making them obey him, and he once miraculously preserved Novgorod from an attack by seventy-two princes. He suffered from diabolical temptations, but overcame them all by the power of the Cross and by prayer. Retiring to a monastery in old age, he received the Great Habit and entered peacefully into rest in the Lord on September 7th, 1185.” (<i>Prologue</i>)</p>"
       },
       {
         "title": "St Kassia (Kassiani) the Hymnographer (9th c.)",
