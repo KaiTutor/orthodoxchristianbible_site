@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "fetched_at": "2026-07-13T23:41:53.332Z",
+  "fetched_at": "2026-09-08T12:50:00.274Z",
   "data": {
     "pascha_distance": 150,
     "julian_day_number": 2461293,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 15th week after Pentecost"
     ],
-    "summary_title": "Righteous Joachim and Anna; Ven. Joseph of Volotsk",
+    "summary_title": "Righteous Joachim and Anna; Ven. Joseph of Volotsk; Commemoration of the Third Ecumenical Council (431)",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -20,10 +20,17 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Righteous Joachim and Anna",
       "Ven. Joseph of Volotsk",
-      "Holy Ancestors of God Joachim and Anna",
       "Commemoration of the Third Ecumenical Council (431)",
       "Holy Martyr Severian of Sebaste (320)",
       "Our Holy Father Ciaran of Clonmacnoise (549)"
@@ -160,7 +167,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Ancestors of God Joachim and Anna",
+        "title": "Righteous Joachim and Anna",
         "story": "<p>St Joachim was of the tribe of Judah and a descendant of King David. St Anna was of the tribe of Levi, the daughter of a priest named Matthan. Matthan’s three daughters were Mary, Zoia and Anna. Mary became the mother of Salome the Myrrhbearer; Zoia bore Elizabeth, mother of St John the Baptist; and Anna married Joachim in Nazareth. Joachim and Anna, to their great sorrow, were barren for fifty years. They lived prayerfully and kept only a third of their income for themselves, giving a third to the poor and a third to the Temple. Once when they had come to Jerusalem to offer sacrifice at the Temple, Joachim was publicly scorned by the High Priest Issachar for his childlessness. Joachim and Anna, greatly grieved, prayed fervently that God would grant them the miracle that he had wrought for Abraham and Sarah, and give them a child in their old age. Once, as each was praying separately in a secluded place, angels appeared to each of them and revealed to them that they would be given a blessed daughter, `by whom all nations will be blessed, and through whom will come the salvation of the world.’ They both rushed home to tell one another the joyous news, and embraced when they met. (This is the moment depicted in their icon.) Anna conceived and gave birth to the Most Holy Theotokos. Both reposed in peace, not long after they had sent her to live in the Temple.</p>"
       },
       {
