@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "fetched_at": "2026-07-13T23:41:53.691Z",
+  "fetched_at": "2026-09-09T12:55:14.173Z",
   "data": {
     "pascha_distance": 151,
     "julian_day_number": 2461294,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyrs Menodora, Metrodora, Nymphodora"
     ],
@@ -246,7 +247,7 @@
     ],
     "stories": [
       {
-        "title": "Martyrs Menodora, Metrodora, and Nymphodora at Nicomedia (305-311)",
+        "title": "Martyrs Menodora, Metrodora, Nymphodora",
         "story": "<p>They were three sisters, raised in the Christian faith in Bithynia. Together they withdrew from the world and lived together in virginity on a lonely mountain, devoting themselves to prayer, fasting and labor. Though they wished only to live unknown to the world, their wonderworking gifts were discovered, and many people began to come to them for healing of ailments. In this way word of them reached the governor Fronton, who had them arrested and brought before him. Struck by their beauty (which had only increased despite their fasting and hard labor), the governor tried to flatter them, promising that he would send them to the Emperor to be given in marriage to noblemen. When he saw that this had no effect, the governor threw the sisters into prison. First he had Menodora tortured to death, then brought her two sisters to view her mutilated body, commanding them to deny Christ or meet the same fate. When they refused, they were subjected to the same fate. Christians recovered and buried the bodies of the three holy martyrs.</p>"
       }
     ]

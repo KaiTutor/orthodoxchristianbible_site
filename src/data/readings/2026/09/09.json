@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "fetched_at": "2026-09-08T12:50:00.274Z",
+  "fetched_at": "2026-09-09T12:55:13.796Z",
   "data": {
     "pascha_distance": 150,
     "julian_day_number": 2461293,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 15th week after Pentecost"
     ],
-    "summary_title": "Righteous Joachim and Anna; Ven. Joseph of Volotsk; Commemoration of the Third Ecumenical Council (431)",
+    "summary_title": "Righteous Joachim and Anna; Ven. Joseph of Volotsk; Theophanes the Confessor",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -31,6 +31,7 @@
     "saints": [
       "Righteous Joachim and Anna",
       "Ven. Joseph of Volotsk",
+      "Theophanes the Confessor",
       "Commemoration of the Third Ecumenical Council (431)",
       "Holy Martyr Severian of Sebaste (320)",
       "Our Holy Father Ciaran of Clonmacnoise (549)"
