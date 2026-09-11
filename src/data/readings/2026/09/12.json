@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "fetched_at": "2026-07-13T23:41:54.402Z",
+  "fetched_at": "2026-09-11T12:47:22.230Z",
   "data": {
     "pascha_distance": 153,
     "julian_day_number": 2461296,
@@ -22,8 +22,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
       "Hieromartyr Autonomus, Bishop in Italy",
+      "Julian the Martyr",
+      "Theodore the Hieromartyr of Alexandria",
       "Our Holy Father Athanasius the Elder of Vysotsk (early 15th c.), and his disciple Athanasius the Younger (1395)"
     ],
     "service_notes": [
@@ -427,7 +430,7 @@
     ],
     "stories": [
       {
-        "title": "Hieromartyr Autonomus, bishop of Italy (313)",
+        "title": "Hieromartyr Autonomus, Bishop in Italy",
         "story": "<p>He fled from Italy to Bithynia during Diocletian’s persecutions. In Bithynia he converted so many pagans to faith in Christ that those whose hearts remained hard rose up against him and, while he was celebrating the Divine Liturgy in the Church of the Archangel Michael, slew him at the altar, killing many other worshipers with him. Two hundred years after his death, he appeared to a soldier named John, who unearthed his relics and found them to be completely incorrupt.</p>"
       },
       {
