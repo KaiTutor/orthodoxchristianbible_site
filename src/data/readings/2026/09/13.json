@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "fetched_at": "2026-07-13T23:41:54.767Z",
+  "fetched_at": "2026-09-12T12:07:38.245Z",
   "data": {
     "pascha_distance": 154,
     "julian_day_number": 2461297,
@@ -23,6 +23,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
       "Holy Hieromartyr Cornelius the Centurion (1st c. )",
       "Holy Great Martyr Ketevan, Queen of Georgia (1624)"
