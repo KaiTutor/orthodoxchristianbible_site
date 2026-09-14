@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "fetched_at": "2026-07-13T23:41:55.486Z",
+  "fetched_at": "2026-09-14T14:58:23.942Z",
   "data": {
     "pascha_distance": 156,
     "julian_day_number": 2461299,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 16th week after Pentecost"
     ],
-    "summary_title": "Greatmartyr Nicetas the Goth",
+    "summary_title": "Greatmartyr Nicetas the Goth; Bessarion of Larissa; Holy Martyr Porphyrius (361).",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Greatmartyr Nicetas the Goth",
+      "Bessarion of Larissa",
       "Holy Martyr Porphyrius (361)."
     ],
     "service_notes": null,
@@ -212,7 +214,7 @@
     ],
     "stories": [
       {
-        "title": "Great Martyr Nicetas the Goth (372)",
+        "title": "Greatmartyr Nicetas the Goth",
         "story": "<p>He was a Goth of noble birth among his people, a disciple of Bishop Theophilus of the Goths, who took part in the First Ecumenical Council. When he confronted Athanaric, the pagan ruler of the Goths, for his persecution of Christians and for his unbelief, Nicetas was cruelly tortured and finally burned to death. Though he died in the flames, his body was brought forth unharmed. His relics were taken by his friend Marianus to Mopsuestia in Cilicia, where a church dedicated to the Saint was built.</p>"
       },
       {
