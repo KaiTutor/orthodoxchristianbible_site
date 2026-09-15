@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "fetched_at": "2026-09-14T14:58:23.942Z",
+  "fetched_at": "2026-09-15T13:27:29.802Z",
   "data": {
     "pascha_distance": 156,
     "julian_day_number": 2461299,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 16th week after Pentecost"
     ],
-    "summary_title": "Greatmartyr Nicetas the Goth; Bessarion of Larissa; Holy Martyr Porphyrius (361).",
+    "summary_title": "Greatmartyr Nicetas the Goth; Holy Martyr Porphyrius (361).; Philotheos the Righteous",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -23,7 +23,9 @@
     "fast_abstentions": [],
     "saints": [
       "Greatmartyr Nicetas the Goth",
+      "Philotheos the Righteous",
       "Bessarion of Larissa",
+      "John the New Martyr of Sfakion, Crete",
       "Holy Martyr Porphyrius (361)."
     ],
     "service_notes": null,

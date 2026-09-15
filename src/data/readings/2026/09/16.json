@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "fetched_at": "2026-07-13T23:41:55.853Z",
+  "fetched_at": "2026-09-15T13:27:30.167Z",
   "data": {
     "pascha_distance": 157,
     "julian_day_number": 2461300,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 16th week after Pentecost"
     ],
-    "summary_title": "Greatmartyr Euphemia the All-Praised",
+    "summary_title": "Greatmartyr Euphemia the All-Praised; Holy Hieromartyr Cyprian of Carthage (258); St Ninian, Enlightener of Scotland (432)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,18 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Greatmartyr Euphemia the All-Praised",
+      "Sebastiana, Disciple of St. Paul the Apostle",
+      "Melitina the Martyr",
       "Holy Hieromartyr Cyprian of Carthage (258)",
       "St Ninian, Enlightener of Scotland (432)",
       "Our Holy Father Dorotheos the Solitary of Egypt (4th c.)"
@@ -193,7 +203,7 @@
     ],
     "stories": [
       {
-        "title": "Great-Martyr Euphemia the All-praised, of Chalcedon (304)",
+        "title": "Greatmartyr Euphemia the All-Praised",
         "story": "<p>She was born in Chalcedon to noble Christian parents. When Priscus, the locul Proconsul, celebrated a public sacrifice to Ares, forty-nine Christians including Euphemia hid themselves to avoid idolatry. Their absence was noticed, and they were found and brought before Priscus. After torturing all of them for eleven days, on the twelfth day he singled out Euphemia because of her beauty and began to flatter her, hoping in this way to draw her away from the Faith. When his efforts proved useless, he ordered her to be more savagely tortured than any of her fellow believers. She was miraculously preserved intact through many tortures, finally giving her soul into God’s hands when she was thrown to wild beasts. Her devout parents retrieved and buried her body. Her relics are preserved in the Patriarchate of Constantinople.</p>\n<p>The miracle wrought by her holy relics at the Council of Chalcedon is commemorated on July 11.</p>"
       },
       {
