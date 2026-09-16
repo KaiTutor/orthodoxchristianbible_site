@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "fetched_at": "2026-07-13T23:41:56.212Z",
+  "fetched_at": "2026-09-16T13:26:31.733Z",
   "data": {
     "pascha_distance": 158,
     "julian_day_number": 2461301,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 16th week after Pentecost"
     ],
-    "summary_title": "Martyr Sophia and Daughters Faith, Hope, and Love",
+    "summary_title": "Martyr Sophia and Daughters Faith, Hope, and Love; Our Holy Father Lambert, Bishop of Maastricht (705)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Sophia and Daughters Faith, Hope, and Love",
       "Our Holy Father Lambert, Bishop of Maastricht (705)"
@@ -163,7 +164,7 @@
     ],
     "stories": [
       {
-        "title": "Martyrs Sophia and her three daughters Faith, Hope and Love, at Rome (137)",
+        "title": "Martyr Sophia and Daughters Faith, Hope, and Love",
         "story": "<p>Sophia was a widow in Rome in the time of the Emperor Hadrian, and raised her three daughters in the Faith. When the four of them were brought before the persecutors, Faith was twelve years old, Hope was ten, and Love was nine. Ordered to make sacrifice to the goddess Artemis, all of them humbly refused. All three daughters were tortured, then executed, before their mother’s eyes. Sophia buried their bodies and mourned at their grave for three days and nights, then fell asleep in peace. For her steadfastness and solidarity with her daughters’ sufferings she is counted as a martyr along with them. <i>Sophia</i> means “wisdom” in Greek; the three daughters’ names in Greek are <i>Pistis, Elpis,</i> and <i>Agape</i>; in Russian, <i>Vera, Nadezhda,</i> and <i>Lyubov.</i> They are represented on many icons.</p>"
       },
       {
