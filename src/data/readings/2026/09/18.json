@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "fetched_at": "2026-07-13T23:41:56.565Z",
+  "fetched_at": "2026-09-17T13:22:29.429Z",
   "data": {
     "pascha_distance": 159,
     "julian_day_number": 2461302,
@@ -12,7 +12,7 @@
     "titles": [
       "Friday of the 16th week after Pentecost"
     ],
-    "summary_title": "St Eumenes, Bishop of Gortyna",
+    "summary_title": "St Eumenes, Bishop of Gortyna; St Ariadne of Phrygia (2nd c.)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "St Eumenes, Bishop of Gortyna",
       "St Ariadne of Phrygia (2nd c.)"
@@ -198,7 +206,7 @@
     ],
     "stories": [
       {
-        "title": "St Eumenes, bishop of Gortyrna (7th c.)",
+        "title": "St Eumenes, Bishop of Gortyna",
         "story": "<p>“He gave himself to Christ with his whole heart from his youth, freeing himself from two heavy burdens: the burden of riches and the burden of the flesh. He freed himself from the first by giving away all his goods to the poor and needy, and from the latter by strict fasting. He thus healed himself and was able to heal others. Passionless and filled with the grace of the Holy Spirit, Eumenius shone with a radiance that could not be hidden, as it is written: ‘A city set on a hill cannot be hid’ (Matt. 5:14), and so holy Eumenius could not be hidden from the world. Seeing him, the people chose him as their bishop in Gortyna. As a bishop, he governed Christ’s flock as a good shepherd. He was a father to the poor, riches to the needy, consolation to the sad, healing to the sick and a marvellous wonder-worker. He worked many miracles by his prayers: he killed a poisonous snake, drove out demons, healed many of the sick, and did this not only in his home city but in Rome and in the Thebaid. In the Thebaid, he brought rain from God in a time of drought, and there finally finished his earthly course and entered into the eternal presence of his Lord. He lived and worked in the seventh century.” <i>(Prologue)</i></p>"
       },
       {
