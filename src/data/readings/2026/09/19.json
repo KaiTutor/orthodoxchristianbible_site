@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "fetched_at": "2026-07-13T23:41:56.908Z",
+  "fetched_at": "2026-09-18T12:55:35.488Z",
   "data": {
     "pascha_distance": 160,
     "julian_day_number": 2461303,
@@ -22,9 +22,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyrs Trophimus, Sabbatius, Dorymedon",
-      "Ss David and Constantine of Yaroslavl",
+      "Rt. Blv. Theodore, Prince of Smolensk, and his sons Ss David and Constantine of Yaroslavl",
+      "Theodore of Tarsus, Archbishop of Canterbury",
       "Holy Martyr Zosimas the Hermit of Cilicia (4th c.)"
     ],
     "service_notes": null,
@@ -289,7 +291,7 @@
     ],
     "stories": [
       {
-        "title": "Martyrs Trophimus, Sabbatius, and Dorymedon of Synnada (278)",
+        "title": "Martyrs Trophimus, Sabbatius, Dorymedon",
         "story": "<p>Saints Trophimus and Sabbatius came to Antioch during a great festival of Apollo and Daphne. Sorrowing for the blindness of the people they presented themselves to Atticus, the governor, and announced that they were Christians. Sabbatius was tortured so cruelly that he died in his sufferings; Trophimus was sent to Synnada, where he in turn was tortured, then imprisoned barely alive. An official of that city, Dorymedon, was moved to pity and came to the prison to care for Trophimus. (The <i>Great Horologion</i> says that he was still a pagan at the time, the Prologue that he was a secret Christian). When a pagan festival came, Dorymedon refused to worship the idols and proclaimed himself a Christian. He and Trophimus together were tortured, thrown to wild beasts (who would not touch them), and finally beheaded.</p>"
       },
       {
