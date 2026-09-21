@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "fetched_at": "2026-07-13T23:41:57.971Z",
+  "fetched_at": "2026-09-21T15:03:13.682Z",
   "data": {
     "pascha_distance": 163,
     "julian_day_number": 2461306,
@@ -12,14 +12,15 @@
     "titles": [
       "Tuesday of the 17th week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Phocas, Bishop of Sinope",
-    "feast_level": 0,
-    "feast_level_description": "Liturgy",
+    "summary_title": "Hieromartyr Phocas, Bishop of Sinope; Venerable Cosmas, desert-dweller of Zographou, Mt Athos (1323)",
+    "feast_level": 2,
+    "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Hieromartyr Phocas, Bishop of Sinope",
       "Venerable Cosmas, desert-dweller of Zographou, Mt Athos (1323)"
@@ -247,7 +248,7 @@
     ],
     "stories": [
       {
-        "title": "Hieromartyr Phocas, Bishop of Sinope (102)",
+        "title": "Hieromartyr Phocas, Bishop of Sinope",
         "story": "<p>He was a zealous, wise and wonder-working bishop in his birthplace, Sinope, which lies on the southern shore of the Black Sea. For bringing many idolators to faith in Christ, he was hated by the pagans. He was arrested by the governor Africanus, subjected to various tortures,and finally scalded to death in a bath-house. He contested for the Faith during the reign of the Emperor Trajan.</p>"
       },
       {
