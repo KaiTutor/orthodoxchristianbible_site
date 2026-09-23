@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "fetched_at": "2026-07-13T23:41:58.711Z",
+  "fetched_at": "2026-09-23T13:35:06.756Z",
   "data": {
     "pascha_distance": 165,
     "julian_day_number": 2461308,
@@ -12,25 +12,26 @@
     "titles": [
       "Thursday of the 17th week after Pentecost"
     ],
-    "summary_title": "Holy New Martyrs of Alaska",
+    "summary_title": "Holy Protomartyr Thecla, Equal to the Apostles (1st c.); St Silouan, elder of Mt Athos (1938) (September 11 OC); St Stephen, First-crowned King of Serbia (Simon the Monk) (1224)",
     "feast_level": 4,
     "feast_level_description": "Red cross (polyeleos typikon symbol)",
-    "feasts": [
-      "Holy New Martyrs of Alaska"
-    ],
+    "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
+      "Coprios the Righteous",
       "Holy Protomartyr Thecla, Equal to the Apostles (1st c.)",
+      "Holy New Martyrs Juvenaly and Peter the Aleut of Alaska (1796, 1815)",
       "St Silouan, elder of Mt Athos (1938) (September 11 OC)",
       "St Stephen, First-crowned King of Serbia (Simon the Monk) (1224)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
