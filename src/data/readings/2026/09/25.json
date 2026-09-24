@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "fetched_at": "2026-07-13T23:41:59.078Z",
+  "fetched_at": "2026-09-24T13:30:11.282Z",
   "data": {
     "pascha_distance": 166,
     "julian_day_number": 2461309,
@@ -22,16 +22,21 @@
     "fast_level_desc": "Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
+      "Paphnoutios the Martyr & his 546 Companions in Egypt",
       "Our Righteous Mother Euphrosyne (ca. 445)",
-      "Our Holy Father Sergius of Radonezh (1392)",
       "Commemoration of the Great Earthquake at Constantinople (447) and the Miracle of the Trisagion",
       "Venerable Dosithea, recluse of the Kiev Caves (1776)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
@@ -529,12 +534,12 @@
     ],
     "stories": [
       {
-        "title": "Our Righteous Mother Euphrosyne (ca. 445)",
-        "story": "<p>She was the daughter of a wealthy Christian, Paphnutius, who with his wife brought up Euphrosyne in piety. Not wishing to marry, she secretly fled her home and its wealth, dressed herself in men’s clothing and entered a monastery using the name of Smaragdus. There she lived in asceticism for thirty-eight years. She only revealed her identity on her death bed. Her father Paphnutius became a monk in the same monastery, and entered into repose ten years after his daughter.</p>"
-      },
-      {
         "title": "Our Holy Father Sergius of Radonezh (1392)",
         "story": "<p>‘Our righteous Father Sergius was born in Rostov, north of Moscow, about the year 1314. Named Bartholomew in baptism, he was brought up in Radonezh, and at the death of his parents he withdrew to the wilderness to become a monk. It is notable that without having been trained in a monastery, he was of such a spiritual stature as to be able to take up the perilous eremitical life from the beginning, without falling into delusion or despondency. When he had endured with courage the deprivations of the solitary life, other monks began to come to him, for whom he was made abbot against his will. On the counsel of Philotheus, Patriarch of Constantinople, he organized his monks according to the cenobitic life, appointing duties to each. While Anthony and Theodosius of Kiev, and the other righteous Fathers before Sergius, had established their monasteries near to cities, Sergius was the leader and light of those who went far into the wilderness, and after his example the untrodden forests of northern Russia were settled by monks. When Grand Duke Demetrius Donskoy was about to go to battle against the invading Tartars, he first sought the blessing of Saint Sergius, through whose prayers he was triumphant. Saint Sergius was adorned with the highest virtues of Christ-like humility and burning love for God and neighbor, and received the gift of working wonders, of casting out demons, and of discretion for leading souls to salvation. When he served the Divine Liturgy, an Angel served him visibly; he was also vouchsafed the visitation of the most holy Theotokos with the Apostles Peter and John. He was gathered to his Fathers on September 25, 1392. At the recovery of his holy relics on July 5th, 1422, his body and garments were found fragrant and incorrupt. His life was written by the monk Epiphanius, who knew him.’ <i>(Great Horologion)</i></p>"
+      },
+      {
+        "title": "Our Righteous Mother Euphrosyne (ca. 445)",
+        "story": "<p>She was the daughter of a wealthy Christian, Paphnutius, who with his wife brought up Euphrosyne in piety. Not wishing to marry, she secretly fled her home and its wealth, dressed herself in men’s clothing and entered a monastery using the name of Smaragdus. There she lived in asceticism for thirty-eight years. She only revealed her identity on her death bed. Her father Paphnutius became a monk in the same monastery, and entered into repose ten years after his daughter.</p>"
       },
       {
         "title": "Commemoration of the Great Earthquake at Constantinople (447) and the Miracle of the Trisagion",
