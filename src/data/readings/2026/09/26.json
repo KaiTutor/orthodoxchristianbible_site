@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "fetched_at": "2026-07-13T23:41:59.445Z",
+  "fetched_at": "2026-09-25T13:39:10.811Z",
   "data": {
     "pascha_distance": 167,
     "julian_day_number": 2461310,
@@ -22,11 +22,12 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": null,
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
