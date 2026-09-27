@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "fetched_at": "2026-07-13T23:42:00.192Z",
+  "fetched_at": "2026-09-27T13:52:08.975Z",
   "data": {
     "pascha_distance": 169,
     "julian_day_number": 2461312,
@@ -22,14 +22,15 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
       "Holy Prophet Baruch (6th c. BC)",
       "Holy Martyr Vatslav (Wenceslas), King of the Czechs (929)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
