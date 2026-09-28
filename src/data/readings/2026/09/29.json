@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "fetched_at": "2026-07-13T23:42:00.542Z",
+  "fetched_at": "2026-09-28T16:42:58.048Z",
   "data": {
     "pascha_distance": 170,
     "julian_day_number": 2461313,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 18th week after Pentecost"
     ],
-    "summary_title": "Ven. Cyriacos, Hermit of Palestine",
+    "summary_title": "Ven. Cyriacos, Hermit of Palestine; St Mary of Palestine (6th c.); Holy Martyrs Dada and those with them (4th c.)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Ven. Cyriacos, Hermit of Palestine",
+      "Theophanes the Merciful of Gaza",
       "St Mary of Palestine (6th c.)",
       "Holy Martyrs Dada and those with them (4th c.)",
       "Venerable Cyprian of Ustiug (1276)"
@@ -137,7 +139,7 @@
     ],
     "stories": [
       {
-        "title": "St Cyriacus the Solitary (555/557)",
+        "title": "Ven. Cyriacos, Hermit of Palestine",
         "story": "<p>He was born in Corinth of pious Christian parents. At the age of eighteen he went to Palestine, where, after studying under several holy fathers, he entered monastic life and became the disciple of St Gerasim of the Jordan. After St Gerasim’s death he lived in strict solitude, asceticism and silence for many years, finally entering the monastery of St Chariton, where he reposed in peace at the age of 109. Despite his very severe asceticism, he was large and strong, remaining so until the end of his life. According to the rule of St Chariton, he and his fellow-monks ate only once a day, after sunset. In the desert, he lived for years on nothing but the raw plants that he gathered there. He said of himself that, while he was a monk, the sun never saw him eat or be angry with any man.</p>"
       },
       {
