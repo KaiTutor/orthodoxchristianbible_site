@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-07-13T23:42:00.895Z",
+  "fetched_at": "2026-09-29T14:48:56.581Z",
   "data": {
     "pascha_distance": 171,
     "julian_day_number": 2461314,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 18th week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Gregory of Armenia; Ven. Gregory of Vologda",
+    "summary_title": "Hieromartyr Gregory of Armenia; Ven. Gregory of Vologda; Venerable Gregory of Pelshma (1441 or 1451)",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Hieromartyr Gregory of Armenia",
       "Ven. Gregory of Vologda",
@@ -165,7 +173,7 @@
     ],
     "stories": [
       {
-        "title": "St Gregory the Enlightener, Bishop of Armenia (325/335)",
+        "title": "Hieromartyr Gregory of Armenia",
         "story": "<p>He was a nobleman, related to the imperial houses of Persia and Armenia. When these two houses went to war with one another, Gregory withdrew to Caesarea in Cappadocia, where he heard the Gospel proclaimed and came to faith in Christ. There he also married and had two sons. After his wife’s death he returned to his homeland and served in the court of Tiridates, king of Armenia. When the king discovered that Gregory was a Christian, he subjected the Saint to many tortures, finally having him cast into a pit full of mire and poisonous reptiles. But Gregory was miraculously kept alive in the pit for fourteen years, during which a widow secretly provided for his needs. King Tiridates, still cruelly persecuting the Christians in his land, eventually went mad and became like a wild animal. In a dream, the king’s sister was told that her brother would only be restored to sanity when Gregory was freed from the pit. This was done, and Gregory healed and baptised his persecutor. At the king’s request, Gregory was made bishop of Armenia. As bishop he brought countless thousands to faith in Christ and is counted as the Enlightener of Armenia. In old age he retired into ascetical life, and reposed in peace.</p>"
       },
       {
