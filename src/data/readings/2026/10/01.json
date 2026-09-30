@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "fetched_at": "2026-07-13T23:42:01.256Z",
+  "fetched_at": "2026-09-30T14:52:36.714Z",
   "data": {
     "pascha_distance": 172,
     "julian_day_number": 2461315,
@@ -22,7 +22,9 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [],
     "saints": [
+      "Holy Apostle Ananias of the Seventy",
       "St Romanos the Melodist of Constantinople (556)",
       "Our Holy Father Gregory the Choirmaster (Domestikos) of the Great Lavra (1355)",
       "Saint Remigius, Bishop of Rheims, Apostle to the Franks (533)"
@@ -30,7 +32,7 @@
     "service_notes": null,
     "abbreviated_reading_indices": [
       4,
-      5
+      7
     ],
     "readings": [
       {
