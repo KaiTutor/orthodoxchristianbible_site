@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "fetched_at": "2026-07-13T23:42:01.603Z",
+  "fetched_at": "2026-10-01T15:23:16.730Z",
   "data": {
     "pascha_distance": 173,
     "julian_day_number": 2461316,
@@ -12,7 +12,7 @@
     "titles": [
       "Friday of the 18th week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Cyprian, Martyrs Justina and Theoctistus; Bl. Andrew, Fool-for-Christ",
+    "summary_title": "Hieromartyr Cyprian, Martyrs Justina and Theoctistus; Bl. Andrew, Fool-for-Christ; St Cassian the Greek, Wonderworker of Uglich (1504)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,10 +20,17 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Hieromartyr Cyprian, Martyrs Justina and Theoctistus",
       "Bl. Andrew, Fool-for-Christ",
-      "Hieromartyr Cyprian and Virgin-Martyr Justina (304).",
       "St Cassian the Greek, Wonderworker of Uglich (1504)"
     ],
     "service_notes": null,
@@ -151,12 +158,12 @@
     ],
     "stories": [
       {
-        "title": "St Andrew the Fool for Christ (911)",
-        "story": "<p>St Andrew was bought as a slave by Theognostos,a wealthy citizen of Constantinople, during the reign of the Emperor Leo the Wise. Theognostos recognized Andrew’s unusual ability and taught him to read and write. Despite this, Andrew, obeying a divine revelation, took up the ascesis of folly for Christ, behaving as a madman all day and secretly praying most of the night. His master endeavored to have him cured of his apparent madness, having prayers read over him in church, but to no avail. Finally he discharged Andrew, who thereafter lived in absolute poverty in Constantinople, clothing himself in rags and living on the bread given him by kindly Christians. Anything that he received, beyond that needed for bare survival, he gave to beggars, usually mocking and insulting them at the same time so as not to be thanked or praised for his deeds. Such was the wholeheartedness of his prayers that he was given grace to see angels and demons, to discern the secrets of others, thereby turning them from their sins. It was he who, with his disciple Epiphanius, saw the vision of the Protecting Veil of the Mother of God (see October 1). After a life of profound ascetic struggle, he reposed in peace.</p>"
+        "title": "Hieromartyr Cyprian, Martyrs Justina and Theoctistus",
+        "story": "<p>“Saint Justina, who was from Damascus, lived in virginity for the sake of Christ. Saint Cyprian, who was from Antioch, began as an initiate of magic and worshipper of the demons. A certain foolish young man who had been smitten with Justina’s beauty hired Cyprian to draw her to love him; when Cyprian had used every demonic device he knew, and had failed, being repulsed by the power of Christ Whom Justina invoked, he understood the weakness of the demons and came to know the truth. Delivered from demonic delusion, he came to Christ and burned all his books of magic, was baptized, and later ascended the episcopal throne in his country. Later, he and Justina were arrested by the Count of Damascus, and having endured many torments at his hands, they were sent finally to Diocletian in Nicomedia, where they were beheaded in the year 304.” <i>(Great Horologion)</i></p>"
       },
       {
-        "title": "Hieromartyr Cyprian and Virgin-Martyr Justina (304).",
-        "story": "<p>“Saint Justina, who was from Damascus, lived in virginity for the sake of Christ. Saint Cyprian, who was from Antioch, began as an initiate of magic and worshipper of the demons. A certain foolish young man who had been smitten with Justina’s beauty hired Cyprian to draw her to love him; when Cyprian had used every demonic device he knew, and had failed, being repulsed by the power of Christ Whom Justina invoked, he understood the weakness of the demons and came to know the truth. Delivered from demonic delusion, he came to Christ and burned all his books of magic, was baptized, and later ascended the episcopal throne in his country. Later, he and Justina were arrested by the Count of Damascus, and having endured many torments at his hands, they were sent finally to Diocletian in Nicomedia, where they were beheaded in the year 304.” <i>(Great Horologion)</i></p>"
+        "title": "Bl. Andrew, Fool-for-Christ",
+        "story": "<p>St Andrew was bought as a slave by Theognostos,a wealthy citizen of Constantinople, during the reign of the Emperor Leo the Wise. Theognostos recognized Andrew’s unusual ability and taught him to read and write. Despite this, Andrew, obeying a divine revelation, took up the ascesis of folly for Christ, behaving as a madman all day and secretly praying most of the night. His master endeavored to have him cured of his apparent madness, having prayers read over him in church, but to no avail. Finally he discharged Andrew, who thereafter lived in absolute poverty in Constantinople, clothing himself in rags and living on the bread given him by kindly Christians. Anything that he received, beyond that needed for bare survival, he gave to beggars, usually mocking and insulting them at the same time so as not to be thanked or praised for his deeds. Such was the wholeheartedness of his prayers that he was given grace to see angels and demons, to discern the secrets of others, thereby turning them from their sins. It was he who, with his disciple Epiphanius, saw the vision of the Protecting Veil of the Mother of God (see October 1). After a life of profound ascetic struggle, he reposed in peace.</p>"
       },
       {
         "title": "St Cassian the Greek, Wonderworker of Uglich (1504)",
