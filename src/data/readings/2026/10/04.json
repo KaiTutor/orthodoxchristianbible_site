@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "fetched_at": "2026-07-13T23:42:02.321Z",
+  "fetched_at": "2026-10-03T13:18:39.598Z",
   "data": {
     "pascha_distance": 175,
     "julian_day_number": 2461318,
@@ -20,9 +20,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Hieromartyr Hierotheus, Bishop of Athens",
       "Unc. Rel. Gurias of Kazan and Varsanuphy of Tver",
+      "Domnina the Martyr and her daughters",
       "Our Holy Father Ammon of Egypt (4th c)"
     ],
     "service_notes": null,
@@ -215,7 +217,7 @@
     ],
     "stories": [
       {
-        "title": "Hieromartyr Hierotheos, Bishop of Athens (1st c.)",
+        "title": "Hieromartyr Hierotheus, Bishop of Athens",
         "story": "<p>He was probably the first Bishop of Athens, ordained by the Holy Apostle Paul himself. St Dionysius (see October 3) describes St Hierotheos as his teacher and friend “after Paul.” With St Dionysius, St Hierotheos was miraculously brought by the power of the Holy Spirit to be present with the Apostles at the Dormition of the Theotokos. He reposed in peace.</p>"
       },
       {
