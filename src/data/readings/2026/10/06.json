@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "fetched_at": "2026-07-13T23:42:03.029Z",
+  "fetched_at": "2026-10-05T17:05:32.036Z",
   "data": {
     "pascha_distance": 177,
     "julian_day_number": 2461320,
@@ -12,21 +12,23 @@
     "titles": [
       "Tuesday of the 19th week after Pentecost"
     ],
-    "summary_title": "St Innocent, Metr. of Moscow / Holy Apostle Thomas",
+    "summary_title": "Holy Apostle Thomas; Repose of St Innocent, Enlightener of Alaska and Siberia, Metropolitan of Moscow (1879)",
     "feast_level": 5,
     "feast_level_description": "Red cross half-circle (vigil typikon symbol)",
-    "feasts": [
-      "St Innocent, Metr. of Moscow / Holy Apostle Thomas"
-    ],
+    "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
-    "saints": null,
+    "fast_abstentions": [],
+    "saints": [
+      "Holy Apostle Thomas",
+      "Repose of St Innocent, Enlightener of Alaska and Siberia, Metropolitan of Moscow (1879)"
+    ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
