@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "fetched_at": "2026-07-13T23:42:03.386Z",
+  "fetched_at": "2026-10-06T15:02:25.026Z",
   "data": {
     "pascha_distance": 178,
     "julian_day_number": 2461321,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 19th week after Pentecost"
     ],
-    "summary_title": "Martyrs Sergius and Bacchus in Syria",
+    "summary_title": "Martyrs Sergius and Bacchus in Syria; Holy Hieromartyr Polychronius (4th c.); The Ninety-nine Fathers of Crete (date unknown)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,17 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyrs Sergius and Bacchus in Syria",
+      "Julian the Presbyter & Caesarius the Deacon",
       "Holy Hieromartyr Polychronius (4th c.)",
       "The Ninety-nine Fathers of Crete (date unknown)"
     ],
@@ -150,7 +159,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Sergius and Bacchus (296/303)",
+        "title": "Martyrs Sergius and Bacchus in Syria",
         "story": "<p>“These holy and wonderful martyrs and heroes of the Christian faith were at first nobles at the court of the Emperor Maximian. The Emperor himself valued them greatly for their courage, wisdom and zeal, but, when he heard that these great nobles of his were Christians, his love for them turned to fury. And once, when there was a great offering of sacrifices to idols, the Emperor summoned Sergius and Bacchus to offer sacrifice together with him, and they openly refused to obey him in this. Beside himself with anger, the Emperor ordered that their robes, rings and marks of eminence be stripped from them and they be dressed in women’s clothing. He then put iron yokes on their necks and led them thus through the streets of Rome, to be mocked by each and all. The Emperor then sent them to Asia, to Antiochus the governor, for torture. Antiochus had achieved his distinguished rank with the help of Sergius and Bacchus, who had at one time recommended him to the Emperor. When Antiochus began to urge them to deny Christ and save themselves from dishonourable suffering and death, the two saints replied: ‘Both honour and dishonour, both life and death — all are one to him who seeks the heavenly Kingdom.’ Antiochus threw Sergius into prison and ordered that Bacchus be tortured first. The servants took turns beating holy Bacchus until his whole body was broken into fragments. His holy spirit went forth from his broken and bloodstained body and was borne to the Lord by angels. St Bacchus suffered in the town of Varvallis. Then holy Sergius was led out. Iron shoes studded with nails were put on his feet, and he was driven out into the Syrian town of Resapha, and there beheaded with the sword. His soul went to Paradise where, together with his friend Bacchus, he received the wreath of immortal glory from Christ his King and Lord. These two glorious knights suffered for the Christian faith in about 303.” <i>(Prologue)</i> The <i>Great Horologion</i> gives 296 as the date of their repose. One of the most beautiful churches in Constantinople, still standing, is dedicated to Sts Sergius and Bacchus.</p>"
       },
       {
