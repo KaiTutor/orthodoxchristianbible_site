@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "fetched_at": "2026-07-13T23:42:03.729Z",
+  "fetched_at": "2026-10-07T15:29:50.928Z",
   "data": {
     "pascha_distance": 179,
     "julian_day_number": 2461322,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 19th week after Pentecost"
     ],
-    "summary_title": "Ven. Pelagia the Penitent",
+    "summary_title": "Ven. Pelagia the Penitent; Saint Thaïs the Repentant Harlot (4th c.)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Ven. Pelagia the Penitent",
       "Saint Thaïs the Repentant Harlot (4th c.)"
@@ -205,7 +206,7 @@
     ],
     "stories": [
       {
-        "title": "Our Holy Mother Pelagia (461)",
+        "title": "Ven. Pelagia the Penitent",
         "story": "<p>“This Saint was a prominent actress of the city of Antioch, and a pagan, who lived a life of unrestrained prodigality and led many to perdition. Instructed and baptized by a certain bishop named Nonnus (November 10), she departed to the Mount of Olives near Jerusalem, where she lived as a recluse, feigning to be a eunuch called Pelagius. She lived in such holiness and repentance that within three or four years she was deemed worthy to repose in an odour of sanctity, in the middle of the fifth century. Her tomb on the Mount of Olives has been a place of pilgrimage ever since.” <i>(Great Horologion)</i>. The <i>Prologue</i> adds that Pelagia had accumulated a large fortune as a courtesan, all of which she gave away to the poor upon her conversion.</p>"
       },
       {
