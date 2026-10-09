@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "fetched_at": "2026-07-13T23:42:04.451Z",
+  "fetched_at": "2026-10-09T15:13:51.336Z",
   "data": {
     "pascha_distance": 181,
     "julian_day_number": 2461324,
@@ -12,7 +12,7 @@
     "titles": [
       "Saturday of the 19th week after Pentecost"
     ],
-    "summary_title": "Martyrs Eulampius and Eulampia at Nicomedia",
+    "summary_title": "Martyrs Eulampius and Eulampia at Nicomedia; Blessed Fool for Christ Andrew of Totma (1637); The 200 Monk-martyrs of Nicomedia",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyrs Eulampius and Eulampia at Nicomedia",
+      "The 200 Monk-martyrs of Nicomedia",
+      "Vassianos the Righteous of Constantinople",
       "Blessed Fool for Christ Andrew of Totma (1637)"
     ],
     "service_notes": null,
@@ -121,7 +124,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Eulampius and Eulampia (196)",
+        "title": "Martyrs Eulampius and Eulampia at Nicomedia",
         "story": "<p>They were brother and sister, from Nicomedia, who suffered for Christ during the reign of Maximian. Eulampius was arrested for his Christian faith; when his sister received the news, she hurried to join him. Both were subjected to various cruel tortures, including being cast into fire and boiling pitch, from which they miraculously emerged unharmed. Finally, Eulampius was beheaded, and Eulampia gave up her spirit before she too could be beheaded.</p>"
       },
       {
