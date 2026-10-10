@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "fetched_at": "2026-07-13T23:42:04.822Z",
+  "fetched_at": "2026-10-10T14:25:42.964Z",
   "data": {
     "pascha_distance": 182,
     "julian_day_number": 2461325,
@@ -22,16 +22,18 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Apostle Philip of the Seventy",
+      "Ethelburga, Abbess of Barking",
       "Synaxis of the Holy Startsi of Optina Monastery",
       "Saint Theophanes the Hymnographer (the Branded) (847)",
       "Our Holy Father Philotheos Kokkinos,Patriarch of Constantinople (1379)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      4,
-      6
+      5,
+      7
     ],
     "readings": [
       {
@@ -606,7 +608,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Apostle Philip, One of the Seven Deacons",
+        "title": "Apostle Philip of the Seventy",
         "story": "<p>He was married and had four daughters, virgins consecrated to Christ, each of whom was granted the gift of prophecy (Acts 21). When the Apostles first appointed deacons, Philip was chosen along with St Stephen and five others (Acts 6). He not only served the poor and widows, but was a powerful preacher of the Gospel: Simon the Magician was baptised after seeing his miracles, and it was St Philip who baptised the eunuch of Queen Candace of Ethiopia. In later life he was made a bishop, and reposed in peace.</p>"
       },
       {
