@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "fetched_at": "2026-07-13T23:42:05.174Z",
+  "fetched_at": "2026-10-11T14:52:26.766Z",
   "data": {
     "pascha_distance": 183,
     "julian_day_number": 2461326,
@@ -12,7 +12,7 @@
     "titles": [
       "Monday of the 20th week after Pentecost"
     ],
-    "summary_title": "Martyrs Probus, Tarachus and Andronicus",
+    "summary_title": "Martyrs Probus, Tarachus and Andronicus; St Symeon the New Theologian (1022)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyrs Probus, Tarachus and Andronicus",
       "St Symeon the New Theologian (1022)"
@@ -191,12 +192,12 @@
     ],
     "stories": [
       {
-        "title": "St Symeon the New Theologian (1022)",
-        "story": "<p>As a young man he became a monk in the Studite Monastery in Constantinople; later he bacame abbot of the Monastery of St Mamas, also in Constantinople. After a life of great asceticism, including many trials, criticisms and afflictions, he reposed in peace. (He reposed on March 12, but since this day always falls during the Great Fast, his feast is kept today.) His teaching on the soul’s ability to enter directly into communion with God in this life aroused some opposition in his own time, and the title ‘New Theologian’ was not always applied in a positive sense. His experiential, mystical teachings are firmly rooted in his doctrine of the Church: his writings contain many powerful affirmations of the centrality of participation in the Mysteries in our struggle for salvation. He is the author of many sublimely beautiful sermons, writings and hymns, a number of them in metered verse. With St John the Evangelist and St Gregory, Patriarch of Constantinople, he is one of only three whom the Church has officially called “Theologian.”</p>"
+        "title": "Martyrs Probus, Tarachus and Andronicus",
+        "story": "<p>All three suffered during the reign of Diocletian. Though born in three different places, the three were found to be Christians at Pompeiopolis in Cilicia, arrested together, and brought before the Governor, Numerian Maximus. Tarachus was sixty-five years old at the time of his arrest, but his captors showed no respect for his age, tormenting him as cruelly as the others. All three immediately and boldly confessed their faith, and were put to many vicious tortures, during which Probus said to Maximus, ‘This bloodshed is oil and perfume for me to anoint myself with joy for further contests.’ At one point the persecutors forcibly stuffed Andronicus’ mouth with meat and wine that had been offered to idols, thinking that in doing so they were winning a victory. Andronicus only mocked them, explaining that only wilful apostasy brings defeat to a Christian.</p>\n<p>Finally, Maximus ordered them taken to the theater and thrown to wild beasts for the entertainment of the people. Though the beasts had just torn others to pieces, they would not touch the holy martyrs, but played and fawned around them: A ferocious bear licked their wounds, and a lioness played affectionately around Tarachus. Seeing this, many in the crowd believed in Christ and denounced the Governor. The furious Maximus ordered his soldiers to enter the arena and cut the three to pieces. Three Christians who had witnessed the spectacle came by night to retrieve their bodies, but were unable to distinguish the martyrs’ relics amid the general carnage. When they prayed for divine aid, three lights appeared above the bodies of the three holy ones, and they were given honorable burial in a mountain cave.</p>"
       },
       {
-        "title": "Holy Martyrs Probus, Tarachus and Andronicus (304)",
-        "story": "<p>All three suffered during the reign of Diocletian. Though born in three different places, the three were found to be Christians at Pompeiopolis in Cilicia, arrested together, and brought before the Governor, Numerian Maximus. Tarachus was sixty-five years old at the time of his arrest, but his captors showed no respect for his age, tormenting him as cruelly as the others. All three immediately and boldly confessed their faith, and were put to many vicious tortures, during which Probus said to Maximus, ‘This bloodshed is oil and perfume for me to anoint myself with joy for further contests.’ At one point the persecutors forcibly stuffed Andronicus’ mouth with meat and wine that had been offered to idols, thinking that in doing so they were winning a victory. Andronicus only mocked them, explaining that only wilful apostasy brings defeat to a Christian.</p>\n<p>Finally, Maximus ordered them taken to the theater and thrown to wild beasts for the entertainment of the people. Though the beasts had just torn others to pieces, they would not touch the holy martyrs, but played and fawned around them: A ferocious bear licked their wounds, and a lioness played affectionately around Tarachus. Seeing this, many in the crowd believed in Christ and denounced the Governor. The furious Maximus ordered his soldiers to enter the arena and cut the three to pieces. Three Christians who had witnessed the spectacle came by night to retrieve their bodies, but were unable to distinguish the martyrs’ relics amid the general carnage. When they prayed for divine aid, three lights appeared above the bodies of the three holy ones, and they were given honorable burial in a mountain cave.</p>"
+        "title": "St Symeon the New Theologian (1022)",
+        "story": "<p>As a young man he became a monk in the Studite Monastery in Constantinople; later he bacame abbot of the Monastery of St Mamas, also in Constantinople. After a life of great asceticism, including many trials, criticisms and afflictions, he reposed in peace. (He reposed on March 12, but since this day always falls during the Great Fast, his feast is kept today.) His teaching on the soul’s ability to enter directly into communion with God in this life aroused some opposition in his own time, and the title ‘New Theologian’ was not always applied in a positive sense. His experiential, mystical teachings are firmly rooted in his doctrine of the Church: his writings contain many powerful affirmations of the centrality of participation in the Mysteries in our struggle for salvation. He is the author of many sublimely beautiful sermons, writings and hymns, a number of them in metered verse. With St John the Evangelist and St Gregory, Patriarch of Constantinople, he is one of only three whom the Church has officially called “Theologian.”</p>"
       }
     ]
   }
