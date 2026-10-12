@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "fetched_at": "2026-07-13T23:42:05.515Z",
+  "fetched_at": "2026-10-12T17:46:54.865Z",
   "data": {
     "pascha_distance": 184,
     "julian_day_number": 2461327,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 20th week after Pentecost"
     ],
-    "summary_title": "Martyr Carpus and Companions at Pergamus",
+    "summary_title": "Martyrs Carpus, Papylus, Agathodorus and Agathonica, at Pergamus; Holy Martyr Zlata (Chryse) (1796); Benjamin the Deacon",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,11 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
-      "Martyr Carpus and Companions at Pergamus",
+      "Martyrs Carpus, Papylus, Agathodorus and Agathonica, at Pergamus",
+      "Benjamin the Deacon",
+      "Florentios the Martyr of Thessaloniki",
       "Holy Martyr Zlata (Chryse) (1796)"
     ],
     "service_notes": null,
@@ -128,7 +131,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Carpus and Papylus, with Agathodorus and Agathonica (251)",
+        "title": "Martyrs Carpus, Papylus, Agathodorus and Agathonica, at Pergamus",
         "story": "<p>Saint Carpus was Bishop of Thyatira, and Papylus was his deacon. In the reign of the Emperor Decius, both were arrested as Christians and put to torture. Agathodorus their servant and Agathonica, Papylus’ sister, willingly followed after them and voluntarily confessed Christ also. After many sufferings, all four were beheaded.</p>"
       },
       {
