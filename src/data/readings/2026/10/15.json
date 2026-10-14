@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "fetched_at": "2026-07-13T23:42:06.213Z",
+  "fetched_at": "2026-10-14T13:37:26.035Z",
   "data": {
     "pascha_distance": 186,
     "julian_day_number": 2461329,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 20th week after Pentecost"
     ],
-    "summary_title": "Ven. Euthymius the New of Thessalonica",
+    "summary_title": "Holy Hieromartyr Lucian, Presbyter of the Church of Antioch (312); Ven. Euthymius the New of Thessalonica; Savinos the Bishop of Catania",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Ven. Euthymius the New of Thessalonica",
+      "Savinos the Bishop of Catania",
       "Holy Hieromartyr Lucian, Presbyter of the Church of Antioch (312)"
     ],
     "service_notes": null,
