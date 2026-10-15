@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "fetched_at": "2026-07-13T23:42:06.578Z",
+  "fetched_at": "2026-10-15T13:20:17.457Z",
   "data": {
     "pascha_distance": 187,
     "julian_day_number": 2461330,
@@ -12,7 +12,7 @@
     "titles": [
       "Friday of the 20th week after Pentecost"
     ],
-    "summary_title": "Martyr Longinus the Centurion",
+    "summary_title": "Martyr Longinus the Centurion; Our Venerable Father Gall, Enlightener of Switzerland (640)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyr Longinus the Centurion",
       "Our Venerable Father Gall, Enlightener of Switzerland (640)"
@@ -184,7 +192,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyr Longinus the Centurion (1st c.)",
+        "title": "Martyr Longinus the Centurion",
         "story": "<p>This is the Centurion who stood at the Cross of Christ and, seeing Him breathe his last, cried out “Truly this was the Son of God” (Matthew 27:54). From that day forth he was a believer, and was soon baptized. According to some accounts, he was one of the guard at the Tomb of Christ, and was one of those whom the Judaean leaders sought to bribe not to tell the news of the Resurrection. But Longinus would not be bribed, so the leaders plotted to kill him. He left the army and went to his homeland of Cappadocia, where he boldly preached Christ. He was beheaded at the instigation of Pontius Pilate.</p>"
       },
       {
