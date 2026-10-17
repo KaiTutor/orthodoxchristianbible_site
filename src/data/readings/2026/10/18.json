@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "fetched_at": "2026-07-13T23:48:32.904Z",
+  "fetched_at": "2026-10-17T12:08:01.866Z",
   "data": {
     "pascha_distance": 189,
     "julian_day_number": 2461332,
@@ -22,7 +22,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
-    "saints": null,
+    "fast_abstentions": [],
+    "saints": [
+      "Marinos the Martyr"
+    ],
     "service_notes": null,
     "abbreviated_reading_indices": [
       4,
