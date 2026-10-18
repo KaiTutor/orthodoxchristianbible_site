@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "fetched_at": "2026-07-13T23:48:33.260Z",
+  "fetched_at": "2026-10-18T12:34:18.588Z",
   "data": {
     "pascha_distance": 190,
     "julian_day_number": 2461333,
@@ -12,7 +12,7 @@
     "titles": [
       "Monday of the 21st week after Pentecost"
     ],
-    "summary_title": "Prophet Joel; Relics Ven. John of Rila",
+    "summary_title": "Prophet Joel; Relics Ven. John of Rila; Righteous John, Wonderworker of Kronstadt (1908).",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Prophet Joel",
       "Relics Ven. John of Rila",
@@ -187,12 +188,12 @@
     ],
     "stories": [
       {
-        "title": "Righteous John, Wonderworker of Kronstadt (1908).",
-        "story": "<p>“Saint John of Kronstadt was a married priest, who lived with his wife in virginity. Through his untiring labours in his priestly duties and love for the poor and sinners, he was granted by our Lord great gifts of clairvoyance and miracle-working, to such a degree that in the last years of his life miracles of healings — both of body and of soul — were performed countless times each day through his prayers, often for people who had only written to him asking his help. During his lifetime he was known throughout Russia, as well as in the Western world. He has left us his diary My Life in Christ as a spiritual treasure for Christians of every age; simple in language, it expounds the deepest mysteries of our Faith with that wisdom which is given only to a heart purified by the grace of the Holy Spirit. Foreseeing as a true prophet the Revolution of 1917, he unsparingly rebuked the growing apostasy among the people; he foretold that the very name of Russia would be changed. As the darkness of unbelief grew thicker, he shone forth as a beacon of unquenchable piety, comforting the faithful through the many miracles that he worked and the fatherly love and simplicity with which he received all. Saint John reposed in peace in 1908.” <i>(Great Horologion)</i></p>"
+        "title": "Prophet Joel",
+        "story": "<p>His name means “The Lord is God.” He is counted second among the “minor Prophets.” The Old Testament book of his prophecies, which bears his name, includes his prophecy of the coming of the Holy Spirit at Pentecost (Joel 2:28), which was quoted by the Apostle Peter (Acts 2:17).</p>"
       },
       {
-        "title": "Holy Prophet Joel (8th c. BC)",
-        "story": "<p>His name means “The Lord is God.” He is counted second among the “minor Prophets.” The Old Testament book of his prophecies, which bears his name, includes his prophecy of the coming of the Holy Spirit at Pentecost (Joel 2:28), which was quoted by the Apostle Peter (Acts 2:17).</p>"
+        "title": "Righteous John, Wonderworker of Kronstadt (1908).",
+        "story": "<p>“Saint John of Kronstadt was a married priest, who lived with his wife in virginity. Through his untiring labours in his priestly duties and love for the poor and sinners, he was granted by our Lord great gifts of clairvoyance and miracle-working, to such a degree that in the last years of his life miracles of healings — both of body and of soul — were performed countless times each day through his prayers, often for people who had only written to him asking his help. During his lifetime he was known throughout Russia, as well as in the Western world. He has left us his diary My Life in Christ as a spiritual treasure for Christians of every age; simple in language, it expounds the deepest mysteries of our Faith with that wisdom which is given only to a heart purified by the grace of the Holy Spirit. Foreseeing as a true prophet the Revolution of 1917, he unsparingly rebuked the growing apostasy among the people; he foretold that the very name of Russia would be changed. As the darkness of unbelief grew thicker, he shone forth as a beacon of unquenchable piety, comforting the faithful through the many miracles that he worked and the fatherly love and simplicity with which he received all. Saint John reposed in peace in 1908.” <i>(Great Horologion)</i></p>"
       },
       {
         "title": "Holy Martyr Varus and those with him (304)",
