@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "fetched_at": "2026-07-13T23:48:33.963Z",
+  "fetched_at": "2026-10-20T13:30:57.290Z",
   "data": {
     "pascha_distance": 192,
     "julian_day_number": 2461335,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 21st week after Pentecost"
     ],
-    "summary_title": "Ven. Hilarion the Great",
+    "summary_title": "Ven. Hilarion the Great; Holy New Martyr John of Monembasia (1773); Righteous Philotheus",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,17 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Ven. Hilarion the Great",
+      "Righteous Philotheus",
       "Holy New Martyr John of Monembasia (1773)"
     ],
     "service_notes": null,
@@ -142,7 +151,7 @@
     ],
     "stories": [
       {
-        "title": "St Hilarion the Great of Palestine (371)",
+        "title": "Ven. Hilarion the Great",
         "story": "<p>He was born in Palestine to pagan parents who sent him to Alexandria to be educated. There he learned of the Christian faith and was baptized. Hearing of the fame of St Anthony the Great, he met the great “Father of monks,” and determined to devote himself to the ascetical life. For the rest of his life he traveled from place to place, engaging in the most austere life of solitude, prayer and fasting. But wherever he went, his holiness shone like a beacon, and he became known to the people, who flocked to him for counsel, nurture and healing. He would then flee to another place and begin again. His travels took him to Egypt, Libya, Sicily, and finally Cyprus, where he reposed at a great age. As he lay on his deathbed, he cried out ‘Go forth, O my soul. What do you fear? Go forth! Why are you disquieted within me? You have served Jesus Christ for almost seventy years and do you fear death?’ Speaking these words, he died.</p>\n<p>The <i>Synaxarion</i> gives an excruciatingly thorough description of his ascetical labors, which may be instructive:</p>\n<p>“From his sixteenth to his twentieth year, Hilarion’s shelter was a simple cabin made of bulrushes and marsh grasses. Afterwards, he built a little, low cell that looked more like a tomb than a house. He lay on the hard ground, and washed and cut his hair only once a year, on Easter day. He never washed the coat of skin that Saint Anthony gave him, and wore the same tunic until it fell to pieces. He knew all of Holy Scripture by heart and recited it aloud, standing with fear, as though God were visibly present. From his twenty-first to his twenty-seventh year, a few lentils soaked in cold water was, for three years, his daily food, and for the next three he took nothing but bread, sprinkled with salt. From his twenty-seventh to his thirtieth year, he lived on wild plants; from the age of thirty to thirty-five, on six ounces of barley bread and a few vegetables, cooked without oil. Then, falling ill and with failing eyesight, he added a little oil to his food but did not increase his allowance of bread, even though he saw his body grow weaker, and believed his death was near. At an age when others tend to decrease their austerities, he kept to this diet with redoubled fervor, like a young novice, until his death. He never ate until after sunset and relinquished his fast neither for the greatest feasts nor the gravest illnesses.”</p>"
       },
       {
