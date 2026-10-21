@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "fetched_at": "2026-07-13T23:48:34.357Z",
+  "fetched_at": "2026-10-21T13:41:50.274Z",
   "data": {
     "pascha_distance": 193,
     "julian_day_number": 2461336,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 21st week after Pentecost"
     ],
-    "summary_title": "St Abercius, Equal-to-the-Apostles",
+    "summary_title": "St Abercius, Equal-to-the-Apostles; Venerable Lot of Egypt (5th c.); Holy Seven Youths of Ephesus",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "St Abercius, Equal-to-the-Apostles",
       "Venerable Lot of Egypt (5th c.)",
@@ -150,7 +151,7 @@
     ],
     "stories": [
       {
-        "title": "St Abercius, Bishop of Hierapolis, Wonderworker and Equal to the Apostles (167)",
+        "title": "St Abercius, Equal-to-the-Apostles",
         "story": "<p>He was bishop of Hierapolis in Phrygia of Asia Minor, during the reign of Marcus Aurelius, a persecutor of Christians. During a pagan festival, Abercius was instructed by an Angel to throw down the idols of Apollo and other pagan gods. When his work was discovered, the people of the city were outraged; but instead of hiding, the bishop went to the marketplace and openly confessed the Christian faith. The people grew angrier still, but when Abercius healed three possessed men they were amazed and listened to him more closely. He preached the Faith with such power that the entire city and surrounding countryside became Christian.</p>\n<p>These miracles reached the ears of the Emperor, whose daughter was suffering from demonic possession. The Emperor summoned Abercius to Rome, where he was enabled to cast out the spirit and perform several other miracles. The Empress offered him a large reward of gold for healing her daughter, but he would not accept it. On his way home, he was instructed in a vision to travel to Syria. He travelled first to Antioch and surrounding cities, then as far as Mesopotamia, proclaiming Christ and teaching the faith everywhere he went. No other bishop of his time travelled so widely in the service of the Gospel; for this reason he is called Equal to the Apostles.</p>\n<p>After several years he returned to Phrygia, where he lived the remainder of his life in peace, shepherding his flock.</p>"
       },
       {
