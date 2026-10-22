@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "fetched_at": "2026-07-13T23:48:34.736Z",
+  "fetched_at": "2026-10-22T13:43:07.073Z",
   "data": {
     "pascha_distance": 194,
     "julian_day_number": 2461337,
@@ -22,13 +22,22 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
+      "Our Righteous Father Ignatius, Patriarch of Constantinople",
       "Saint Macarius the Roman of Mesopotamia (?)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      0,
-      2
+      1,
+      3
     ],
     "readings": [
       {
