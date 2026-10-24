@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "fetched_at": "2026-07-13T23:48:35.458Z",
+  "fetched_at": "2026-10-24T12:37:12.154Z",
   "data": {
     "pascha_distance": 196,
     "julian_day_number": 2461339,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyrs Marcian and Martyrius the Notaries",
       "St Tabitha of Joppa"
@@ -284,7 +285,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Marcian and Martyrius (346)",
+        "title": "Martyrs Marcian and Martyrius the Notaries",
         "story": "<p>Both lived in Constantinople and were disciples of the Patriarch St Paul the Confessor (November 6), who was murdered in exile by the Arians. During the reign of the Arian Emperor Constantius, they fearlessly confessed that the Son of God is of one essence with the Father and is truly God. For their confession they were beheaded by the Arians and buried outside the city. Soon afterward, miracles began to be wrought at their tomb, and St John Chrysostom later built a church over it.</p>"
       },
       {
