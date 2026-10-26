@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "fetched_at": "2026-07-13T23:48:36.185Z",
+  "fetched_at": "2026-10-26T15:06:33.909Z",
   "data": {
     "pascha_distance": 198,
     "julian_day_number": 2461341,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 22nd week after Pentecost"
     ],
-    "summary_title": "Martyr Nestor of Thessalonica",
+    "summary_title": "Martyr Nestor of Thessalonica; St Procla, the wife of Pontius Pilate.; Our Venerable Father Demetrius of Basarabov (Romania) (13th c.)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Nestor of Thessalonica",
       "St Procla, the wife of Pontius Pilate.",
@@ -171,7 +172,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyr Nestor, Companion of St Demetrius (306)",
+        "title": "Martyr Nestor of Thessalonica",
         "story": "<p>See St Demetrius, commemorated yesterday, October 26.</p>"
       },
       {
