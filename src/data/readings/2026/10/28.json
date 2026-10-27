@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "fetched_at": "2026-07-13T23:48:36.537Z",
+  "fetched_at": "2026-10-27T14:21:40.527Z",
   "data": {
     "pascha_distance": 199,
     "julian_day_number": 2461342,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 22nd week after Pentecost"
     ],
-    "summary_title": "Martyrs Terence, Neonila and Children; St Arsenius of Serbia",
+    "summary_title": "Martyrs Terence, Neonila and Children; Rep. Ven. Job of Pochaev; St Dimitri (Demetrius) of Rostov (1709)",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -20,9 +20,18 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyrs Terence, Neonila and Children",
       "St Arsenius of Serbia",
+      "Rep. Ven. Job of Pochaev",
       "St Dimitri (Demetrius) of Rostov (1709)",
       "Our Holy Father Firmilian, Bishop of Caesarea (268)",
       "Holy Hieromartyr Cyriacus, Bishop of Jerusalem, and his mother Anna (4th c.)"
