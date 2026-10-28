@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "fetched_at": "2026-07-13T23:48:36.922Z",
+  "fetched_at": "2026-10-28T15:02:39.691Z",
   "data": {
     "pascha_distance": 200,
     "julian_day_number": 2461343,
@@ -12,16 +12,18 @@
     "titles": [
       "Thursday of the 22nd week after Pentecost"
     ],
-    "summary_title": "Martyr Anastasia the Roman",
-    "feast_level": 0,
-    "feast_level_description": "Liturgy",
+    "summary_title": "Martyr Anastasia the Roman; Ven. Avram of Rostov; Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia",
+    "feast_level": 3,
+    "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Martyr Anastasia the Roman",
+      "Ven. Avram of Rostov",
       "Our Holy Father Abramius (366) and his niece Mary (371) of Mesopotamia"
     ],
     "service_notes": null,
@@ -177,7 +179,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Virgin Martyr Anastasia of Rome (256)",
+        "title": "Martyr Anastasia the Roman",
         "story": "<p>She lived in Rome during the reigns of the Emperors Decius and Valerian. At an early age she left all to embrace a life of unceasing prayer, entering a small monastery in Rome, directed by a nun named Sophia. For her Christian faith, she was seized and brought before the governor Probus and, when she boldly confessed Christ and refused to honor the idols, was subjected to a series of vicious tortures, under which she died. An angel led Sophia to retrieve her holy relics, which are now venerated at the monastery of Grigoriou on Mt Athos.</p>\n<p>We are sometimes told that monasticism developed in the Church after Christianity became accepted and grew more worldly. The story of St Anastasia is one of many evidences in the lives of the Saints that what we now call monasticism was present from the earliest days of the Church.</p>"
       },
       {
