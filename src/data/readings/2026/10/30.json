@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "fetched_at": "2026-07-13T23:48:37.276Z",
+  "fetched_at": "2026-10-29T15:10:21.093Z",
   "data": {
     "pascha_distance": 201,
     "julian_day_number": 2461344,
@@ -12,7 +12,7 @@
     "titles": [
       "Friday of the 22nd week after Pentecost"
     ],
-    "summary_title": "Hieromartyr Zenobius and His Sister Zenobia",
+    "summary_title": "Hieromartyr Zenobius and His Sister Zenobia; Holy Apostle Cleopas; St Joseph I, Patriarch of Constantinople (1283)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Hieromartyr Zenobius and His Sister Zenobia",
       "Holy Apostle Cleopas",
@@ -145,7 +153,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Zenobius and his sister Zenobia (ca. 290)",
+        "title": "Hieromartyr Zenobius and His Sister Zenobia",
         "story": "<p>These two holy ones were brother and sister, living the city of Aegea in Cilicia. When their parents died, they gave all their possessions to the poor. Zenobius, a physician, gave his healing services for free to all who came to him, often relying more upon the holy Name of Jesus than upon medicines. In time, he became Bishop of Aegea. During the persecutions under the Emperor Diocletian, Zenobius was arrested and brought before the governor Lysias, who demanded that he deny Christ and worship the idols. When Zenobius refused, he was subjected to torture. Zenobia, hearing of this, rushed to be with him and openly rebuked the governor. The two were then tortured together and finally beheaded, faithful to their Lord to the end.</p>"
       },
       {
