@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "fetched_at": "2026-07-13T23:48:37.629Z",
+  "fetched_at": "2026-10-30T14:59:36.663Z",
   "data": {
     "pascha_distance": 202,
     "julian_day_number": 2461345,
@@ -12,18 +12,18 @@
     "titles": [
       "Saturday of the 22nd week after Pentecost"
     ],
-    "summary_title": "Hieromartyr John Kochurov",
+    "summary_title": "Holy Apostles Stachys, Apelles, Amplias, Urban, Narcissus and Aristobolus.; New Martyr Nicholas of Chios (1754); Hieromartyr John Kochurov, Protopresbyter of Chicago and Tsarskoye Selo (1917)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
-    "feasts": [
-      "Hieromartyr John Kochurov"
-    ],
+    "feasts": null,
     "fast_level": 0,
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Holy Apostles Stachys, Apelles, Amplias, Urban, Narcissus and Aristobolus.",
+      "Hieromartyr John Kochurov, Protopresbyter of Chicago and Tsarskoye Selo (1917)",
       "New Martyr Nicholas of Chios (1754)"
     ],
     "service_notes": null,
@@ -309,6 +309,71 @@
             "chapter": 12,
             "verse": 40,
             "content": "Be ye therefore ready also: for the Son of man cometh at an hour when ye think not.",
+            "paragraph_start": false
+          }
+        ]
+      },
+      {
+        "source": "Gospel",
+        "book": "John",
+        "description": "St John Kochurov",
+        "display": "John 10.9-16",
+        "short_display": "John 10.9-16",
+        "passage": [
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 9,
+            "content": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 10,
+            "content": "The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 11,
+            "content": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 12,
+            "content": "But he that is an hireling, and not the shepherd, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth: and the wolf catcheth them, and scattereth the sheep.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 13,
+            "content": "The hireling fleeth, because he is an hireling, and careth not for the sheep.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 14,
+            "content": "I am the good shepherd, and know my sheep, and am known of mine.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 15,
+            "content": "As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep.",
+            "paragraph_start": false
+          },
+          {
+            "book": "JHN",
+            "chapter": 10,
+            "verse": 16,
+            "content": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
             "paragraph_start": false
           }
         ]
