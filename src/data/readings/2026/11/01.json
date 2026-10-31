@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "fetched_at": "2026-07-13T23:48:37.980Z",
+  "fetched_at": "2026-10-31T14:28:34.095Z",
   "data": {
     "pascha_distance": 203,
     "julian_day_number": 2461346,
@@ -20,8 +20,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Unmercenaries and Wonderworkers Cosmas and Damian",
+      "St Theodota, Mother of Cosmas and Damian",
       "Holy New Martyr Helen of Sinope (18th c.)"
     ],
     "service_notes": null,
@@ -291,7 +293,7 @@
     ],
     "stories": [
       {
-        "title": "Holy and Wonderworking Unmercenaries Cosmas and Damian of Asia (3rd c.)",
+        "title": "Unmercenaries and Wonderworkers Cosmas and Damian",
         "story": "<p>Three pairs of Unmercenary Physicians (<i>Anargyri</i>) named Cosmas and Damian are commemorated (today, on October 17, and on July 1); The two commemorated today lived near Ephesus in Asia. They were of noble birth and well-educated in all the branches of higher learning; but they turned away from worldly knowledge to practice medicine without charge for anyone who sought their help, caring for the rich as well as poor, and even for animals. They used none of the secular tools of medicine, but relied only on the Name of Christ, by which they were enabled to perform countless healings. Both reposed in peace.</p>"
       },
       {
