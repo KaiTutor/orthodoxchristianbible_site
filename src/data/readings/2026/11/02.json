@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "fetched_at": "2026-07-13T23:48:38.340Z",
+  "fetched_at": "2026-11-01T14:58:46.416Z",
   "data": {
     "pascha_distance": 204,
     "julian_day_number": 2461347,
@@ -12,7 +12,7 @@
     "titles": [
       "Monday of the 23rd week after Pentecost"
     ],
-    "summary_title": "Martyr Acindynus of Persia and Others",
+    "summary_title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,9 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
-      "Martyr Acindynus of Persia and Others"
+      "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -120,7 +121,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus and Anempodistus of Persia (376)",
+        "title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidophorus, and Anempodistus of Persia",
         "story": "<p>Acindynus, Pegasius and Anempodistus were courtiers to King Shapur II of Persia. When the king began a fierce persecution of Christians, the three withdrew from court to a private house and, fearless of their own safety, openly exhorted their fellow-Christians to stand firm in their faith. For this they were arrested and brought before their former lord, who subjected them to many cruel tortures, from which they emerged miraculously unscathed. Seeing this, one of the king’s soldiers, named Aphthonius, embraced the Faith and was immediately beheaded. The former courtiers were then put to further tortures, but their only effect was to convince Elpidophorus, a distinguished nobleman, and seven thousand other Persians to faith in Christ. All were beheaded, but not before receiving holy Baptism. The trials of the three continued, but once again they were preserved, and even the king’s mother was led to the true faith. Finally they were killed (the account does not say how), receiving the crown of martyrdom along with the king’s mother and twenty-eight others.</p>"
       }
     ]
