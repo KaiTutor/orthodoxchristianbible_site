@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "fetched_at": "2026-07-13T23:48:39.748Z",
+  "fetched_at": "2026-11-05T16:23:51.555Z",
   "data": {
     "pascha_distance": 208,
     "julian_day_number": 2461351,
@@ -12,7 +12,7 @@
     "titles": [
       "Friday of the 23rd week after Pentecost"
     ],
-    "summary_title": "St Paul the Confessor of Constantinople",
+    "summary_title": "St Paul the Confessor of Constantinople; Rep. St Herman, Archbishop of Kazan; Ven. Luke of Sicily (Taormina)",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,9 +20,18 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "St Paul the Confessor of Constantinople",
-      "Saint Germanus, Archbishop of Kazan (1568)"
+      "Ven. Luke of Sicily (Taormina)",
+      "Rep. St Herman, Archbishop of Kazan"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -170,11 +179,11 @@
     ],
     "stories": [
       {
-        "title": "Paul the Confessor, Archbishop of Constantinople (ca. 350)",
+        "title": "St Paul the Confessor of Constantinople",
         "story": "<p>A native of Thessalonica, he rose from secretary to Alexander, Patriarch of Constantinople (commemorated August 30), to deacon, then succeeded St Alexander as Patriarch around 337. For his virtue and his zeal for Orthodoxy he was hated by the Arians, who were still powerful in the Empire. The Arian Emperor Constantius, learning of Paul’s election, exiled him and made the Arian Eusebius Patriarch in his place. St Paul went to Rome, where he joined St Athanasius the Great in exile. Furnished with letters from Pope Julius, he was able to ascend the Patriarchal throne once again upon the death of Eusebius. But once again the Arians were able to put one of their party on the Patriarchal throne: Macedonius, who even went beyond the Arian heresy and denied the divinity of the Holy Spirit. Once again the legitimate, Orthodox Patriarch found himself in exile in Rome. In succeeding years St Paul stood firm for Orthodoxy while complex political and military intrigues swirled around him, with the Orthodox Constans, Emperor of the West (and Constantius’ brother) supporting him while Constantius continued to oppose him. For a time Constans was able to enforce Paul’s place on the Patriarchal throne, but when he died, Constantius banished St Paul to Cucusus on the Black Sea. There, while he was celebrating the Divine Liturgy in the house where he was kept prisoner, the Arians strangled him with his own omophorion. His relics were brought back to Constantinople by the Emperor Theodosius the Great.</p>"
       },
       {
-        "title": "Saint Germanus, Archbishop of Kazan (1568)",
+        "title": "Rep. St Herman, Archbishop of Kazan",
         "story": "<p>He was born in Tver to a princely family. Drawn to a life of holiness from his earliest childhood, he became a monk at the age of twenty-five, at the Monastery of St Joseph of Volokolamsk. In time he became Archimandrite of the Monastery of the Dormition at Staritsk; but after a few years he returned to Volokolamsk to live in solitude. When his teacher St Gurias (October 4), first Archbishop of Kazan, reposed, Germanus succeeded him as Archbishop, but continued to live as ascetically as when he was a hermit. He was offered the office of Metropolitan of Moscow, but refused. As a faithful shepherd of his church, he fearlessly confronted Tsar Ivan the Terrible for his many and various cruelties; for this he was killed in 1568 by the Tsar’s assassins.</p>\n<p><i>Note: Recently, a bizarre movement has arisen among some nationalist sectarians in Russia to canonize Ivan the Terrible. Among the many obvious reasons against such an action (which has been firmly rejected by the Patriarch of Moscow), we could list the Tsar’s murder of some of the Church’s own Saints, Germanus among them.</i></p>"
       }
     ]
