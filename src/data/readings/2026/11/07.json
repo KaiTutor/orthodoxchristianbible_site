@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "fetched_at": "2026-07-13T23:48:40.111Z",
+  "fetched_at": "2026-11-06T15:52:04.589Z",
   "data": {
     "pascha_distance": 209,
     "julian_day_number": 2461352,
@@ -12,7 +12,7 @@
     "titles": [
       "Saturday of the 23rd week after Pentecost"
     ],
-    "summary_title": "Holy 33 Martyrs of Melitene",
+    "summary_title": "St Hieron and the Holy 33 Martyrs of Melitene; Saint Willibrord, first Bishop of Utrecht and Apostle of Holland (739); Lazarus the Wonderworker",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,10 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
-      "Holy 33 Martyrs of Melitene",
+      "St Hieron and the Holy 33 Martyrs of Melitene",
+      "Lazarus the Wonderworker",
       "Saint Willibrord, first Bishop of Utrecht and Apostle of Holland (739)"
     ],
     "service_notes": null,
@@ -128,7 +130,7 @@
     ],
     "stories": [
       {
-        "title": "St Hieron and his thirty-three Companions, martyred at Melitene (290)",
+        "title": "St Hieron and the Holy 33 Martyrs of Melitene",
         "story": "<p>Hieron was a farmer from Tyana in Cappadocia, known for his great bodily strength as well as purity of soul. Hearing of his prowess, imperial soldiers came to draft him into the army. Knowing that he would be required to make sacrifice to the idols, Hieron drove them off with only a wooden stave, then hid in the wilderness. Later, however, he went to the Governor voluntarily and openly confessed his faith in Christ. For this his right hand was cut off and he was imprisoned with thirty-two other believers. As they awaited their end, Hieron strengthened the others in the Faith. All were beheaded together outside Melitene in Armenia.</p>"
       },
       {
