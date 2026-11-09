@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "fetched_at": "2026-07-13T23:48:41.187Z",
+  "fetched_at": "2026-11-09T18:41:09.663Z",
   "data": {
     "pascha_distance": 212,
     "julian_day_number": 2461355,
@@ -12,7 +12,7 @@
     "titles": [
       "Tuesday of the 24th week after Pentecost"
     ],
-    "summary_title": "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius",
+    "summary_title": "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius; Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,7 @@
     "fast_level_desc": "No Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [],
     "saints": [
       "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius",
       "Our Venerable Father Arsenios of Cappadocia, the Wonderworker (1924)"
@@ -135,7 +136,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Apostles of the Seventy Olympas, Rodion, Erastus, Sosipater and Quartus",
+        "title": "Apostles of the 70 Erastus, Olympas, Herodion, Sosipater, Quartus, Tertius",
         "story": "<p>All of these Apostles were among the Seventy, and all are mentioned by St Paul in Romans 16. Saints Olympas and Rodion followed St Peter to Rome and were beheaded under Nero around the year 54. The other three reposed in peace after serving the Church as bishops: St Sosipater as Bishop of Iconium; St Erastus (described by St Paul as city treasurer of Corinth) as Bishop of Paneas (Caesarea Philippi); St Quartus as Bishop of Beirut. Quartus is said to have converted most of the citizens of Beirut to faith in Christ before his repose.</p>"
       },
       {
