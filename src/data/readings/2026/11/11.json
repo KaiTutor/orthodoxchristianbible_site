@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "fetched_at": "2026-07-13T23:48:41.545Z",
+  "fetched_at": "2026-11-10T16:22:24.134Z",
   "data": {
     "pascha_distance": 213,
     "julian_day_number": 2461356,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 24th week after Pentecost"
     ],
-    "summary_title": "Martyrs Menas, Victor and Vincent",
+    "summary_title": "Martyrs Menas, Victor and Vincent; Our Righteous Father Theodore the Studite (826)",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,6 +20,14 @@
     "fast_level_desc": "Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyrs Menas, Victor and Vincent",
       "Our Righteous Father Theodore the Studite (826)"
@@ -219,7 +227,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyr Menas (ca. 304)",
+        "title": "Martyrs Menas, Victor and Vincent",
         "story": "<p>This holy Martyr was an Egyptian and a soldier during the reigns of Diocletian and Maximian. Though he was known for his valor in combat, he renounced his soldier’s rank when his legion was ordered to seize Christians in north Africa. Fleeing to the mountains, he dwelt there for some time in silence and solitude, devoting his days to prayer. In time, he presented himself at a pagan festival, denounced the idols and declared himself a Christian. For this he was handed over to the governor of the city, who subjected him to horrible tortures and finally had him beheaded. Some faithful retrieved part of his relics and gave them honorable burial near Lake Mareotis, about thirty miles from Alexandria. The church built over his tomb became a place of pilgrimage not only for countless Egyptians but for Christians all over the world: evidence has been found of journeys to his shrine from as far away as Ireland.</p>\n<p>The <i>Synaxarion</i> gives an account of the Saint’s intervention in the Second World War: “In June 1942, during the North-Africa campaign that was decisive for the outcome of the Second World War, the German forces under the command of General Rommel were on their way to Alexandria, and happened to make a halt near a place which the Arabs call El-Alamein after Saint Menas. An ancient ruined church there was dedicated to the Saint; and there some people say he is buried. Here the weaker Allied forces including some Greeks confronted the numerically and militarily superior German army, and the result of the coming battle seemed certain. During the first night of engagement, Saint Menas appeared in the midst of the German camp at the head of a caravan of camels, exactly as he was shown on the walls of the ruined church in one of the frescoes depicting his miracles. This astounding and terrifying apparition so undermined German morale that it contributed to the brilliant victory of the Allies. The Church of Saint Menas was restored in thanksgiving and a small monastery was established there.”</p>"
       },
       {
