@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "fetched_at": "2026-07-13T23:48:42.962Z",
+  "fetched_at": "2026-11-14T14:58:25.904Z",
   "data": {
     "pascha_distance": 217,
     "julian_day_number": 2461360,
@@ -20,11 +20,19 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "Begin Nativity Fast",
+      "Guria, Shamuna, and Habib, Martyrs and Confessors of Edessa",
       "Our Venerable Father Paisius Velichkovsky (1794)"
     ],
-    "service_notes": null,
+    "service_notes": [
+      "Beginning of Nativity Fast"
+    ],
     "abbreviated_reading_indices": [
       1,
       2
