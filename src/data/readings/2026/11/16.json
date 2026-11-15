@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "fetched_at": "2026-07-13T23:48:43.329Z",
+  "fetched_at": "2026-11-15T15:35:43.382Z",
   "data": {
     "pascha_distance": 218,
     "julian_day_number": 2461361,
@@ -12,16 +12,21 @@
     "titles": [
       "Monday of the 25th week after Pentecost"
     ],
-    "summary_title": "Holy Apostle and Evangelist Mathew",
-    "feast_level": 6,
-    "feast_level_description": "Red cross circle (great feast typikon symbol)",
+    "summary_title": "Holy Apostle and Evangelist Matthew",
+    "feast_level": 4,
+    "feast_level_description": "Red cross (polyeleos typikon symbol)",
     "feasts": [
-      "Holy Apostle and Evangelist Mathew"
+      "Holy Apostle and Evangelist Matthew"
     ],
     "fast_level": 5,
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "dairy",
+      "eggs"
+    ],
     "saints": null,
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -537,6 +542,71 @@
       {
         "source": "Epistle",
         "book": "Apostol",
+        "description": "St Matthew",
+        "display": "1 Corinthians 4.9-16",
+        "short_display": "1 Cor 4.9-16",
+        "passage": [
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 9,
+            "content": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men.",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 10,
+            "content": "We are fools for Christ’s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised.",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 11,
+            "content": "Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace;",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 12,
+            "content": "And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it:",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 13,
+            "content": "Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day.",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 14,
+            "content": "I write not these things to shame you, but as my beloved sons I warn you.",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 15,
+            "content": "For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel.",
+            "paragraph_start": false
+          },
+          {
+            "book": "1CO",
+            "chapter": 4,
+            "verse": 16,
+            "content": "Wherefore I beseech you, be ye followers of me.",
+            "paragraph_start": false
+          }
+        ]
+      },
+      {
+        "source": "Epistle",
+        "book": "Apostol",
         "description": "",
         "display": "2 Thessalonians 1.1-10",
         "short_display": "2 Thess 1.1-10",
@@ -614,108 +684,6 @@
         ]
       },
       {
-        "source": "Epistle",
-        "book": "Apostol",
-        "description": "St Matthew",
-        "display": "1 Corinthians 4.9-16",
-        "short_display": "1 Cor 4.9-16",
-        "passage": [
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 9,
-            "content": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men.",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 10,
-            "content": "We are fools for Christ’s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised.",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 11,
-            "content": "Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace;",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 12,
-            "content": "And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it:",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 13,
-            "content": "Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day.",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 14,
-            "content": "I write not these things to shame you, but as my beloved sons I warn you.",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 15,
-            "content": "For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel.",
-            "paragraph_start": false
-          },
-          {
-            "book": "1CO",
-            "chapter": 4,
-            "verse": 16,
-            "content": "Wherefore I beseech you, be ye followers of me.",
-            "paragraph_start": false
-          }
-        ]
-      },
-      {
-        "source": "Gospel",
-        "book": "Luke",
-        "description": "",
-        "display": "Luke 14.12-15",
-        "short_display": "Luke 14.12-15",
-        "passage": [
-          {
-            "book": "LUK",
-            "chapter": 14,
-            "verse": 12,
-            "content": "Then said he also to him that bade him, When thou makest a dinner or a supper, call not thy friends, nor thy brethren, neither thy kinsmen, nor thy rich neighbours; lest they also bid thee again, and a recompence be made thee.",
-            "paragraph_start": true
-          },
-          {
-            "book": "LUK",
-            "chapter": 14,
-            "verse": 13,
-            "content": "But when thou makest a feast, call the poor, the maimed, the lame, the blind:",
-            "paragraph_start": false
-          },
-          {
-            "book": "LUK",
-            "chapter": 14,
-            "verse": 14,
-            "content": "And thou shalt be blessed; for they cannot recompense thee: for thou shalt be recompensed at the resurrection of the just.",
-            "paragraph_start": false
-          },
-          {
-            "book": "LUK",
-            "chapter": 14,
-            "verse": 15,
-            "content": "And when one of them that sat at meat with him heard these things, he said unto him, Blessed is he that shall eat bread in the kingdom of God.",
-            "paragraph_start": true
-          }
-        ]
-      },
-      {
         "source": "Gospel",
         "book": "Matthew",
         "description": "St Matthew",
@@ -756,6 +724,43 @@
             "verse": 13,
             "content": "But go ye and learn what that meaneth, I will have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to repentance.",
             "paragraph_start": false
+          }
+        ]
+      },
+      {
+        "source": "Gospel",
+        "book": "Luke",
+        "description": "",
+        "display": "Luke 14.12-15",
+        "short_display": "Luke 14.12-15",
+        "passage": [
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 12,
+            "content": "Then said he also to him that bade him, When thou makest a dinner or a supper, call not thy friends, nor thy brethren, neither thy kinsmen, nor thy rich neighbours; lest they also bid thee again, and a recompence be made thee.",
+            "paragraph_start": true
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 13,
+            "content": "But when thou makest a feast, call the poor, the maimed, the lame, the blind:",
+            "paragraph_start": false
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 14,
+            "content": "And thou shalt be blessed; for they cannot recompense thee: for thou shalt be recompensed at the resurrection of the just.",
+            "paragraph_start": false
+          },
+          {
+            "book": "LUK",
+            "chapter": 14,
+            "verse": 15,
+            "content": "And when one of them that sat at meat with him heard these things, he said unto him, Blessed is he that shall eat bread in the kingdom of God.",
+            "paragraph_start": true
           }
         ]
       }
