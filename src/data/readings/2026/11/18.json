@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "fetched_at": "2026-07-13T23:48:44.042Z",
+  "fetched_at": "2026-11-17T17:33:20.234Z",
   "data": {
     "pascha_distance": 220,
     "julian_day_number": 2461363,
@@ -12,7 +12,7 @@
     "titles": [
       "Wednesday of the 25th week after Pentecost"
     ],
-    "summary_title": "Martyrs Platon and Roman",
+    "summary_title": "Martyrs Platon and Roman; Holy Martyr Romanus and the holy child who declared for Christ (305); Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted",
     "feast_level": 0,
     "feast_level_description": "Liturgy",
     "feasts": null,
@@ -20,8 +20,18 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Martyrs Platon and Roman",
+      "Zaccheus the Deacon",
+      "Holy Martyr Romanus and the holy child who declared for Christ (305)",
       "Holy New Martyr Anastasius of Epirus (1750), and Daniel, whom he converted"
     ],
     "service_notes": null,
@@ -205,7 +215,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Martyr Plato (266)",
+        "title": "Martyrs Platon and Roman",
         "story": "<p>He lived in Ancyra in Galatia during the reign of the Emperor Maximian. Arrested for openly confessing his faith in Christ, he was subjected to many brutal tortures and, refusing after each torment to bow to the idols, was finally beheaded.</p>"
       },
       {
