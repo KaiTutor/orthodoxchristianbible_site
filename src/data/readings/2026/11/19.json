@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "fetched_at": "2026-07-13T23:48:44.405Z",
+  "fetched_at": "2026-11-18T17:10:21.494Z",
   "data": {
     "pascha_distance": 221,
     "julian_day_number": 2461364,
@@ -12,7 +12,7 @@
     "titles": [
       "Thursday of the 25th week after Pentecost"
     ],
-    "summary_title": "Prophet Obadiah; Ven. Barlaam and Joasaph",
+    "summary_title": "Prophet Obadiah; Ven. Barlaam and Joasaph; Our Holy Father Philaret, Metropolitan of Moscow (1867)",
     "feast_level": 3,
     "feast_level_description": "Red squigg (doxology typikon symbol)",
     "feasts": null,
@@ -20,9 +20,16 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
       "Prophet Obadiah",
       "Ven. Barlaam and Joasaph",
+      "Martyr Heliodorus",
       "Our Holy Father Philaret, Metropolitan of Moscow (1867)",
       "Holy Martyr Barlaam of Antioch (304)"
     ],
@@ -186,8 +193,12 @@
     ],
     "stories": [
       {
-        "title": "Holy Prophet Obadiah (Abdias)",
+        "title": "Prophet Obadiah",
         "story": "<p>Obadiah’s is the shortest prophetic book in the Old Testament. The scriptures tell us little of where or when he lived. Some believe that he is the Obadiah who served as steward of King Ahab’s household and, when Jezebel was killing the prophets, hid a hundred of them in a cave and fed them. It is said that this Obadiah later became a disciple of the Prophet Elijah (Elias). His name means “servant of God.”</p>"
+      },
+      {
+        "title": "Ven. Barlaam and Joasaph",
+        "story": "<p>“They were Indian ascetics. Joasaph was son and heir to King Abenner. By God’s providence, he was visited by the elder Barlaam, who taught him the Christian faith and baptised him. After that, the elder went off into the mountains to live in asceticism, and Joasaph remained to wrestle with many temptations in the world and to overcome them by the grace of God. Joasaph finally succeeded in bringing his father to Christ. When he had been baptised, King Abenner lived a further four years in deep repentance (for he had committed grave sins in his persecution of Christians) and then finished his earthly course and went to the better life. The young Joasaph entrusted the kingdom to his friend Barachias, and himself went off into the desert to live in asceticism for the sake of Christ. His one desire on earth was to see his spiritual father, Barlaam, once more. God, in his mercy, fulfilled his desire, and, one day, Joasaph stood before Barlaam’s cave, and called: ‘Bless me, Father!’ The elder Barlaam lived in asceticism in the desert for seventy years, living a hundred years in all. St Joasaph handed over his kingdom at the age of twenty-five and went into the desert, where he lived a further thirty-five years. They both had great love for the Lord Jesus, brought many to the true Faith and entered into the eternal joy of their Lord.” (<i>Prologue</i>)</p>\n<p><i>They are commemorated on August 26 on the Greek calendar.</i></p>"
       },
       {
         "title": "Our Holy Father Philaret, Metropolitan of Moscow (1867)",
@@ -196,10 +207,6 @@
       {
         "title": "Holy Martyr Barlaam of Antioch (304)",
         "story": "<p>Saint Barlaam was an old man, living in Antioch during the persecution of Diocletian and Maximian. When he confessed Christ before the Governor and refused to sacrifice to the idols, he was tortured for days: his flesh was torn by iron claws and he was stretched on the rack. When these conventional tortures failed, the Governor invented a new torment: Barlaam’s hand was stretched over an altar to the idols, and a burning coal with incense was put in his palm. The torturers reasoned that when pain forced him to drop the coal, they would be able to say that he had offered sacrifice to the gods. But the holy Barlaam held his hand steady and watched calmly as his hand was burnt up by the coal. At last his hand fell to the ground and the Martyr gave up his soul to God.</p>\n<p><i>In some accounts, St Barlaam survived his torments and reposed in peace. Some have held that he came from Cappadocia rather than Antioch, but this is probably incorrect. Saint John Chrysostom once delivered a homily at St Barlaam’s tomb in Antioch on his feast day.</i></p>"
-      },
-      {
-        "title": "Our Holy Fathers Barlaam and Joasaph of India (4th c.)",
-        "story": "<p>“They were Indian ascetics. Joasaph was son and heir to King Abenner. By God’s providence, he was visited by the elder Barlaam, who taught him the Christian faith and baptised him. After that, the elder went off into the mountains to live in asceticism, and Joasaph remained to wrestle with many temptations in the world and to overcome them by the grace of God. Joasaph finally succeeded in bringing his father to Christ. When he had been baptised, King Abenner lived a further four years in deep repentance (for he had committed grave sins in his persecution of Christians) and then finished his earthly course and went to the better life. The young Joasaph entrusted the kingdom to his friend Barachias, and himself went off into the desert to live in asceticism for the sake of Christ. His one desire on earth was to see his spiritual father, Barlaam, once more. God, in his mercy, fulfilled his desire, and, one day, Joasaph stood before Barlaam’s cave, and called: ‘Bless me, Father!’ The elder Barlaam lived in asceticism in the desert for seventy years, living a hundred years in all. St Joasaph handed over his kingdom at the age of twenty-five and went into the desert, where he lived a further thirty-five years. They both had great love for the Lord Jesus, brought many to the true Faith and entered into the eternal joy of their Lord.” (<i>Prologue</i>)</p>\n<p><i>They are commemorated on August 26 on the Greek calendar.</i></p>"
       }
     ]
   }
