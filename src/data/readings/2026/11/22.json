@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "fetched_at": "2026-07-13T23:48:45.475Z",
+  "fetched_at": "2026-11-21T16:05:12.230Z",
   "data": {
     "pascha_distance": 224,
     "julian_day_number": 2461367,
@@ -20,9 +20,15 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
-      "Apostles of the 70 Philemon, Archippus, Apphia",
+      "Apostles of the 70 Philemon, Archippus, Apphia, and Onesimus",
       "St Michael, Prince of Tver",
+      "Kallistos Xanthopoulos, Patriarch of Constantinople",
       "Holy Martyrs Cecilia, Valerian, Tiburtius and Maximus, at Rome (3rd c.)",
       "Holy Prince and Passion-Bearer Peter Yaropolk (1086)"
     ],
@@ -230,8 +236,12 @@
     ],
     "stories": [
       {
-        "title": "Holy Apostle Philemon and Sts Apphia, Archippus and Onesimus",
+        "title": "Apostles of the 70 Philemon, Archippus, Apphia, and Onesimus",
         "story": "<p>Philemon is addressed in the Epistle of the holy Apostle Paul that bears his name. He was a nobleman from Colossae; Apphia was his wife. Archippus was Bishop of Colossae. All three were disciples of the Apostle Paul. Onesimus was a pagan slave of Philemon, who stole from his master and fled to Rome. There St Paul led him to faith in Christ, and wrote the Epistle to Philemon, urging Onesimus’ master to forgive him and take him back as a brother in Christ. This Philemon did, and Onesimus later became a bishop. In Greece he is venerated as the patron Saint of the imprisoned. All of these holy followers of Christ died as martyrs, stoned to death by pagans.</p>"
+      },
+      {
+        "title": "St Michael, Prince of Tver",
+        "story": "<p>He was born in Tver in 1272 to Prince Yaroslav Yaroslavovich, who was the brother of St Alexander Nevsky (November 23). Michael was brought up in the faith by his mother, who later became a nun. Such was his fervor that from childhood he was certain that he must end his life either as a monk or a martyr. He succeeded his brother as Prince of Tver in 1285, and later became Grand Prince of Vladimir, the Russian capital during the Mongol conquest.</p>\n<p>When Prince Michael lost the throne of Vladimir through the plotting of his kinsman Prince George, his advisers urged him to go to war against George; but he preferred to lose power rather than to subject his people to bloodshed. When George attacked Tver itself, Michael took up arms to defend it, and was victorious. One of his prisoners was Princess Agatha, George’s wife and the sister of the Tatar Khan. When she died in captivity, the full wrath of both George and the Tatars was aroused against Michael. The Prince knew that the only way to avert catastrophe for his people was to go to the Golden Horde to be judged at the Khan’s court. Michael’s kinsmen and advisors knew that such a course would surely lead to his death, but none were able to dissuade him from going to save his people.</p>\n<p>Michael was kept prisoner with a wooden yoke around his neck, and subjected to many humiliations by the Tatars. But as he awaited his sentence he remained calm, spending his days in chanting the Church services and the Psalms. On the night of 21-22 November he had a revelation of his impending death. He attended the Liturgy, took Communion, and embraced his family. Then, opening the Psalter, he read the words <i>Cast thy burden on the Lord, and He will sustain thee: He will never permit the righteous to be moved</i> (Ps 54). He then calmly greeted his kinsman George and his minions, who pounced on the Prince and ran him through with swords. Prince Michael’s relics were returned to Moscow, then translated to Tver in 1320. When the city was besieged in 1549, St Michael appeared to the inhabitants in the form of a mounted knight, armed for battle.</p>"
       },
       {
         "title": "Holy Martyrs Cecilia, Valerian, Tiburtius and Maximus, at Rome (3rd c.)",
@@ -240,10 +250,6 @@
       {
         "title": "Holy Prince and Passion-Bearer Peter Yaropolk (1086)",
         "story": "<p>“Saint Peter Yaropolk, the son of Grand Prince Iziaslav Yaroslavovich, took part in all his father’s campaigns as an obedient son, and went with him into exile. The meek and humble Prince had much to suffer from the members of his family, but he always forgave them. Every day he earnestly prayed to be counted worthy of holy death, like Saints Boris and Gleb (24 July), in order to be cleansed of his many sins by the shedding of his blood and to be freed from the vanity of this world. He was assasinated on 21 November 1086.” (<i>Synaxarion</i>)</p>\n<p><i>The term ‘Passion-bearer’ is used in the Russian Church for Saints who, though they were not killed for their faith and are thus not strictly Martyrs, suffered death with resignation and in the spirit of the Gospel. Saints Boris and Gleb are the first and model Passion-bearers.</i></p>"
-      },
-      {
-        "title": "Holy Grand Prince and Martyr Michael of Tver (1318)",
-        "story": "<p>He was born in Tver in 1272 to Prince Yaroslav Yaroslavovich, who was the brother of St Alexander Nevsky (November 23). Michael was brought up in the faith by his mother, who later became a nun. Such was his fervor that from childhood he was certain that he must end his life either as a monk or a martyr. He succeeded his brother as Prince of Tver in 1285, and later became Grand Prince of Vladimir, the Russian capital during the Mongol conquest.</p>\n<p>When Prince Michael lost the throne of Vladimir through the plotting of his kinsman Prince George, his advisers urged him to go to war against George; but he preferred to lose power rather than to subject his people to bloodshed. When George attacked Tver itself, Michael took up arms to defend it, and was victorious. One of his prisoners was Princess Agatha, George’s wife and the sister of the Tatar Khan. When she died in captivity, the full wrath of both George and the Tatars was aroused against Michael. The Prince knew that the only way to avert catastrophe for his people was to go to the Golden Horde to be judged at the Khan’s court. Michael’s kinsmen and advisors knew that such a course would surely lead to his death, but none were able to dissuade him from going to save his people.</p>\n<p>Michael was kept prisoner with a wooden yoke around his neck, and subjected to many humiliations by the Tatars. But as he awaited his sentence he remained calm, spending his days in chanting the Church services and the Psalms. On the night of 21-22 November he had a revelation of his impending death. He attended the Liturgy, took Communion, and embraced his family. Then, opening the Psalter, he read the words <i>Cast thy burden on the Lord, and He will sustain thee: He will never permit the righteous to be moved</i> (Ps 54). He then calmly greeted his kinsman George and his minions, who pounced on the Prince and ran him through with swords. Prince Michael’s relics were returned to Moscow, then translated to Tver in 1320. When the city was besieged in 1549, St Michael appeared to the inhabitants in the form of a mounted knight, armed for battle.</p>"
       }
     ]
   }
