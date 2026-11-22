@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "fetched_at": "2026-07-13T23:48:45.850Z",
+  "fetched_at": "2026-11-22T16:11:21.903Z",
   "data": {
     "pascha_distance": 225,
     "julian_day_number": 2461368,
@@ -22,14 +22,24 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
+      "Gregory, Bishop of Agrigentum",
+      "Sisinios the Confessor",
       "Our Holy Father Amphilocus, Bishop of Iconium (395)",
       "St Columban, Abbot of Luxeuil (615)"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
-      0,
-      2
+      1,
+      3
     ],
     "readings": [
       {
