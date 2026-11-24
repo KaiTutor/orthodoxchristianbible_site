@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "fetched_at": "2026-07-13T23:48:46.558Z",
+  "fetched_at": "2026-11-24T19:28:04.915Z",
   "data": {
     "pascha_distance": 227,
     "julian_day_number": 2461370,
@@ -22,10 +22,13 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 1,
     "fast_exception_desc": "Wine and Oil are Allowed",
-    "saints": [
-      "Holy Great Martyr and Most Wise Catherine of Alexandria and those with her (305)",
-      "Great Martyr Mercurius (ca. 259)"
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs"
     ],
+    "saints": null,
     "service_notes": null,
     "abbreviated_reading_indices": [
       0,
@@ -300,15 +303,6 @@
         ]
       }
     ],
-    "stories": [
-      {
-        "title": "Holy Great Martyr and Most Wise Catherine of Alexandria and those with her (305)",
-        "story": "<p>“Saint Catherine, who was from Alexandria, was the daughter of Constas (or Cestus). She was an exceedingly beautiful maiden, most chaste, and illustrious in wealth, lineage, and learning. By her steadfast understanding, she utterly vanquished the passionate and unbridled soul of Maximinus, the tyrant of Alexandria; and by her eloquence, she stopped the mouths of the so-called philosophers who had been gathered to dispute with her. She was crowned with the crown of martyrdom in the year 305. Her holy relics were taken by Angels to the holy mountain of Sinai, where they were discovered many years later; the famous monastery of Saint Catherine was originally dedicated to the Holy Transfiguration of the Lord and the Burning Bush, but later was dedicated to Saint Catherine.” <i>(Great Horologion)</i> So great was St Catherine’s eloquence that the fifty orators assigned to debate her recognized their error and, as a body, asked for baptism, for which Maximinus condemned them all to death. The Saint was then subjected to torture on a specially-constructed spiked wheel (with which she is usually shown in her icon), but an angel loosed her and miraculously smashed the wheel. Maximinus’ own wife and 200 soldiers, seeing her sufferings and the nobility with which she bore them, were moved to profess their faith in Christ and their yearning to be baptized. All of them were put to death. Finally Catherine herself was led outside the walls of Alexandria and, after a prayer of thanksgiving to God, was beheaded.</p>"
-      },
-      {
-        "title": "Great Martyr Mercurius (ca. 259)",
-        "story": "<p>He was born in the province of Asia, to a Scythian who had secretly converted to Christianity. Like his parents, he was a secret follower of Christ, serving as a legionary in the Roman army during the reign of the Emperor Decius. During a campaign, an Angel appeared to him, gave him a sword and told him to go into battle trusting in Christ’s help. Mercurius plunged into battle, fought his way alone through the enemy lines, and reached the barbarian commander Rigas, whom he killed. Upon the death of their chief the barbarians scattered and the victory was won.</p>\n<p>The Emperor, hearing of the young soldier’s exploits, promoted him to a position at court. There, lulled by the pleasures and honors of the court, Mercurius forgot his duties to Christ his King. One night the same Angel who had given him the sword appeared to him once again and reminded him of the sword that Christ had given him, an emblem of the battle of martyrdom that he was about to enter. The next day Mercurius, now returned to his senses, refused to offer sacrifice to the gods. When called before the Emperor, he boldly proclaimed Christ and threw off his badges of office. He was thrown in prison and subjected to cruel tortures, all of which he bore with peace and joy, encouraged by the Angel who appeared to him again to offer comfort and encouragement. After long torment he was beheaded in Caesarea in Cappadocia, at the age of twenty-five.</p>"
-      }
-    ]
+    "stories": []
   }
 }
