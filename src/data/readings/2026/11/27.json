@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "fetched_at": "2026-07-13T23:48:47.255Z",
+  "fetched_at": "2026-11-26T18:21:15.793Z",
   "data": {
     "pascha_distance": 229,
     "julian_day_number": 2461372,
@@ -12,16 +12,25 @@
     "titles": [
       "Friday of the 26th week after Pentecost"
     ],
-    "summary_title": "Greatmartyr Jacob of Persia",
-    "feast_level": 0,
-    "feast_level_description": "Liturgy",
+    "summary_title": "Greatmartyr Jacob of Persia; Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC); James the Wonderworker, Bishop of Rostov",
+    "feast_level": 2,
+    "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
     "fast_level": 5,
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 0,
     "fast_exception_desc": "",
+    "fast_abstentions": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "wine",
+      "oil"
+    ],
     "saints": [
       "Greatmartyr Jacob of Persia",
+      "James the Wonderworker, Bishop of Rostov",
       "Repose of Archimandrite Lazarus (Moore) (1992) (Nov. 14 OC)"
     ],
     "service_notes": null,
@@ -212,7 +221,7 @@
     ],
     "stories": [
       {
-        "title": "Holy Great Martyr James the Persian (421)",
+        "title": "Greatmartyr Jacob of Persia",
         "story": "<p>“This Saint was from the city of Bythlaba and was of noble birth; he was the closest and most honoured friend of Isdiger (or Yazdegerd) I, King of Persia (reigned 399-420). Though a Christian from his youth, James renounced Christ because he was allured by the King’s friendship and flatteries. When his mother and his wife learned of this, they declared to him by letter that they would have nothing more to do with him, since he had preferred a glory that is temporal to the love of Christ. Wounded in soul by these words and coming to himself, the Saint wept over his error, and repudiated the worship of the idols. Therefore, becoming exceedingly wroth, the King — this was Bahram (or Varahran) V (reigned 421-438), Isdiger’s son and successor — condemned him to a most bitter death, the likes of which not even a brute beast was ever condemned to: that is, his body was dismembered at every joint of his arms and legs. And so, when he had been cut asunder limb by limb to his very hips and shoulders, the courageous Martyr was finally beheaded, in the year 421.” <i>(Great Horologion)</i></p>"
       },
       {
