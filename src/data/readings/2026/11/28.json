@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "fetched_at": "2026-07-13T23:48:47.613Z",
+  "fetched_at": "2026-11-27T18:05:42.278Z",
   "data": {
     "pascha_distance": 230,
     "julian_day_number": 2461373,
@@ -12,7 +12,7 @@
     "titles": [
       "Saturday of the 26th week after Pentecost"
     ],
-    "summary_title": "Monk Martyr and Confessor Stephen the New",
+    "summary_title": "Monk Martyr and Confessor Stephen the New; Martyr Irenarchus and Seven Women Martyrs at Sebaste; Martyr Timothy and his Companions at Tiberiopolis",
     "feast_level": 2,
     "feast_level_description": "Black squigg (6-stich typikon symbol)",
     "feasts": null,
@@ -20,8 +20,15 @@
     "fast_level_desc": "Nativity Fast",
     "fast_exception": 2,
     "fast_exception_desc": "Fish, Wine and Oil are Allowed",
+    "fast_abstentions": [
+      "meat",
+      "dairy",
+      "eggs"
+    ],
     "saints": [
-      "Monk Martyr and Confessor Stephen the New"
+      "Monk Martyr and Confessor Stephen the New",
+      "Martyr Irenarchus and Seven Women Martyrs at Sebaste",
+      "Martyr Timothy and his Companions at Tiberiopolis"
     ],
     "service_notes": null,
     "abbreviated_reading_indices": [
@@ -106,7 +113,7 @@
     ],
     "stories": [
       {
-        "title": "Our Holy Father, Confessor and Martyr Stephen the New (767)",
+        "title": "Monk Martyr and Confessor Stephen the New",
         "story": "<p>He was born in Constantinople in 715 to pious parents named John and Anna. His mother had prayed often to the most holy Theotokos to be granted a son, and received a revelation from our Lady that she would conceive the son she desired. When the child was born, she named him Stephen, following a prophecy of the Patriarch St Germanos (commemorated May 12). Stephen entered monastic life as a youth, and so distinguished himself in asceticism and virtue that the hermits of Mt Auxentius appointed him their leader at a young age. ‘During the reign of Constantine V (741-775), Stephen showed his love of Orthodoxy in contending for the Faith… Besides being a fierce Iconoclast, Constantine raised up a ruthless persecution of monasticism. He held a council in 754 that anathematized the holy icons. Because Saint Stephen rejected this council, the Emperor framed false accusations against him and exiled him. But while in exile Saint Stephen performed healings with holy icons and turned many away from Iconoclasm. When he was brought before the Emperor again, he showed him a coin and asked whose image the coin bore. “Mine,” said the tyrant. “If any man trample upon thine image, is he liable to punishment?” asked the Saint. When they that stood by answered yes, the Saint groaned because of their blindness, and said if they thought dishonouring the image of a corruptible king worthy of punishment, what torment would they receive who trampled upon the image of the Master Christ and of the Mother of God? Then he threw the coin to the ground and trampled on it. He was condemned to eleven months in bonds and imprisonment. Later, he was dragged over the earth and was stoned, like Stephen the First Martyr; wherefore he is called Stephen the New. Finally, he was struck with a wooden club on the temple and his head was shattered, and thus he gave up his spirit in the year 767.’ <i>(Great Horologion)</i></p>"
       }
     ]
